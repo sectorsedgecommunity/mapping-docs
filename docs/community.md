@@ -60,4 +60,4 @@ Guide created by `Vhauss`
 
 ## Old Map Making guide
 
-`Caspooky` and `Realkill` have created a guide for [Map Making](/MapMaking.pdf). This guide is out of date, but still covers basics on MagicaVoxel.
+`Caspooky` and `Realkill` have created a guide for [Map Making](./MapMaking.pdf). This guide is out of date, but still covers basics on MagicaVoxel.

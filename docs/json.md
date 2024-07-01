@@ -5,12 +5,12 @@ title: "JSON Reference"
 # JSON Reference
 Todo - Add full JSON Schema
 
-[`BlockTexturesV2`](/json/blocktexturesv2.json)
-[`TeamSpawns`](/json/teamspawns.json)
-[`Particles`](/json/particles.json)
-[`Rain`](/json/rain.json)
-[`Salvage Attributes`](/json/salvageattributes.json)
-[`AmbienceSound`](/json/ambiencesound.json)
+[`BlockTexturesV2`](./json/blocktexturesv2.json)
+[`TeamSpawns`](./json/teamspawns.json)
+[`Particles`](./json/particles.json)
+[`Rain`](./json/rain.json)
+[`Salvage Attributes`](./json/salvageattributes.json)
+[`AmbienceSound`](./json/ambiencesound.json)
 
 
 ## Tips
