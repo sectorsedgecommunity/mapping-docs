@@ -1,5 +1,5 @@
 # Json file → Weather
-Back to: [`Json file`](/json.md)
+Back to: [`Json file`](/docs/json.md)
 
 You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
 
