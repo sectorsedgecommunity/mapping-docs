@@ -5,12 +5,12 @@
 ## Welcome to the community-made Sector's Edge mapmaking docs!
 This wiki is **very** incomplete, and under heavy development. Please contribute if you can!
 
-[Getting Started](/index.md)
+[Getting Started](./docs/index.md)
 
-[Json file](/json.md)
+[Json file](./docs/json.md)
 
-[Multiplayer support](/multiplayer.md)
+[Multiplayer support](./multiplayer.md)
 
-[Resources](/resources.md)
+[Resources](./docs/resources.md)
 
-[Community](/community.md)
+[Community](./docs/community.md)
