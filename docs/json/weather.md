@@ -1,4 +1,4 @@
-# Json file → Rain
+# Json file → Weather
 
 You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
 
@@ -25,4 +25,12 @@ You can copy into your own maps and edit it. Remove the comments when you copy t
 
     // WaterRiseSpeed: number of blocks per millisecond. use 0.001 for 1 block per second
         "WaterRiseSpeed": 0,
+
+    // Snow is seperate from Rain, and always is active
+    // HasFallingSnow: used on Ice Station
+    // SnowIndex: index used for voxels placed by weather
+    // SnowColour: RGBA color of snowflakes
+        "HasFallingSnow": true,
+        "SnowIndex": 19,
+        "SnowColour": [ 255, 255, 255, 255],
 ```
