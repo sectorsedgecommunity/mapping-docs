@@ -1,4 +1,5 @@
 # Json file → Salvage Attributes
+Back to: [`Json file`](/json.md)
 
 Salvage appears to keep all of it's attributes in the `json` file but doesn't spawn meteors in-game. You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
 

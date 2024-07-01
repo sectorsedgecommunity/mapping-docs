@@ -1,4 +1,5 @@
 # Json file → TeamSpawns
+Back to: [`Json file`](/json.md)
 
 Here is an example TeamSpawn setup which shows all possible values. You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
 
