@@ -8,3 +8,4 @@ Make sure all contents of a folder have the same name as the parent folder. Serv
 * Allegiance cannot be modified
 * The map `Name` is only used for the post-vote summary
 * `preview.jpg` isn't used in the map vote or post-vote summary
+* Grass does not appear in custom maps, in multiplayer.
