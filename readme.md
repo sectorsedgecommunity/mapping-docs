@@ -3,7 +3,7 @@
 </div>
 
 ## Welcome to the community-made Sector's Edge mapmaking docs!
-This wiki is **very** incomplete, and under heavy development. Please contribute if you can!
+This wiki is **very** incomplete, and under heavy development. This fork only exists because Vader decided to leave for a week before giving me access to the main repo.
 
 [Getting Started](./docs/gettingstarted.md)
 
