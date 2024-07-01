@@ -31,5 +31,5 @@ Todo - Add full JSON Schema
 * Gun Game, Free for all, and Head Hunter game modes cannot be seperated
 * You cannot upload a map to the Steam Workshop without a `preview.jpg`
 
-## Example file
-[map_template.json](/map_template.json)
+## Example json file
+[map_template.json](./map_template.json)

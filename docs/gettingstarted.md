@@ -58,4 +58,4 @@ Note that each map file can be changed after your map is uploaded to the worksho
 Download these template files and place them in the `/workshop/maps/myFirstMap` folder:
 
 * [map_template.vox](./public/Map_Template.vox)
-* [map_template.json](/public/map_template.json)
+* [map_template.json](./public/map_template.json)
