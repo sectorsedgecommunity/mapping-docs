@@ -12,5 +12,3 @@ This wiki is **very** incomplete, and under heavy development. Please contribute
 [Multiplayer support](./multiplayer.md)
 
 [Resources](./docs/resources.md)
-
-[Community](./docs/community.md)
