@@ -1,5 +1,5 @@
 <img src="./docs/public/se-wiki-edit.png" alt="Sector's Edge Wiki"/>
-<div style="justify-content: center; display: flex; height: 200px; margin-top:10px; font-size: 5px; margin-bottom: 40px">
+<div style="justify-content: center; display: flex; margin-top:10px; font-size: 5px; margin-bottom: 40px">
 </div>
 
 ## Welcome to the community-made Sector's Edge mapmaking docs!
