@@ -11,7 +11,7 @@ Here is an example Particles setup which shows all possible values. You can copy
         // Skid - Ricochet, low friction, no gravity
         // Smoke - Ricochet, medium friction, no gravity, velocity reduces over time
         // Soltrium - Phases through walls, no gravity; likely used when a voxel with the `explosive` attribute explodes
-        "Type": "physical" | "skid" | "smoke" | "soltrium",
+        "Type": "physical",
 
 
         // Spawn 2 particles every 500ms
@@ -35,7 +35,10 @@ Here is an example Particles setup which shows all possible values. You can copy
 
         // [Optional] Spawn particles randomly around each Position
         // e.g. in a 0.4 block radius around each Position in the X and Y axis
-        "OffsetType": "none" | "sphere" | "box",
+        // None - No spread
+        // Sphere - Spherical spread
+        // Box - Box spread
+        "OffsetType": "none",
         "Offset": [ 0.4, 0.4, 0],
 
 
