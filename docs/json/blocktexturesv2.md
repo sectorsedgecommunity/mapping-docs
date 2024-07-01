@@ -1,4 +1,5 @@
 # Json file → BlockTexturesV2
+Back to: [`Json file`](./docs/json.md)
 
 Here is an example BlockTexturesV2 setup which shows all possible values. You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
 
@@ -37,7 +38,7 @@ Here is an example BlockTexturesV2 setup which shows all possible values. You ca
 ```
 
 ## Textures list
-<img src="/public/textures.png" alt="Textures list"/>
+<img src="/docs/public/textures.png" alt="Textures list"/>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
     <span>Textures list</span>
 </div>
