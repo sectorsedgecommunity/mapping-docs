@@ -10,7 +10,7 @@ The corner of your map must be aligned with the center of the grid in MagicaVoxe
 
 <img src="./public/alignment.png" alt="MagicaVoxel Alignment"/>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
-    <span>Top-down view of a map</span>
+    <span><i>Top-down view of a map</i></span>
 </div>
  
 ## Make your map appear in-game
@@ -19,7 +19,7 @@ To add a map in-game, go to `Play → Singleplayer` and click on the folder icon
 
 <img src="./public/folderbutton.png" alt="In-game workshop folder icon"/>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
-    <span>In-game workshop folder icon</span>
+    <span><i>In-game workshop folder icon</i></span>
 </div>
 
 Create a new folder and give it a name, then place your `.vox` file in it. Maps must also have an accompanying `.json` file, which contains metadata for textures, lights, spawn regions, etc.
@@ -29,7 +29,7 @@ If there are any errors or missing fields in your `json` metadata file, they wil
 
 <img src="./public/errors.png" alt="JSON errors"/>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
-    <span>JSON errors</span>
+    <span><i>JSON errors</i></span>
 </div>
 
 
@@ -41,14 +41,14 @@ To upload a map folder to the workshop, it must have a `.json`, `.vox` and `prev
     <img src="./public/folderexample.png" alt="Map folder example"/>
 </div>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
-    <span>Map folder example</span>
+    <span><i>Map folder example</i></span>
 </div>
 
 When you have these files ready, the **upload** button will light up. Select a visibility (private, friends only, public) and then click the upload button.
 
 <img src="./public/uploadbutton.png" alt="Upload button"/>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
-    <span>Upload button</span>
+    <span><i>Upload button</i></span>
 </div>
 
 Note that each map file can be changed after your map is uploaded to the workshop. To re-upload your map, simply click the upload button again.
