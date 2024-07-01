@@ -3,8 +3,15 @@ title: "JSON Reference"
 ---
 
 # JSON Reference
-
 Todo - Add full JSON Schema
+
+[`BlockTexturesV2`](/json/blocktexturesv2.json)
+[`TeamSpawns`](/json/teamspawns.json)
+[`Particles`](/json/particles.json)
+[`Rain`](/json/rain.json)
+[`Salvage Attributes`](/json/salvageattributes.json)
+[`AmbienceSound`](/json/ambiencesound.json)
+
 
 ## Tips
 * You can use `\n` in the map description to start a new line. This is useful if you want to add additional sections to the map details. An example is adding `\nCreated by: username1, username2` to the end of the map description.

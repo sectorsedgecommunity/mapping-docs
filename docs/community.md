@@ -1,10 +1,12 @@
----
-title: "Community Guides"
----
-
 # Community Guides
+We share here guides that the community has created. 
 
-We share here guides that the community has created if you would like to to get involved and discuss Map Making with others, please join our [Discord Server](https://discord.gg/sJA3cs4DEV)
+## Links
+The official mapmaking Discord server is an awesome resource for the `json` file and offers official map files to look at. **Do not reupload official map files.**
+[Official Mapmaking Discord server](https://discord.gg/sJA3cs4DEV)
+
+Our community Discord server is great for chatting and we organize events every now and then.
+[Community Discord server](https://discord.gg/t5zhZRJ2w3)
 
 ## World Painter
 
@@ -56,6 +58,6 @@ float map( vec3 v ) {
 
 Guide created by `Vhauss`
 
-## Map Making
+## Old Map Making guide
 
-`Caspooky` and `Realkill` have created a guide for [Map Making](/MapMaking.pdf)
+`Caspooky` and `Realkill` have created a guide for [Map Making](/MapMaking.pdf). This guide is out of date, but still covers basics on MagicaVoxel.

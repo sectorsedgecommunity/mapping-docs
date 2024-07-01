@@ -10,3 +10,4 @@ Make sure all contents of a folder have the same name as the parent folder.
 ## Limitations
 * `forcemap` cannot pick a custom map with a space in the file name.
 * Allegiance cannot be modified
+* The map `Name` is only used for the post-vote summary
