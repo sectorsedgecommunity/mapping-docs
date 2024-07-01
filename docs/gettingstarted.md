@@ -1,8 +1,12 @@
 # Getting Started
 
+This is a simple guide to getting a first map functional.
+
+
 ## Requirements
 
 The first step is to download the voxel editor [MagicaVoxel](https://ephtracy.github.io/). That's it!
+
 
 ## Preparing maps
 
@@ -13,6 +17,7 @@ The corner of your map must be aligned with the center of the grid in MagicaVoxe
     <span><i>Top-down view of a map</i></span>
 </div>
  
+
 ## Make your map appear in-game
 
 To add a map in-game, go to `Play → Singleplayer` and click on the folder icon to the right of the search bar. This will open the workshop folder.
@@ -21,7 +26,6 @@ To add a map in-game, go to `Play → Singleplayer` and click on the folder icon
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
     <span><i>In-game workshop folder icon</i></span>
 </div>
-
 
 Create a new folder and give it a name, then place your `.vox` file in it. Maps must also have an accompanying `.json` file, which contains metadata for textures, lights, spawn regions, etc.
 You can find a template `json` file in the **Create your first map** section.
@@ -53,8 +57,8 @@ When you have these files ready, the **upload** button will light up. Select a v
     <span><i>Upload button</i></span>
 </div>
 
-
 Note that each map file can be changed after your map is uploaded to the workshop. To re-upload your map, simply click the upload button again.
+
 
 ## Template files
 
