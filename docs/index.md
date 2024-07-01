@@ -2,11 +2,11 @@
 title: "Getting Started"
 ---
 
-# GETTING STARTED
+# Getting Started
 
-## REQUIREMENTS
+## Requirements
 
-The first step is to download the voxel editor [Magicavoxel](https://ephtracy.github.io/). That's it!
+The first step is to download the voxel editor [MagicaVoxel](https://ephtracy.github.io/). That's it!
 
 ## Preparing maps
 
@@ -16,14 +16,14 @@ The corner of your map must be aligned with the center of the grid in MagicaVoxe
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
     <span>Top-down view of a map</span>
 </div>
-
+ 
 ## Testing maps
 
-To view a map in-game, go to the `Play > Mapping` tab and click on the folder icon. This will open the workshop folder.
+To play a map in-game, go to `Play → Singleplayer` and click on the folder icon to the right of the search bar. This will open the workshop folder.
 
 Create a new folder and give it a name, then place your `.vox` file in it.
 
-Maps must also have an accompanying `.json` file, which contains metadata for textures, lights, spawn regions, etc. This file is [avaialble here](https://google.com)
+Maps must also have an accompanying `.json` file, which contains metadata for textures, lights, spawn regions, etc. [map_template.json](/map_template.json) file is the template file listed below.
 
 
 <img src="/folderbutton.png" alt="In-game workshop folder icon"/>

@@ -7,7 +7,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Map Making",
-        items: [{ text: 'Getting Started', link: '/index.md' },  { text: 'Reference', link: '/reference.md' }, { text: 'MagicaVoxel Usage', link: '/magicavoxel.md' }, { text: 'Community Guides', link: '/community.md' }, { text: 'External Resources', link: '/resources.md' }]
+        items: [{ text: 'Getting Started', link: '/index.md' },  { text: 'JSON Reference', link: '/json.md' }, { text: 'Multiplayer', link: '/multiplayer.md' }, { text: 'Community Guides', link: '/community.md' }, { text: 'External Resources', link: '/resources.md' }]
       }
     ],
 
