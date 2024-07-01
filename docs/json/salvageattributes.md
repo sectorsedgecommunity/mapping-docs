@@ -10,8 +10,8 @@ Salvage appears to keep all of it's attributes in the `json` file but doesn't sp
     // MeteorLineStart & MeteorLineEnd: A line where meteors can fall on
     "MeteorBottom": 30,
     "MeteorTop": 40,
-	"MeteorBreachChance": 0.35,
-	"MeteorSpawnSpread": 10,
-	"MeteorLineStart": [0, 124],
-	"MeteorLineEnd": [128, 124],
+    "MeteorBreachChance": 0.35,
+    "MeteorSpawnSpread": 10,
+    "MeteorLineStart": [0, 124],
+    "MeteorLineEnd": [128, 124],
 ```
