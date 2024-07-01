@@ -1,7 +1,7 @@
 # Multiplayer
 
 ## Setting up a custom map for use
-Make sure all contents of a folder have the same name as the parent folder.
+Make sure all contents of a folder have the same name as the parent folder. Servers don't need the `.vox`.
 
 ## Limitations
 * `forcemap` cannot pick a custom map with a space in the file name.

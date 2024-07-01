@@ -1,7 +1,3 @@
----
-title: "JSON Reference"
----
-
 # JSON Reference
 Todo - Add full JSON Schema
 
