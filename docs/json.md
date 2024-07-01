@@ -7,7 +7,7 @@ Todo - Add full JSON Schema
 
 [`Particles`](./json/particles.md)
 
-[`Rain`](./json/weather.md)
+[`Weather`](./json/weather.md)
 
 [`Salvage Attributes`](./json/salvageattributes.md)
 
