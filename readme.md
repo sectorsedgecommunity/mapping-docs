@@ -5,7 +5,7 @@
 ## Welcome to the community-made Sector's Edge mapmaking docs!
 This wiki is **very** incomplete, and under heavy development. Please contribute if you can!
 
-[Getting Started](./docs/index.md)
+[Getting Started](./docs/gettingstarted.md)
 
 [Json file](./docs/json.md)
 
