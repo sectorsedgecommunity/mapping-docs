@@ -22,6 +22,7 @@ To add a map in-game, go to `Play → Singleplayer` and click on the folder icon
     <span><i>In-game workshop folder icon</i></span>
 </div>
 
+
 Create a new folder and give it a name, then place your `.vox` file in it. Maps must also have an accompanying `.json` file, which contains metadata for textures, lights, spawn regions, etc.
 You can find a template `json` file in the **Create your first map** section.
 
@@ -44,12 +45,14 @@ To upload a map folder to the workshop, it must have a `.json`, `.vox` and `prev
     <span><i>Map folder example</i></span>
 </div>
 
+
 When you have these files ready, the **upload** button will light up. Select a visibility (private, friends only, unlisted, public) and then click the upload button.
 
 <img src="./public/uploadbutton.png" alt="Upload button"/>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
     <span><i>Upload button</i></span>
 </div>
+
 
 Note that each map file can be changed after your map is uploaded to the workshop. To re-upload your map, simply click the upload button again.
 
