@@ -1,5 +1,5 @@
-# JSON Reference
-Todo - Add full JSON Schema
+# JSON file
+Todo - Finish adding full JSON Schema
 
 [`BlockTexturesV2`](./json/blocktexturesv2.md)
 

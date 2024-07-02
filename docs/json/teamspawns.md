@@ -6,7 +6,8 @@ Here is an example TeamSpawn setup which shows all possible values. You can copy
 ```json
 "TeamSpawns": [
     {
-        // GameMode: sta (Static), brk (Breakthrough), ctf (Capture the Flag), esc (Escort), all, sal (Salvage, non-functional game mode)
+        // GameMode: sta (Static), brk (Breakthrough), ctf (Capture the Flag), esc (Escort), all,
+        //  sal (Salvage, non-functional game mode)
         //
         // ControlShiftSpawnOffset: Seperate from TeamSpawns. Default value is 0.2, i.e. 20%
         // Players spawn where the zone would be if the zone was shifted back X%

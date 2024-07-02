@@ -36,7 +36,8 @@ Here is an example Particles setup which shows all possible values. You can copy
         "OffsetType": "none",
         "Offset": [ 0.0, 0.0, 0.0],
 
-        // Optional, Spawn N particles in one random spot, rather than N particles each in random spots. Each particle still has random velocity
+        // Optional, Spawn N particles in one random spot, rather than N particles each in random spots. Each particle still
+        //  has random velocity
         "Clumped": true
 
         // Each particle's velocity = Velocity + (random value between -Deviation and Deviation)
@@ -60,7 +61,8 @@ Here is an example Particles setup which shows all possible values. You can copy
 
         // [Soltrium] Minimum and maximum multiplier for every frame the particle's scale is multiplied by
         // When N particles are spawned, their decay values are evenly spread out across this range,
-        // i.e. if 3 particles are spawned, the 1st will lose 7% scale each frame, the 2nd will lose 6% scale each frame and the 3rd will lose 5% scale each frame
+        // i.e. if 3 particles are spawned, the 1st will lose 7% scale each frame, the 2nd will lose 6% scale each frame and
+        //  the 3rd will lose 5% scale each frame
         "Decay": {
             "Min": 0.93,
             "Max": 0.95
