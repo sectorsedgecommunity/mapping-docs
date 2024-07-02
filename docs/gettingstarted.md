@@ -27,7 +27,7 @@ To add a map in-game, go to `Play → Singleplayer` and click on the folder icon
 <div>
     <span><i>In-game workshop folder icon</i></span>
 </div></div>
-<div><span></span></div>
+<div height: 30px></div>
 
 Create a new folder and give it a name, then place your `.vox` file in it. Maps must also have an accompanying `.json` file, which contains metadata for textures, lights, spawn regions, etc.
 You can find a template `json` file in the **Create your first map** section.
