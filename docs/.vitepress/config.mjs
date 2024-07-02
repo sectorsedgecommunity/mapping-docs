@@ -4,6 +4,8 @@ export default defineConfig({
   title: "Sector's Edge Mapping Docs",
   description: "Mapmaking documentation for Sector's Edge",
   base: "/mapping-docs/",
+  ignoreDeadLinks: true,
+  cleanUrls: true,
   themeConfig: {
     sidebar: [
       {
