@@ -6,7 +6,7 @@ This wiki is **very** incomplete, and under heavy development. If you want to co
 
 [Documentation Website](https://sectorsedgecommunity.github.io/mapping-docs/)
 <br/>
-
+<br/>
 [Community Discord server](https://discord.gg/t5zhZRJ2w3)
 
 [Official Mapmaking Discord server](https://discord.gg/sJA3cs4DEV)
