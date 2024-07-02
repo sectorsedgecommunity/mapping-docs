@@ -6,6 +6,7 @@ export default defineConfig({
   base: "/mapping-docs/",
   ignoreDeadLinks: true,
   cleanUrls: true,
+  lastUpdated: true,
   themeConfig: {
     sidebar: [
       {
