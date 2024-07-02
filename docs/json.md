@@ -13,6 +13,8 @@ Todo - Finish adding full JSON Schema
 
 [`AmbienceSound`](./json/ambiencesound.md)
 
+[`Removed Attributes`](oldattributes.md)
+
 
 ## Tips
 * You can use `\n` in the map description to start a new line. This is useful if you want to add additional sections to the map details. An example is adding `\nCreated by: username1, username2` to the end of the map description.
