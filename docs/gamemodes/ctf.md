@@ -1,5 +1,5 @@
 # Capture the Flag
-Back to: [`Json file`](/docs/json.md)
+Back to: [`Game modes`](/gamemodes.md)
 
 Capture the Flag has 2 teams try to steal and bring back each others' flags.
 

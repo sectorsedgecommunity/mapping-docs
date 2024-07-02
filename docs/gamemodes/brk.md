@@ -1,5 +1,5 @@
 # Breakthrough
-Back to: [`Json file`](/docs/json.md)
+Back to: [`Game modes`](/gamemodes.md)
 
 Breakthrough has 2 teams compete for control over set zones. Unlike Control Shift, the zones don't move.
 

@@ -1,5 +1,5 @@
 # Head Hunter
-Back to: [`Json file`](/docs/json.md)
+Back to: [`Game modes`](/gamemodes.md)
 
 Head Hunter has players kill each other to earn Soltrium, which they rop 50% (rounded up) of on death.
 

@@ -1,5 +1,5 @@
 # Salvage
-Back to: [`Json file`](/docs/json.md)
+Back to: [`Game modes`](/gamemodes.md)
 
 Salvage was a game mode in which 2 teams fight over harvesting meteors that fall mid-game. Salvage no longer works because meteors no longer spawn.
 

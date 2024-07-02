@@ -1,5 +1,5 @@
 # Escort
-Back to: [`Json file`](/docs/json.md)
+Back to: [`Game modes`](/gamemodes.md)
 
 Escort is pretty much a reversed Capture the Flag. 2 teams attempt to deliver their own flags to each other.
 

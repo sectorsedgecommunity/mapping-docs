@@ -1,5 +1,5 @@
 # Control Shift
-Back to: [`Json file`](/docs/json.md)
+Back to: [`Game modes`](/gamemodes.md)
 
 Control Shift is like Breakthrough, but there's only one zone and it moves depending on the teams' control.
 

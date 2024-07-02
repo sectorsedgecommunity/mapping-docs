@@ -1,5 +1,5 @@
 # Team Deathmatch
-Back to: [`Json file`](/docs/json.md)
+Back to: [`Game modes`](/gamemodes.md)
 
 Team Deathmatch has 2 teams kill each other. That's it.
 
