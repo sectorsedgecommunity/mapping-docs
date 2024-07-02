@@ -4,12 +4,6 @@
 
 This wiki is **very** incomplete, and under heavy development. If you want to contribute, join the Community Discord server linked in Resources.
 
-[Getting Started](./docs/gettingstarted.md)
-
-[Json file](./docs/json.md)
-
-[Game modes](./docs/gamemodes.md)
-
-[Multiplayer support](./docs/multiplayer.md)
+[Documentation Website](https://sectorsedgecommunity.github.io/mapping-docs/)
 
 [Resources](./docs/resources.md)
