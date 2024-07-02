@@ -20,7 +20,7 @@ export default defineConfig({
             { text: 'Removed attributes', link: '/oldattributes.md' },
             { text: 'Salvage attributes', link: '/json/salvageattributes.md' },
             { text: 'TeamSpawns', link: '/json/teamspawns.md' },
-            { text: 'Water', link: '/json/weather.md' },
+            { text: 'Water', link: '/json/water.md' },
             { text: 'Weather', link: '/json/weather.md' }
           ]
           },
