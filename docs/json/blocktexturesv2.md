@@ -77,4 +77,4 @@ Glass
 
 
 ## Textures list
-<img src="/docs/public/textures.png" alt="Textures list"/>
+<img src="/textures.png" alt="Textures list"/>
