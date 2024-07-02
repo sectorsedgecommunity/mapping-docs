@@ -12,7 +12,7 @@ export default defineConfig({
         text: "Map Making",
         items: [
           { text: 'Getting Started', link: '/gettingstarted.md' },
-          { text: 'JSON file', link: '/json.md', items: [
+          { text: 'JSON file', link: '/json.md', collapsed: true, items: [
             { text: 'AmbienceSound', link: '/json/ambiencesound.md' },
             { text: 'BlockTexturesV2', link: '/json/blocktexturesv2.md' },
             { text: 'Game modes', link: '/gamemodes.md' },
