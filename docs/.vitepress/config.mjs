@@ -2,13 +2,19 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "Mapping Documentation",
-  logo: '/se-wiki-edit.png',
   description: "Mapmaking documentation for Sector's Edge",
   base: "/mapping-docs/",
   ignoreDeadLinks: true,
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
+    logo: '/se-wiki.png',
+    search: {
+      provider: 'local'
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/sectorsedgecommunity/mapping-docs' }
+    ],
     sidebar: [
       {
         text: "Map Making",
@@ -31,13 +37,6 @@ export default defineConfig({
           { text: 'Resources', link: '/resources.md' }
         ]
       }
-    ],
-    search: {
-      provider: 'local'
-    },
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/sectorsedgecommunity/mapping-docs' }
     ]
   }
 })
