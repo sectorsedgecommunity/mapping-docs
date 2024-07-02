@@ -2,7 +2,7 @@
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 5px; margin-bottom: 40px">
 </div>
 
-This wiki is **very** incomplete, and under heavy development. This fork only exists because Vader decided to leave for a week before giving me access to the main repo.
+This wiki is **very** incomplete, and under heavy development. If you want to contribute, join the Community Discord server linked in Resources.
 
 [Getting Started](./docs/gettingstarted.md)
 
