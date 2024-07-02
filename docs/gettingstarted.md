@@ -15,7 +15,7 @@ The corner of your map must be aligned with the center of the grid in MagicaVoxe
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
 <img src="./public/alignment.png" alt="MagicaVoxel Alignment"/>
-    <span><i>Top-down view of a map</i></span>
+<br/><i>Top-down view of a map</i>
 </p></div>
  
 
@@ -37,7 +37,7 @@ If there are any errors or missing fields in your `json` metadata file, they wil
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
 <img src="./public/errors.png" alt="JSON errors"/>
-    <span><i>JSON errors</i></span>
+<br/><i>JSON errors</i>
 </p></div>
 
 
@@ -48,7 +48,7 @@ To upload a map folder to the workshop, it must have a `.json`, `.vox` and `prev
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
 <img src="./public/folderexample.png" alt="Map folder example"/>
-    <span><i>Map folder example</i></span>
+<br/><i>Map folder example</i>
 </p></div>
 
 
@@ -57,7 +57,7 @@ When you have these files ready, the **upload** button will light up. Select a v
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
 <img src="./public/uploadbutton.png" alt="Upload button"/>
-    <span><i>Upload button</i></span>
+<br/><i>Upload button</i>
 </p></div>
 
 Note that each map file can be changed after your map is uploaded to the workshop. To re-upload your map, simply click the upload button again.
