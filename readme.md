@@ -8,6 +8,8 @@ This wiki is **very** incomplete, and under heavy development. This fork only ex
 
 [Json file](./docs/json.md)
 
+[Game modes](./docs/gamemodes.md)
+
 [Multiplayer support](./docs/multiplayer.md)
 
 [Resources](./docs/resources.md)
