@@ -24,6 +24,7 @@ To add a map in-game, go to `Play → Singleplayer` and click on the folder icon
 
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <img src="./public/folderbutton.png" alt="In-game workshop folder icon"/>
+<br/>
 <i>workshop folder icon</i>
 </div>
 <br/>
