@@ -1,5 +1,5 @@
 # Escort
-Back to: [`Game modes`](/gamemodes.md)
+Back to: [`Game modes`](/docs/gamemodes.md)
 
 Escort is pretty much a reversed Capture the Flag. 2 teams attempt to deliver their own flags to each other.
 

@@ -1,5 +1,5 @@
 # Salvage
-Back to: [`Game modes`](/gamemodes.md)
+Back to: [`Game modes`](/docs/gamemodes.md)
 
 Salvage was a game mode in which 2 teams fight over harvesting meteors that fall mid-game. Salvage no longer works because meteors no longer spawn.
 
