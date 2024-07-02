@@ -1,5 +1,4 @@
 # Json file → Weather
-
 You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
 
 ```json
@@ -23,14 +22,16 @@ You can copy into your own maps and edit it. Remove the comments when you copy t
 "WindSpeed": 0.015,
 "WindDirection": 0.785375,
 
-// WaterRiseSpeed: number of blocks per millisecond. use 0.001 for 1 block per second
+// WaterRiseSpeed: number of voxels per millisecond. use 0.001 for 1 block per second
 "WaterRiseSpeed": 0,
 
 // Snow is seperate from Rain, and always is active
 // HasFallingSnow: Controls whether the map has falling snow. Is a boolean
+// HasBlizzardSnow: Blizzard snow is a faster falling version of regular snow.
 // SnowIndex: Index used for voxels placed by weather
 // SnowColour: RGBA color of snowflakes
 "HasFallingSnow": true,
+"HasBlizzardSnow": false,
 "SnowIndex": 19,
 "SnowColour": [ 255, 255, 255, 255],
 ```

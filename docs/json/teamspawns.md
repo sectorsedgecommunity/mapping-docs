@@ -1,5 +1,4 @@
 # Json file → TeamSpawns
-
 Here is an example TeamSpawn setup which shows all possible values. You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
 
 ```json
@@ -15,7 +14,7 @@ Here is an example TeamSpawn setup which shows all possible values. You can copy
         // Team: 0, 1
         // Min & Max: max must be greater than min, otherwise have glitchy spawn area
         // OOBDistance: out of bounds distance from the spawn: known to be used for BRK
-        // SearchTopDown: searches top->down instead
+        // SearchTopDown: searches top→down instead
         "GameMode": "all",
         "Type": "box",
         "Team": 0,

@@ -1,5 +1,4 @@
 # Removed attributes
-
 This page lists all attributes that no longer work or have been removed. A lot of this could use testing.
 
 - `WorldEdgeIndex`
@@ -23,3 +22,12 @@ This page lists all attributes that no longer work or have been removed. A lot o
 - `LandingSpeedModifier`
 - `Spawn.LandingPodSpawn`
 - `Spawn.LandingPodSpeed`
+- `HasGrass`
+- `RainSpawnRadius`
+- `HasLeaves`
+- `RainBrightness`
+- `RainStartActual`
+- `FileName`
+- `LeafIndices`
+- `HeightmapRange`
+- `FogType`

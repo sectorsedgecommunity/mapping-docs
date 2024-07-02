@@ -1,5 +1,4 @@
 # Getting Started
-
 This is a simple guide to getting a first map functional.
 
 
