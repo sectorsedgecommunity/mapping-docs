@@ -8,7 +8,7 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
-    logo: '/se-docs.png',
+    logo: { light: "/se-docs-dark", dark: "/se-docs-light", alt: "Sector's Edge Documentation" },
     search: {
       provider: 'local'
     },
