@@ -1,6 +1,11 @@
 # JSON file
 Todo - Finish adding full JSON Schema
 
+[`Game modes`](gamemodes.md)
+
+[`Removed Attributes`](oldattributes.md)
+
+## Attributes
 [`BlockTexturesV2`](./json/blocktexturesv2.md)
 
 [`TeamSpawns`](./json/teamspawns.md)
@@ -12,9 +17,6 @@ Todo - Finish adding full JSON Schema
 [`Salvage Attributes`](./json/salvageattributes.md)
 
 [`AmbienceSound`](./json/ambiencesound.md)
-
-[`Removed Attributes`](oldattributes.md)
-
 
 ## Tips
 * You can use `\n` in the map description to start a new line. This is useful if you want to add additional sections to the map details. An example is adding `\nCreated by: username1, username2` to the end of the map description.

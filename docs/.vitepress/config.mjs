@@ -8,7 +8,7 @@ export default defineConfig({
     sidebar: [
       {
         text: "Map Making",
-        items: [{ text: 'Getting Started', link: '/index.md' },  { text: 'JSON Reference', link: '/json.md' }, { text: 'Multiplayer', link: '/multiplayer.md' }, { text: 'Community Guides', link: '/community.md' }, { text: 'External Resources', link: '/resources.md' }]
+        items: [{ text: 'Getting Started', link: '/gettingstarted.md' },  { text: 'JSON file', link: '/json.md' }, { text: 'Multiplayer support', link: '/multiplayer.md' }, { text: 'Resources', link: '/resources.md' }]
       }
     ],
 

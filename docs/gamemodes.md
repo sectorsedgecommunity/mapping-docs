@@ -1,4 +1,6 @@
 # Game modes
+Back to: [`Json file`](/docs/json.md)
+
 There are currently 11 game modes in Sector's Edge. This page lists the minimum requirements for all game modes.
 
 ## [Control Shift](./gamemodes/cs.md)
