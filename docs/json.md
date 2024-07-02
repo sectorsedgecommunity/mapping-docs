@@ -28,4 +28,4 @@ Todo - Add full JSON Schema
 * You cannot upload a map to the Steam Workshop without a `preview.jpg`
 
 ## Example json file
-[map_template.json](./map_template.json)
+[map_template.json](./public/map_template.json)
