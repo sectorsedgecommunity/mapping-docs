@@ -8,15 +8,15 @@ You can copy into your own maps and edit it. Remove the comments when you copy t
 // Steps: what altitudes and volume the sound plays at
 // Altitude: Y coordinate where the sound plays
 // Volume: appears to be 0.0-1.0
-    "AmbienceSound": [
-        {
-            "Type": "wind",
-            "Steps": [
-                {
-                    "Altitude": 200,
-                    "Volume": 0.3
-                }
-            ]
-        }
-    ],
+"AmbienceSound": [
+    {
+        "Type": "wind",
+        "Steps": [
+            {
+                "Altitude": 0,
+                "Volume": 0.3
+            }
+        ]
+    }
+],
 ```

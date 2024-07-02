@@ -2,13 +2,13 @@
 Back to: [`Json file`](/docs/json.md)
 
 Here is an example BlockTexturesV2 setup which shows all possible values. You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
-
+You can have a maximum of 255 indexes. 
 ```json
 "BlockTexturesV2": [
     {
         // Note: optional, used to describe an index
-        // Name: optional if HSL/RGB/RGBA is set, name of texture; list of textures is below. Not setting a Name is fine when a color field is set
-        // HSL/RGB/RGBA: optional if Name is set, used to color a texture. Soltrium HSL: [ 0.5444, 1, 0.48 ]
+        // Name: optional if HSL/HSLA/RGB/RGBA is set, name of texture; list of textures is below. Not setting a Name is fine when a color field is set
+        // HSL/RGB/RGBA: optional if Name is set, used to color a texture. Soltrium HSL: [ 0.5444, 1, 0.48 ]. Recommended to use RGB for flat textures and RGBA for glass.
 
         // **Attributes: explosive, light-fade, light-on-brightness, floating, invincible, transparent, ice, meteor (unused)**
         //
@@ -21,10 +21,11 @@ Here is an example BlockTexturesV2 setup which shows all possible values. You ca
         // **ice**: adds a distortion effect when looking through index
         // **meteor**: unused, was previously used in Salvage for the meteor
 
-        // ExplosionRadius is the radius of the explosion, in blocks. This is only used when the `explosive` attribute is set
+        // ExplosionRadius: The radius of the explosion, in blocks. This is only used when the `explosive` attribute is set
         // Bloom: 0.0-1.0
-        // Health: 0-255; block health
-        // Armour: forgot what this exactly does; it was something like damage*armour
+        // Health: Block health; integer 0-255
+        // Armour: Probably damage*armour
+        // Damage: Amount of damage given to any player standing on the index. If set, 1 is always used in official maps. Non-negative integer
         "Note": "Example index",
         "Name": "concrete",
         "HSL": [ 0.0, 0.0, 0.0 ],
@@ -32,13 +33,45 @@ Here is an example BlockTexturesV2 setup which shows all possible values. You ca
         "ExplosionRadius": 0,
         "Bloom": 1.0,
         "Health": 8,
-        "Armour": 0.3
+        "Armour": 0.3,
+        "Damage": 1
     }
 ],
 ```
 
+## Examples
+White light
+```json
+{
+    "Note": "White light",
+    "Index": 1,
+    "Attributes": "light-on",
+    "RGB": [255, 255, 255],
+    "Bloom": 1
+}
+```
+
+Soltrium
+```json
+{
+    "Note": "Explosive soltrium",
+    "Index": 1,
+    "Attributes": "explosive light-fade",
+    "HSL": [ 0.5444, 1, 0.48 ],
+    "Bloom": 1
+}
+```
+
+Glass
+```json
+{
+	"Note": "Glass",
+	"Index": 1,
+    "Attributes": "transparent conductor",
+	"RGB": [ 133, 184, 235 ]
+}
+```
+
+
 ## Textures list
 <img src="/docs/public/textures.png" alt="Textures list"/>
-<div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
-    <span>Textures list</span>
-</div>

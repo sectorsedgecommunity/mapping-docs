@@ -7,7 +7,7 @@ Here is an example Particles setup which shows all possible values. You can copy
 "Particles": [
     {
         // Optional, to identify a particle if you want to duplicate it around
-        "Name": "",
+        "Name": "Example particle",
         // Physical - Ricochet, strong friction, gravity
         // Skid - Ricochet, low friction, no gravity
         // Smoke - Ricochet, medium friction, no gravity, velocity reduces over time
@@ -23,20 +23,20 @@ Here is an example Particles setup which shows all possible values. You can copy
              [ 1.0, 2.0, 3.0],   
         ],
 
-        // [Optional] The position in the array above will be removed when the respective block below is destroyed
+        // Optional, The position in the array above will be removed when the respective block below is destroyed
         "Block": [
             [ 1, 2, 3],
         ],
 
-        // [Optional] Spawn particles randomly around each Position
+        // Optional, Spawn particles randomly around each Position
         // e.g. in a 0.4 block radius around each Position in the X and Y axis
         // None - No spread
         // Sphere - Spherical spread
         // Box - Box spread
         "OffsetType": "none",
-        "Offset": [ 0.4, 0.4, 0],
+        "Offset": [ 0.0, 0.0, 0.0],
 
-        // [Optional] Spawn N particles in one random spot, rather than N particles each in random spots. Each particle still has random velocity
+        // Optional, Spawn N particles in one random spot, rather than N particles each in random spots. Each particle still has random velocity
         "Clumped": true
 
         // Each particle's velocity = Velocity + (random value between -Deviation and Deviation)
@@ -58,7 +58,7 @@ Here is an example Particles setup which shows all possible values. You can copy
             "Max": 1000
         },
 
-        // [Soltrium] Minimum and max decay speed (i.e. every frame the particle's scale is multiplied by 0.93)
+        // [Soltrium] Minimum and maximum multiplier for every frame the particle's scale is multiplied by
         // When N particles are spawned, their decay values are evenly spread out across this range,
         // i.e. if 3 particles are spawned, the 1st will lose 7% scale each frame, the 2nd will lose 6% scale each frame and the 3rd will lose 5% scale each frame
         "Decay": {
@@ -66,7 +66,7 @@ Here is an example Particles setup which shows all possible values. You can copy
             "Max": 0.95
         },
 
-        // The scale (size) of the particle in blocks(?)
+        // The scale (size) of the particle in voxels(?)
         "Scale": 0.1
     }
 ],
