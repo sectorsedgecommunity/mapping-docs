@@ -8,12 +8,12 @@ This is a simple guide to getting a first map functional.
 The first step is to download the voxel editor [MagicaVoxel](https://ephtracy.github.io/). That's it!
 
 
-## Preparing maps
+## Preparation in MagicaVoxel
 
-The corner of your map must be aligned with the center of the grid in MagicaVoxel, with the green arrow pointing upwards and the red arrow pointing to the right:
+The corner of your map must be aligned with the center of the grid in MagicaVoxel, with the green arrow pointing forwards and the red arrow pointing to the right:
 
-<img src="./public/alignment.png" alt="MagicaVoxel Alignment"/>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
+<img src="./public/alignment.png" alt="MagicaVoxel Alignment"/>
     <span><i>Top-down view of a map</i></span>
 </div>
  
@@ -22,8 +22,8 @@ The corner of your map must be aligned with the center of the grid in MagicaVoxe
 
 To add a map in-game, go to `Play → Singleplayer` and click on the folder icon to the right of the search bar. This will open the workshop folder.
 
-<img src="./public/folderbutton.png" alt="In-game workshop folder icon"/>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
+<img src="./public/folderbutton.png" alt="In-game workshop folder icon"/>
     <span><i>In-game workshop folder icon</i></span>
 </div>
 
@@ -32,8 +32,8 @@ You can find a template `json` file in the **Create your first map** section.
 
 If there are any errors or missing fields in your `json` metadata file, they will appear in game on the map list. Clicking the refresh icon will cause all files to be reloaded and the error list will update.
 
-<img src="./public/errors.png" alt="JSON errors"/>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
+<img src="./public/errors.png" alt="JSON errors"/>
     <span><i>JSON errors</i></span>
 </div>
 
@@ -42,18 +42,16 @@ If there are any errors or missing fields in your `json` metadata file, they wil
 
 To upload a map folder to the workshop, it must have a `.json`, `.vox` and `preview.jpg` file. The `preview.jpg` file should be a screenshot you've taken of your map.
 
-<div style="justify-content: center; display: flex;">
-    <img src="./public/folderexample.png" alt="Map folder example"/>
-</div>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
+    <img src="./public/folderexample.png" alt="Map folder example"/>
     <span><i>Map folder example</i></span>
 </div>
 
 
 When you have these files ready, the **upload** button will light up. Select a visibility (private, friends only, unlisted, public) and then click the upload button.
 
-<img src="./public/uploadbutton.png" alt="Upload button"/>
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
+<img src="./public/uploadbutton.png" alt="Upload button"/>
     <span><i>Upload button</i></span>
 </div>
 
