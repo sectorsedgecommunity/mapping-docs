@@ -20,3 +20,6 @@ This page lists all attributes that no longer work or have been removed. A lot o
 - `BlockLights`
 - `VictoryCamera`
 - `Cameras`
+- `AllowLandingPods`
+- `Spawn.LandingPodSpawn`
+- `Spawn.LandingPodSpeed`
