@@ -8,7 +8,21 @@ export default defineConfig({
     sidebar: [
       {
         text: "Map Making",
-        items: [{ text: 'Getting Started', link: '/gettingstarted.md' },  { text: 'JSON file', link: '/json.md' }, { text: 'Multiplayer support', link: '/multiplayer.md' }, { text: 'Resources', link: '/resources.md' }]
+        items: [
+          { text: 'Getting Started', link: '/gettingstarted.md' },
+          { text: 'JSON file', link: '/json.md', items: [
+            { text: 'BlockTexturesV2', link: '/json/blocktexturesv2.md' },
+            { text: 'Game modes', link: '/gamemodes.md' },
+            { text: 'Particles', link: '/json/Particles.md' },
+            { text: 'Removed attributes', link: '/oldattributes.md' },
+            { text: 'Salvage attributes', link: '/json/salvageattributes.md' },
+            { text: 'TeamSpawns', link: '/json/teamspawns.md' },
+            { text: 'Weather', link: '/json/Weather.md' }
+          ]
+          },
+          { text: 'Multiplayer support', link: '/multiplayer.md' },
+          { text: 'Resources', link: '/resources.md' }
+        ]
       }
     ],
 

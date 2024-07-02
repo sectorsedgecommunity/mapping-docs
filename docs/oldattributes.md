@@ -1,5 +1,4 @@
 # Removed attributes
-Back to: [`Json file`](/docs/json.md)
 
 This page lists all attributes that no longer work or have been removed. A lot of this could use testing.
 

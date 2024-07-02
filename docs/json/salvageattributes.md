@@ -1,5 +1,4 @@
 # Json file → Salvage Attributes
-Back to: [`Json file`](/docs/json.md)
 
 Salvage game mode still has attributes in the `json` file but isn't functional in-game. 
 You can copy into your own maps and edit it. Remove the comments when you copy this into your map.

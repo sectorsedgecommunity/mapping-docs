@@ -1,5 +1,4 @@
 # Json file → Particles
-Back to: [`Json file`](/docs/json.md)
 
 Here is an example Particles setup which shows all possible values. You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
 

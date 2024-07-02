@@ -14,7 +14,7 @@ The corner of your map must be aligned with the center of the grid in MagicaVoxe
 
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
-<img src="./public/alignment.png" alt="MagicaVoxel Alignment"/>
+<img src="/alignment.png" alt="MagicaVoxel Alignment"/>
 <br/><i>Top-down view of a map</i>
 </p></div>
  
@@ -25,7 +25,7 @@ To add a map in-game, go to `Play → Singleplayer` and click on the folder icon
 
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
-<img src="./public/folderbutton.png" alt="In-game workshop folder icon"/>
+<img src="/folderbutton.png" alt="In-game workshop folder icon"/>
 <br/><i>workshop folder icon</i>
 </p></div>
 <br/>
@@ -36,7 +36,7 @@ If there are any errors or missing fields in your `json` metadata file, they wil
 
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
-<img src="./public/errors.png" alt="JSON errors"/>
+<img src="/errors.png" alt="JSON errors"/>
 <br/><i>JSON errors</i>
 </p></div>
 
@@ -47,7 +47,7 @@ To upload a map folder to the workshop, it must have a `.json`, `.vox` and `prev
 
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
-<img src="./public/folderexample.png" alt="Map folder example"/>
+<img src="/folderexample.png" alt="Map folder example"/>
 <br/><i>Map folder example</i>
 </p></div>
 
@@ -56,7 +56,7 @@ When you have these files ready, the **upload** button will light up. Select a v
 
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
-<img src="./public/uploadbutton.png" alt="Upload button"/>
+<img src="/uploadbutton.png" alt="Upload button"/>
 <br/><i>Upload button</i>
 </p></div>
 
@@ -67,5 +67,5 @@ Note that each map file can be changed after your map is uploaded to the worksho
 
 Download these template files and place them in the `/workshop/maps/myFirstMap` folder:
 
-* [map_template.vox](./public/Map_Template.vox)
-* [map_template.json](./public/map_template.json)
+* [map_template.vox](/Map_Template.vox){target="_self"}
+* [map_template.json](/map_template.json)
