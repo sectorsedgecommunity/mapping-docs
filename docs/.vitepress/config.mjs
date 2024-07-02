@@ -1,14 +1,14 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Mapping Documentation",
+  title: "Map Making",
   description: "Mapmaking documentation for Sector's Edge",
   base: "/mapping-docs/",
   ignoreDeadLinks: true,
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
-    logo: '/se-wiki.png',
+    logo: '/se-docs.png',
     search: {
       provider: 'local'
     },
