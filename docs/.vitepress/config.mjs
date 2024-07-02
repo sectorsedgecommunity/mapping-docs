@@ -1,7 +1,8 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "Sector's Edge Mapping Docs",
+  title: "Mapping Documentation",
+  logo: '/se-wiki-edit.png',
   description: "Mapmaking documentation for Sector's Edge",
   base: "/mapping-docs/",
   ignoreDeadLinks: true,
