@@ -14,6 +14,7 @@ export default defineConfig({
           { text: 'Getting Started', link: '/gettingstarted.md' },
           { text: 'JSON file', link: '/json.md', collapsed: true, items: [
             { text: 'AmbienceSound', link: '/json/ambiencesound.md' },
+            { text: 'Bare-minimum map JSON', link: '/json/bareminimum.md' },
             { text: 'BlockTexturesV2', link: '/json/blocktexturesv2.md' },
             { text: 'Game modes', link: '/gamemodes.md' },
             { text: 'Particles', link: '/json/particles.md' },

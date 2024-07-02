@@ -1,25 +1,5 @@
 # JSON file
-Todo - Finish adding full JSON Schema
-
-[`Game modes`](gamemodes.md)
-
-[`Removed Attributes`](oldattributes.md)
-
-## Attributes
-[`AmbienceSound`](/json/ambiencesound.md)
-
-[`BlockTexturesV2`](/json/blocktexturesv2.md)
-
-[`Particles`](/json/particles.md)
-
-[`Salvage Attributes`](/json/salvageattributes.md)
-
-[`TeamSpawns`](/json/teamspawns.md)
-
-[`Water`](/json/water.md)
-
-[`Weather`](/json/weather.md)
-
+The `json` file in a map determines critical information such as block textures, skybox, team spawns, and much more.
 
 ## Tips
 * You can use `\n` in the map description to start a new line. This is useful if you want to add additional sections to the map details. An example is adding `\nCreated by: username1, username2` to the end of the map description.
