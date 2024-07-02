@@ -22,7 +22,7 @@ The corner of your map must be aligned with the center of the grid in MagicaVoxe
 
 To add a map in-game, go to `Play → Singleplayer` and click on the folder icon to the right of the search bar. This will open the workshop folder.
 
-<div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
+<div style="justify-content: center; display: inline; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <img src="./public/folderbutton.png" alt="In-game workshop folder icon"/>
     <span><i>In-game workshop folder icon</i></span>
 </div>
@@ -43,7 +43,7 @@ If there are any errors or missing fields in your `json` metadata file, they wil
 To upload a map folder to the workshop, it must have a `.json`, `.vox` and `preview.jpg` file. The `preview.jpg` file should be a screenshot you've taken of your map.
 
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
-    <img src="./public/folderexample.png" alt="Map folder example"/>
+<img src="./public/folderexample.png" alt="Map folder example"/>
     <span><i>Map folder example</i></span>
 </div>
 
