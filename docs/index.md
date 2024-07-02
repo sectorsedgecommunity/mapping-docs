@@ -4,12 +4,12 @@
 
 This wiki is **very** incomplete, and under heavy development. If you want to contribute, join the Community Discord server linked in Resources.
 
-[Getting Started](./docs/gettingstarted.md)
+[Getting Started](gettingstarted.md)
 
-[Json file](./docs/json.md)
+[Json file](json.md)
 
-[Game modes](./docs/gamemodes.md)
+[Game modes](gamemodes.md)
 
-[Multiplayer support](./docs/multiplayer.md)
+[Multiplayer support](multiplayer.md)
 
-[Resources](./docs/resources.md)
+[Resources](resources.md)
