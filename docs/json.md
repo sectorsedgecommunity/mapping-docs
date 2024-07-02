@@ -1,10 +1,22 @@
----
-title: "JSON Reference"
----
+# JSON file
+Todo - Finish adding full JSON Schema
 
-# JSON Reference
+[`Game modes`](gamemodes.md)
 
-Todo - Add full JSON Schema
+[`Removed Attributes`](oldattributes.md)
+
+## Attributes
+[`BlockTexturesV2`](./json/blocktexturesv2.md)
+
+[`TeamSpawns`](./json/teamspawns.md)
+
+[`Particles`](./json/particles.md)
+
+[`Weather`](./json/weather.md)
+
+[`Salvage Attributes`](./json/salvageattributes.md)
+
+[`AmbienceSound`](./json/ambiencesound.md)
 
 ## Tips
 * You can use `\n` in the map description to start a new line. This is useful if you want to add additional sections to the map details. An example is adding `\nCreated by: username1, username2` to the end of the map description.
@@ -19,5 +31,5 @@ Todo - Add full JSON Schema
 * Gun Game, Free for all, and Head Hunter game modes cannot be seperated
 * You cannot upload a map to the Steam Workshop without a `preview.jpg`
 
-## Example file
+## Example json file
 [map_template.json](/map_template.json)
