@@ -65,10 +65,10 @@ Soltrium
 Glass
 ```json
 {
-	"Note": "Glass",
-	"Index": 1,
+    "Note": "Glass",
+    "Index": 1,
     "Attributes": "transparent conductor",
-	"RGB": [ 133, 184, 235 ]
+    "RGB": [ 133, 184, 235 ]
 }
 ```
 
