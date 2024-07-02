@@ -2,7 +2,7 @@
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 5px; margin-bottom: 40px">
 </div>
 
-## Welcome to the community-made Sector's Edge mapmaking docs!
+## Welcome to the community-made Sector's Edge mapmaking documentation!
 This wiki is **very** incomplete, and under heavy development. This fork only exists because Vader decided to leave for a week before giving me access to the main repo.
 
 [Getting Started](./docs/gettingstarted.md)
