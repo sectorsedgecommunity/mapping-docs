@@ -1,5 +1,4 @@
 # Breakthrough
-
 Breakthrough has 2 teams compete for control over set zones. Unlike Control Shift, the zones don't move.
 
 ## Minimum Requirements

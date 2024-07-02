@@ -1,5 +1,4 @@
 # Escort
-
 Escort is pretty much a reversed Capture the Flag. 2 teams attempt to deliver their own flags to each other.
 
 ## Minimum Requirements
