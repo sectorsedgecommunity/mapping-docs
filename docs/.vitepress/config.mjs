@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  head: [['link', { rel: 'icon', href: '/docs/public/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: '/mapping-docs/favicon.ico' }]],
   title: "Map Making",
   description: "Mapmaking documentation for Sector's Edge",
   base: "/mapping-docs/",
