@@ -2,7 +2,7 @@
 You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
 
 ```json
-// SunColourRaining: Color of sun, in RGB
+// SunColourRaining: Color of sun when raining, in RGB
 "SunColourRaining": [ 36, 42, 61 ],
 
 // RainColour: RGBA color of rain

@@ -4,7 +4,7 @@ This is a simple guide to getting a first map functional.
 
 ## Requirements
 
-The first step is to download the voxel editor [MagicaVoxel](https://ephtracy.github.io/). That's it!
+The first and only requirement is to download the voxel editor [MagicaVoxel](https://ephtracy.github.io/).
 
 
 ## Preparation in MagicaVoxel
@@ -16,7 +16,9 @@ The corner of your map must be aligned with the center of the grid in MagicaVoxe
 <img src="/alignment.png" alt="MagicaVoxel Alignment"/>
 <br/><i>Top-down view of a map</i>
 </p></div>
- 
+
+Sector's Edge uses the red arrow as forwards on the minimap. This is why maps such as Railway have a map size of `[ 256, 96, 768]`.
+
 
 ## Make your map playable
 
@@ -25,7 +27,7 @@ To add a map in-game, go to `Play → Singleplayer` and click on the folder icon
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
 <img src="/folderbutton.png" alt="In-game workshop folder icon"/>
-<br/><i>workshop folder icon</i>
+<br/><i>Workshop folder button</i>
 </p></div>
 <br/>
 Create a new folder and give it a name, then place your `.vox` file in it. Maps must also have an accompanying `.json` file, which contains metadata for textures, lights, spawn regions, etc.

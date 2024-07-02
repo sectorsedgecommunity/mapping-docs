@@ -35,7 +35,7 @@ There are currently 11 game modes in Sector's Edge. This page lists the minimum 
 - ???
 
 ## [Salvage](./gamemodes/sal.md)
-Although Salvage is no longer playable, the attributes remain in the `json` file.
+Although Salvage meteors no longer spawn, leaving the mode unplayable, the attributes remain in the `json` file.
 
 - `MeteorBottom` attribute is set correctly
 - `MeteorTop` attribute is set correctly

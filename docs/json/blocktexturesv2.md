@@ -74,6 +74,17 @@ Glass
 }
 ```
 
+Railway/Reactor lasers
+```json
+{
+	"Note": "Laser",
+	"Index": 1,
+	"HSL": [0.45, 0.4, 0.8],
+	"Bloom": 1,
+	"Damage": 1
+}
+```
+
 
 ## Textures list
 <img src="/textures.png" alt="Textures list"/>

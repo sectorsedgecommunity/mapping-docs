@@ -1,27 +1,20 @@
-# Removed attributes
-This page lists all attributes that no longer work or have been removed. A lot of this could use testing.
+# Removed/broken attributes
+This page lists all attributes that no longer work or have been removed.
 
 - `WorldEdgeIndex`
 - `WorldFloorIndex`
-- `BlockTexturesV2.Strength`
 - `SpawnCamera0`
 - `SpawnCamera1`
 - `MinimapRotationAegis`
 - `MinimapRotationHelix`
 - `SpawnCamera0.PanSpeed`
 - `HasRain`
-- `HasTransparency`
 - `HasExplosiveCanisters`
-- `Skybox:"AR"`
+- `Skybox."AR"`
 - `Ambience`
 - `Lights`
 - `BlockLights`
-- `VictoryCamera`
 - `Cameras`
-- `AllowLandingPods`
-- `LandingSpeedModifier`
-- `Spawn.LandingPodSpawn`
-- `Spawn.LandingPodSpeed`
 - `HasGrass`
 - `RainSpawnRadius`
 - `HasLeaves`
@@ -30,4 +23,17 @@ This page lists all attributes that no longer work or have been removed. A lot o
 - `FileName`
 - `LeafIndices`
 - `HeightmapRange`
+- `MeteorBottom`
+- `MeteorTop`
+- `MeteorBreachChance`
+- `MeteorSpawnSpread`
+- `MeteorLineStart`
+- `MeteorLineEnd`
+- `BlockTexturesV2.Strength`
 - `FogType`
+- `AllowLandingPods`
+- `LandingSpeedModifier`
+- `Spawn.LandingPodSpawn`
+- `Spawn.LandingPodSpeed`
+- `VictoryCamera`
+- `HasTransparency`
