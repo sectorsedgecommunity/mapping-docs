@@ -25,3 +25,22 @@ Here is an example TeamSpawn setup which shows all possible values. You can copy
 	}
 ],
 ```
+
+I found this in some old Steam Workshop map, and as it turns out, it still works!
+```json
+// Type: It is unknown all valid values for this, but pan seems to work
+// Yaw: A value of 3.145 is approximately 180 degrees
+
+"SpawnCamera0":
+	{
+		"Type": "pan",
+		"Yaw": 0,
+		"Position": [ 93, 128, 48]
+	},
+"SpawnCamera1":
+    {
+	    "Type": "pan",
+	    "Yaw": 0,
+	    "Position": [ 208, 128, 60]
+    },
+```

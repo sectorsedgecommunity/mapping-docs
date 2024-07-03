@@ -3,13 +3,13 @@ This page lists all attributes that no longer work or have been removed.
 
 - `WorldEdgeIndex`
 - `WorldFloorIndex`
-- `SpawnCamera0`
-- `SpawnCamera1`
 - `MinimapRotationAegis`
 - `MinimapRotationHelix`
 - `SpawnCamera0.PanSpeed`
+- `SpawnCamera1.PanSpeed`
 - `HasRain`
 - `HasExplosiveCanisters`
+- `ExplosiveNeighbourIndex`
 - `Skybox."AR"`
 - `Ambience`
 - `Lights`
@@ -35,5 +35,6 @@ This page lists all attributes that no longer work or have been removed.
 - `LandingSpeedModifier`
 - `Spawn.LandingPodSpawn`
 - `Spawn.LandingPodSpeed`
+- `PodiumCamera`
 - `VictoryCamera`
 - `HasTransparency`
