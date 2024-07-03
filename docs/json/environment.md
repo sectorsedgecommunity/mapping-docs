@@ -1,4 +1,8 @@
-# Json file → Weather
+---
+title: Environment
+---
+
+# Json file → Environment
 You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
 
 ```json

@@ -1,3 +1,7 @@
+---
+title: BlockTexturesV2
+---
+
 # Json file → BlockTexturesV2
 Here is an example BlockTexturesV2 setup which shows all possible values. You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
 You can have a maximum of 255 indexes. 
