@@ -5,16 +5,17 @@ Here is an example TeamSpawn setup which shows all possible values. You can copy
 "TeamSpawns": [
     {
         // GameMode: sta (Static), brk (Breakthrough), ctf (Capture the Flag), esc (Escort), all,
-        //  sal (Salvage, non-functional game mode)
+        //  sal. (Salvage, non-functional game mode)
         //
-        // ControlShiftSpawnOffset: Seperate from TeamSpawns. Default value is 0.2, i.e. 20%
-        // Players spawn where the zone would be if the zone was shifted back X%
+        // ControlShiftSpawnOffset: Seperate from TeamSpawns. Default value is 0.2, i.e. 20%.
+        // Players spawn where the zone would be if the zone was shifted back X%.
         //
         // Type: box, line, radius
         // Team: 0, 1
-        // Min & Max: max must be greater than min, otherwise have glitchy spawn area
-        // OOBDistance: out of bounds distance from the spawn: known to be used for BRK
-        // SearchTopDown: searches top→down instead
+        // Min & Max: max must be greater than min, otherwise have glitchy spawn area.
+        // OOBDistance: out of bounds distance from the spawn: known to be used for BRK.
+        // SearchTopDown: searches top→down instead.
+        // Indoors: Always spawns a player under a block.
         "GameMode": "all",
         "Type": "box",
         "Team": 0,
@@ -22,14 +23,16 @@ Here is an example TeamSpawn setup which shows all possible values. You can copy
         "Max": [ 1, 1, 1],
         "OOBDistance": 40,
         "SearchTopDown": false,
+        "Indoors": false
 	}
 ],
 ```
 
-I found this in some old Steam Workshop map, and as it turns out, it still works!
 ```json
-// Type: It is unknown all valid values for this, but pan seems to work
+// Corahk Canyon only uses Yaw, and so I'm guessing that Type and Position don't mean a whole ton.
+// Type: It is unknown all valid values for this, but pan seems to work.
 // Yaw: A value of 3.145 is approximately 180 degrees. π!
+// Position: ???
 
 "SpawnCamera0":
 	{
