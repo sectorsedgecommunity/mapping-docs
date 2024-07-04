@@ -18,6 +18,7 @@ title: Environment
 // Enclosed: If true, disables shadows, skybox, and crepuscular rays. This also makes the top of the map not meshed, which lets you see into the map from the spawn screen.
 "Enclosed": false,
 
+```json
 // SunColour: Regular color of the sun, in RGB.
 // SunColourRaining: Color of sun when raining, in RGB.
 // SunRotation: Rotation of the sun.
@@ -30,12 +31,16 @@ title: Environment
 "CrepuscularStartHeight": 0.5,
 "CrepuscularPitch": 0,
 "CrepuscularYaw": 0,
+```
 
+```json
 // WaterLevel: In-game Y-coordinate for sea level.
 // WaterColour: Color of water in RGB.
 "WaterLevel": 7.3,
 "WaterColour": [ 124, 53, 47 ],
+```
 
+```json
 // RainColour: RGBA color of rain. A controls bloom.
 // RainStartMin: Minimum time in seconds into a match when rain will begin falling.
 // RainStartMax: Maximum time in seconds into a match when rain will begin falling.
@@ -49,12 +54,16 @@ title: Environment
 "RainDensity": 1.0
 "RainRenderDistance": 1.0,
 "WaterRiseSpeed": 0,
+```
 
+```json
 // WindSpeed: Wind speed, in blocks per second?
 // WindDirection: Yaw direction of wind. Pushes rain and leaf particles horizontally.
 "WindSpeed": 0.015,
 "WindDirection": 0.785375,
+```
 
+```json
 // Snow is seperate from Rain. If set to spawn, snow immediately begins falling from match start.
 // HasFallingSnow: Boolean, Controls whether the map has falling snow.
 // HasBlizzardSnow: Boolean, Blizzard snow is a faster falling version of regular snow. Overrides HasFallingSnow.
@@ -64,7 +73,9 @@ title: Environment
 "HasBlizzardSnow": false,
 "SnowIndex": 19,
 "SnowColour": [ 255, 255, 255, 255],
+```
 
+```json
 // Type: Values: wind, rumble, jungle, ice. Vercidium stated `rain` and `ship` exist but it appears they don't.
 // Altitude: Y coordinate where the sound plays.
 // Volume: Seems to be 0.0-1.0.
@@ -81,4 +92,5 @@ title: Environment
 ],
 // Unknown all values for this
 "UnderwaterSound": "underwatercold",
+
 ```

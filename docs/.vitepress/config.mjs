@@ -23,12 +23,14 @@ export default defineConfig({
         items: [
           { text: 'Getting Started', link: '/gettingstarted.md' },
           { text: 'JSON file', link: '/json.md', collapsed: true, items: [
-            { text: 'Bare-minimum map JSON', link: '/json/bareminimum.md' },
+            { text: 'Bare-minimum map JSON', link: '/json/combined/bareminimum.md' },
+            { text: 'Environment', link: '/json/combined/environment.md' },
+            { text: '', link: '' },
             { text: 'BlockTexturesV2', link: '/json/blocktexturesv2.md' },
-            { text: 'Environment', link: '/json/environment.md' },
             { text: 'Game modes', link: '/gamemodes.md' },
             { text: 'Particles', link: '/json/particles.md' },
             { text: 'Removed attributes', link: '/oldattributes.md' },
+            { text: 'RushStages', link: '/rushstages.md' },
             { text: 'Salvage attributes', link: '/json/salvageattributes.md' },
             { text: 'TeamSpawns', link: '/json/teamspawns.md' }
           ]
