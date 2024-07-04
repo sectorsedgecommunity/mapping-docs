@@ -14,8 +14,10 @@ This page contains all attributes related to a map's environment, such as skybox
 // MC: Used on Magma Chamber, Base Omicron. Blue-gray harsh mountains with some "pwetty stars" (quote from Paddy on Steam). Unlit-side of a planet with a blue atmosphere. This MAY be the same planet as in the default Space skybox, but I don't think this is confirmed.
 // ST: Used on Soltrium Temple, Shrine, Devoid Cathedral. Pleasant blue-gray mountains with medium clouds. Red planet and a gray moon(?) visible.
 // SkyboxRotation: Pitch/yaw of skybox. 6.283 is approximately 360 degrees on both. π*2?
+// SkyboxVerticalOffset: Vertical offset of the literal sky box. +0.93 or -0.93 maximum before the void is exposed.
 "Skybox": "rw",
 "SkyboxRotation": [ 0, 0.7 ],
+"SkyboxVerticalOffset": 0.0,
 // Enclosed: If true, disables shadows, skybox, and crepuscular rays. This also makes the top of the map not meshed, which lets you see into the map from the spawn screen.
 "Enclosed": false,
 ```
