@@ -25,11 +25,11 @@ export default defineConfig({
           { text: 'JSON file', link: '/json.md', collapsed: true, items: [
             { text: 'BlockTexturesV2', link: '/json/blocktexturesv2.md' },
             { text: 'Environment', link: '/json/environment.md' },
-            { text: 'Game modes', link: '/gamemodes.md' },
+            { text: 'Game modes', link: '/json/gamemodes.md' },
             { text: 'Minimap attributes', link: '/json/minimapattributes.md' },
             { text: 'Particles', link: '/json/particles.md' },
-            { text: 'Removed attributes', link: '/oldattributes.md' },
-            { text: 'RushStages', link: '/rushstages.md' },
+            { text: 'Removed attributes', link: '/json/oldattributes.md' },
+            { text: 'RushStages', link: '/json/rushstages.md' },
             { text: 'TeamSpawns', link: '/json/teamspawns.md' }
           ]
           },
