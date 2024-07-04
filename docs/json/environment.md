@@ -3,6 +3,7 @@ title: Environment
 ---
 
 # Json file → Environment
+This page contains all attributes related to a map's environment, such as skybox, ambience, sun, and more.
 ```json
 // Skybox: valid options: ad, cf, rw, is, lb, mc, st
 // AD: Used on Aegis Desert, Aegis Oasis, Devoid Wasteland. Open desert with a clear sky, mountains and plenty of sand. A pink planet (moon?) and blue planet with rings.
@@ -17,6 +18,7 @@ title: Environment
 "SkyboxRotation": [ 0, 0.7 ],
 // Enclosed: If true, disables shadows, skybox, and crepuscular rays. This also makes the top of the map not meshed, which lets you see into the map from the spawn screen.
 "Enclosed": false,
+```
 
 ```json
 // SunColour: Regular color of the sun, in RGB.

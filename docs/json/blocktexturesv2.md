@@ -10,13 +10,15 @@ You can have a maximum of 255 indexes.
         // Note: optional, used to describe an index
         // Name: optional if HSL/HSLA/RGB/RGBA is set, name of texture; list of textures is below. Not setting a Name is fine
         //  when a color field is set.
+        // Index: Determines which index in MagicaVoxel corresponds to this texture.
+        // Offset: Per-axis offset for the texture. Used to align things like crate textures and Railway train textures.
 
         // HSL/RGB/RGBA: optional if Name is set, used to color a texture. Soltrium HSL: [ 0.5444, 1, 0.48 ]. Recommended to
         //  use RGB for flat textures and RGBA for glass.
 
         // Attributes: explosive, light-fade, light-on-brightness, floating, invincible, transparent, ice, meteor (unused)
         //
-        // explosive: Block explodes if damaged; uses ExplosionRadius as the radius.
+        // explosive: Block explodes if damaged; uses ExplosionRadius as the radius. Can be detonated by blocks with the conductor attribute.
         // light-fade: Fades the light instead of immediately removing light.
         // light-on-brightness: brightness is the brightness of the light. <1.0 is recommended.
         // floating: allows index and anything attached to float.
@@ -31,8 +33,10 @@ You can have a maximum of 255 indexes.
         // Armour: Probably damage*armour.
         // Damage: Amount of damage given to any player standing on the index. If set, 1 is always used in official maps.
         //  Non-negative integer.
-        "Note": "Example index",
+        "Note": "Example texture",
         "Name": "concrete",
+        "Offset": [ 0, 0, 0 ],
+        "Index": 1,
         "HSL": [ 0.0, 0.0, 0.0 ],
         "Attributes": "",
         "ExplosionRadius": 0,
@@ -85,6 +89,21 @@ Railway/Reactor lasers
 	"HSL": [0.45, 0.4, 0.8],
 	"Bloom": 1,
 	"Damage": 1
+}
+```
+
+Crude 17x4 "Soltricoz" sign using the `cratesoltec` texture. You may need to adjust the `Offset`
+```json
+{
+	"Note": "Soltricoz sign",
+	"Index": 1,
+	"Name": "cratesoltec",
+	"Size": 47,
+	"Offset": [ 23, 12, 0 ],
+	"HSL": [ 0.45, 0.6, 0.4 ],
+	"Health": 50,
+	"Bloom": 0.2,
+	"Attributes": "light-on-0.0001 conductor"
 }
 ```
 

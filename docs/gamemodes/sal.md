@@ -9,3 +9,6 @@ Salvage was a game mode in which 2 teams fight over harvesting meteors that fall
 - `MeteorLineStart` attribute is set correctly
 - `MeteorLineEnd` attribute is set correctly
 - An index with the `meteor` attribute
+
+## Attribute documentation
+[Salvage Attributes](/json/salvageattributes)

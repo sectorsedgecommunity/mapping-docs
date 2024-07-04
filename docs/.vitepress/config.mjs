@@ -23,20 +23,23 @@ export default defineConfig({
         items: [
           { text: 'Getting Started', link: '/gettingstarted.md' },
           { text: 'JSON file', link: '/json.md', collapsed: true, items: [
-            { text: 'Bare-minimum map JSON', link: '/json/combined/bareminimum.md' },
-            { text: 'Environment', link: '/json/combined/environment.md' },
-            { text: '', link: '' },
             { text: 'BlockTexturesV2', link: '/json/blocktexturesv2.md' },
+            { text: 'Environment', link: '/json/environment.md' },
             { text: 'Game modes', link: '/gamemodes.md' },
+            { text: 'Minimap attributes', link: '/json/minimapattributes.md' },
             { text: 'Particles', link: '/json/particles.md' },
             { text: 'Removed attributes', link: '/oldattributes.md' },
             { text: 'RushStages', link: '/rushstages.md' },
-            { text: 'Salvage attributes', link: '/json/salvageattributes.md' },
             { text: 'TeamSpawns', link: '/json/teamspawns.md' }
           ]
           },
           { text: 'Multiplayer support', link: '/multiplayer.md' },
-          { text: 'Resources', link: '/resources.md' }
+          { text: 'Resources', link: '/resources.md', collapsed: true, items: [
+            { text: 'Bare minimum map JSON', link: '/guides/bareminimum.md' },
+            { text: 'Map making PDF', link: '/guides/pdf.md' },
+            { text: 'Worldpainter to MagicaVoxel', link: '/guides/worldpainter.md' },
+          ]
+          }
         ]
       }
     ]
