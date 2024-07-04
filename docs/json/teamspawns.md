@@ -32,7 +32,7 @@ title: TeamSpawns
 
 ```json
 // Corahk Canyon only uses Yaw.
-// Type: It is unknown all valid values for this, but pan seems to work.
+// Type: All valid values for this are unknown, but pan is often used.
 // Yaw: A value of 3.145 is approximately 180 degrees. π!
 // Position: ???
 "SpawnCamera0": {

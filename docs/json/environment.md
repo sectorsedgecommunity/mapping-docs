@@ -8,7 +8,7 @@ title: Environment
 // AD: Used on Aegis Desert, Aegis Oasis, Devoid Wasteland. Open desert with a clear sky, mountains and plenty of sand. A pink planet (moon?) and blue planet with rings.
 // CF: Used on Crashed Freighter, Soltec Plaza. Pretty red mountains at sunset in the open waters. No planets visible but plenty of very bright stars.
 // RW: Used on Railway, Reactor. Foggy city with partial clouds, and futuristic skyscrapers riddled with pipes. No planets visible.
-// IS: Used on Ice Station, Corahk Canyon, Cold Harbour. Coastline of an island with extreme snow mountains, partial clouds. No planets visible.
+// IS: Used on Ice Station, Corahk Canyon, Cold Harbour. Coastline of an island with extreme snow mountains, partial clouds. No planets visible. This skybox/planet is confirmed to be NYX-03.
 // LB: Used on Laboratory. Cloud planet with futuristic skyscrapers at sunset. A blue gas planet is visible. This may be the same planet seen in the default Space skybox.
 // MC: Used on Magma Chamber, Base Omicron. Blue-gray harsh mountains with some "pwetty stars" (quote from Paddy on Steam). Unlit-side of a planet with a blue atmosphere. This MAY be the same planet as in the default Space skybox, but I don't think this is confirmed.
 // ST: Used on Soltrium Temple, Shrine, Devoid Cathedral. Pleasant blue-gray mountains with medium clouds. Red planet and a gray moon(?) visible.
@@ -79,6 +79,6 @@ title: Environment
         ]
     }
 ],
-// Unknown all values for this: but only Corahk Canyon uses this.
+// Unknown all values for this
 "UnderwaterSound": "underwatercold",
 ```

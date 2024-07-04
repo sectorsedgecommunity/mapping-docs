@@ -9,7 +9,7 @@ The `json` file in a map determines critical information such as block textures,
 ## Limitations
 * Arena maps' X and Z (in-game) are hardcoded to `[ 96, 160 ]`. The Y axis is not hardcoded though.
 * Rush and Breakthrough require at least 2 points.
-* `grass` attribute does not appear in multiplayer when added in an unofficial map.
+* `grass` BlockTexturesV2 attribute does not appear in multiplayer when added in an unofficial map.
 * Breakthrough and Control Shift game modes cannot be seperated.
 * Gun Game and Free for all game modes cannot be seperated.
 * You cannot upload a map to the Steam Workshop without a `preview.jpg`.
