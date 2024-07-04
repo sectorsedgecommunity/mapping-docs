@@ -12,5 +12,5 @@ Youtube Channel with MagicaVoxel Tutorials<br/>
 [ArtChanny97](https://youtube.com/c/ArtChanny97)
 
 ## Guides
-[World Painter to MagicaVoxel](/communityguides/worldpainter.md)<br/>
-[Old Map making PDF](/communityguides/pdf.md)
+[World Painter to MagicaVoxel](/guides/worldpainter.md)<br/>
+[Old Map making PDF](/guides/pdf.md)
