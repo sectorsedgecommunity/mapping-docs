@@ -3,8 +3,6 @@ title: TeamSpawns
 ---
 
 # Json file → TeamSpawns
-Here is an example TeamSpawn setup which shows all possible values. You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
-
 ```json
 "TeamSpawns": [
     {
@@ -15,11 +13,11 @@ Here is an example TeamSpawn setup which shows all possible values. You can copy
         // Players spawn where the zone would be if the zone was shifted back X%.
         //
         // Type: box, line, radius
-        // Team: 0, 1
+        // Team: 0 or 1
         // Min & Max: max must be greater than min, otherwise have glitchy spawn area.
-        // OOBDistance: out of bounds distance from the spawn: known to be used for BRK.
-        // SearchTopDown: searches top→down instead.
-        // Indoors: Always spawns a player under a block.
+        // OOBDistance: Out of bounds distance behind spawn.
+        // SearchTopDown: True/false.Searches top→down instead.
+        // Indoors: True/false. Always spawns a player under a block.
         "GameMode": "all",
         "Type": "box",
         "Team": 0,
@@ -33,21 +31,21 @@ Here is an example TeamSpawn setup which shows all possible values. You can copy
 ```
 
 ```json
-// Corahk Canyon only uses Yaw, and so I'm guessing that Type and Position don't mean a whole ton.
+// Corahk Canyon only uses Yaw.
 // Type: It is unknown all valid values for this, but pan seems to work.
 // Yaw: A value of 3.145 is approximately 180 degrees. π!
 // Position: ???
-
-"SpawnCamera0":
-	{
+"SpawnCamera0": {
 		"Type": "pan",
 		"Yaw": 0,
 		"Position": [ 93, 128, 48]
-	},
-"SpawnCamera1":
-    {
+},
+"SpawnCamera1": {
 	    "Type": "pan",
 	    "Yaw": 0,
 	    "Position": [ 208, 128, 60]
-    },
+},
+
+// Maximum height players can spawn at. Useful for maps like Railway.
+"MaxSpawnHeight": 70,
 ```

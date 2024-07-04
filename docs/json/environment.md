@@ -3,8 +3,6 @@ title: Environment
 ---
 
 # Json file → Environment
-You can copy into your own maps and edit it. Remove the comments when you copy this into your map.
-
 ```json
 // Skybox: valid options: ad, cf, rw, is, lb, mc, st
 // AD: Used on Aegis Desert, Aegis Oasis, Devoid Wasteland. Open desert with a clear sky, mountains and plenty of sand. A pink planet (moon?) and blue planet with rings.
@@ -22,7 +20,7 @@ You can copy into your own maps and edit it. Remove the comments when you copy t
 
 // SunColour: Regular color of the sun, in RGB.
 // SunColourRaining: Color of sun when raining, in RGB.
-// SunRotation: Rotation of the sun
+// SunRotation: Rotation of the sun.
 // CrepuscularThresholdOverride: Probably threshold to render crepuscular rays. 0.0 to ~2.0; though it does start to get a bit glitchy after about 1.5.
 // CrepuscularStartHeight: Probably lowers where the sun would be, relative to clouds? Because lowering this value causes more rays to shine through. 0.0-1.0.
 "SunColour": [ 255, 255, 255 ],
@@ -33,29 +31,27 @@ You can copy into your own maps and edit it. Remove the comments when you copy t
 "CrepuscularPitch": 0,
 "CrepuscularYaw": 0,
 
-// WaterLevel: In-game Y-coordinate for sea level
-// WaterColour: RGB color
-//
-// Only used when raining:
-// WaterRiseSpeed: number of voxels per millisecond. use 0.001 for 1 block per second
+// WaterLevel: In-game Y-coordinate for sea level.
+// WaterColour: Color of water in RGB.
 "WaterLevel": 7.3,
 "WaterColour": [ 124, 53, 47 ],
-"WaterRiseSpeed": 0,
 
 // RainColour: RGBA color of rain. A controls bloom.
 // RainStartMin: Minimum time in seconds into a match when rain will begin falling.
 // RainStartMax: Maximum time in seconds into a match when rain will begin falling.
 // Server randomly picks a number between those 2 numbers for when to start raining.
-// RainDensity: Amount of rain particles spawned. Percentage 0.0-1.0. 0.75 for 25% less rain particles
-// RainRenderDistance: Controls render distance when raining. Percentage 0.0-1.0. 0.5 for 50% lower render distance
+// RainDensity: Amount of rain particles spawned. Percentage 0.0-1.0. 0.75 for 25% less rain particles.
+// RainRenderDistance: Controls render distance when raining. Percentage 0.0-1.0. 0.5 for 50% lower render distance.
+// WaterRiseSpeed: # of blocks/ms. use 0.001 for 1 block per second.
 "RainColour": [ 20, 40, 40, 0],
 "RainStartMin": 900,
 "RainStartMax": 1200,
 "RainDensity": 1.0
-"RainRenderDistance": 1.0 
+"RainRenderDistance": 1.0,
+"WaterRiseSpeed": 0,
 
-// WindSpeed: wind speed
-// WindDirection: yaw direction of wind. pushes rain and leaf particles horizontally
+// WindSpeed: Wind speed, in blocks per second?
+// WindDirection: Yaw direction of wind. Pushes rain and leaf particles horizontally.
 "WindSpeed": 0.015,
 "WindDirection": 0.785375,
 
@@ -83,4 +79,6 @@ You can copy into your own maps and edit it. Remove the comments when you copy t
         ]
     }
 ],
+// Unknown all values for this: but only Corahk Canyon uses this.
+"UnderwaterSound": "underwatercold",
 ```

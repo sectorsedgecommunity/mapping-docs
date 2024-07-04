@@ -1,5 +1,5 @@
 # Bare-minimum JSON file
-This page covers the bare minimum in a map `json` file.
+This page covers the bare minimum required in a map `json` file.
 
 ## Basic map info
 All maps require a `Name`, `Description`, and `MapSize`.
