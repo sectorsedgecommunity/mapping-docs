@@ -23,6 +23,7 @@ export default defineConfig({
         items: [
           { text: 'Getting Started', link: '/gettingstarted.md' },
           { text: 'JSON file', link: '/json.md', collapsed: true, items: [
+            { text: 'Basic map info', link: '/json/basicmapinfo.md' },
             { text: 'BlockTexturesV2', link: '/json/blocktexturesv2.md' },
             { text: 'Environment', link: '/json/environment.md' },
             { text: 'Game modes', link: '/json/gamemodes.md' },
