@@ -23,12 +23,6 @@ This page lists all attributes that no longer work or have been removed.
 - `FileName`
 - `LeafIndices`
 - `HeightmapRange`
-- `MeteorBottom`
-- `MeteorTop`
-- `MeteorBreachChance`
-- `MeteorSpawnSpread`
-- `MeteorLineStart`
-- `MeteorLineEnd`
 - `BlockTexturesV2.Strength`
 - `FogType`
 - `AllowLandingPods`
@@ -38,3 +32,11 @@ This page lists all attributes that no longer work or have been removed.
 - `PodiumCamera`
 - `VictoryCamera`
 - `HasTransparency`
+- `RenderDistanceRainMultiplier`
+- `MinWaterLevel`
+- `MaxWaterLevel`
+- `SunDistance`
+- `MinimapBackgroundColour`
+- `Language`
+- `WDObjectiveSpawns`
+- `MapPreviewCameras`

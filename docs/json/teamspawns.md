@@ -48,4 +48,7 @@ title: TeamSpawns
 
 // Maximum height players can spawn at. Useful for maps like Railway.
 "MaxSpawnHeight": 70,
+
+// This may work, needs testing.
+"ControlShiftIncludesSpawns": false,
 ```

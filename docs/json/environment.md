@@ -28,8 +28,10 @@ This page contains all attributes related to a map's environment, such as skybox
 // SunRotation: Rotation of the sun.
 // CrepuscularThresholdOverride: Probably threshold to render crepuscular rays. 0.0 to ~2.0; though it does start to get a bit glitchy after about 1.5.
 // CrepuscularStartHeight: Probably lowers where the sun would be, relative to clouds? Because lowering this value causes more rays to shine through. 0.0-1.0.
+// SunDiffuseStrength: It brightens the sun. >0.0. Defaults to 0.001.
 "SunColour": [ 255, 255, 255 ],
 "SunColourRaining": [ 36, 42, 61 ],
+"SunDiffuseStrength": 0,
 "SunRotation": [ 0.75, 2.4915926535897932 ],
 "CrepuscularThresholdOverride": 1,
 "CrepuscularStartHeight": 0.5,
@@ -72,11 +74,11 @@ This page contains all attributes related to a map's environment, such as skybox
 // HasFallingSnow: Boolean, Controls whether the map has falling snow.
 // HasBlizzardSnow: Boolean, Blizzard snow is a faster falling version of regular snow. Overrides HasFallingSnow.
 // SnowIndex: Index used for voxels placed by snowfall.
-// SnowColour: RGBA color of snowflakes. Unknown what A does.
+// FallingSnowColour: RGBA color of snowflakes. A controls bloom.
 "HasFallingSnow": true,
 "HasBlizzardSnow": false,
 "SnowIndex": 19,
-"SnowColour": [ 255, 255, 255, 255],
+"FallingSnowColour": [ 255, 255, 255, 255],
 ```
 
 ```json

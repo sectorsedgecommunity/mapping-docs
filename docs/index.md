@@ -2,7 +2,7 @@
 lastUpdated: false
 ---
 
-This wiki is **very** incomplete, and under heavy development. If you want to contribute, join the Community Discord server linked in Resources.
+This wiki is **very** incomplete, and under heavy development. If you want to contribute, make a fork of the GitHub repo and submit a pull request.
 
 [Getting Started](gettingstarted.md)
 
