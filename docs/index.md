@@ -8,7 +8,7 @@ This wiki is **very** incomplete, and under heavy development. If you want to co
 
 [Json file](json.md)
 
-[Game modes](gamemodes.md)
+[Game modes](json/gamemodes.md)
 
 [Multiplayer support](multiplayer.md)
 
