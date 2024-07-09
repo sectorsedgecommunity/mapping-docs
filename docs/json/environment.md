@@ -5,7 +5,7 @@ title: Environment
 # Json file → Environment
 This page contains all attributes related to a map's environment, such as skybox, ambience, sun, and more.
 ```json
-// Skybox: valid options: ad, cf, rw, is, lb, mc, st
+// SkyboxType: valid options: ad, cf, rw, is, lb, mc, st
 // AD: Used on Aegis Desert, Devoid Wasteland. Open desert with a clear sky, mountains and plenty of sand. A pink planet (moon?) and blue planet with rings.
 // CF: Used on Crashed Freighter, Soltec Plaza. Pretty red mountains at sunset in the open waters. No planets visible but plenty of very bright stars.
 // RW: Used on Railway, Reactor. Foggy city with partial clouds, and futuristic skyscrapers riddled with pipes. No planets visible.
@@ -15,7 +15,7 @@ This page contains all attributes related to a map's environment, such as skybox
 // ST: Used on Soltrium Temple, Shrine, Aegis Oasis, Devoid Cathedral. Pleasant blue-gray mountains with medium clouds. Red planet and a gray moon(?) visible.
 // SkyboxRotation: Pitch/yaw of skybox. 6.283 is approximately 360 degrees on both. π*2?
 // SkyboxVerticalOffset: Vertical offset of the literal sky box. +0.93 or -0.93 maximum before the void is exposed.
-"Skybox": "rw",
+"SkyboxType": "rw",
 "SkyboxRotation": [ 0, 0.7 ],
 "SkyboxVerticalOffset": 0.0,
 // Enclosed: If true, disables shadows, skybox, and crepuscular rays. This also makes the top of the map not meshed, which lets you see into the map from the spawn screen.
