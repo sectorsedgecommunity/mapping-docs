@@ -107,6 +107,22 @@ Crude 17x4 "Soltricoz" sign using the `cratesoltec` texture. You may need to adj
 }
 ```
 
+## Multiplayer attributes
+There are some previously unknown attributes sent to the client from the server.
+```json
+    // Default: No clue what this does. Might be if the index is in some form of master index pallete that Rocket uses?
+    // ReceivedFromServer: Probably for loading maps if you have them saved to disk.
+    // LayerID: No idea.
+    // SideDirection: Probably the same as TopDirection. Defaults to up.
+    // Custom: No clue what it does as well. Defaults to false.
+{
+    "Default": false,
+    "ReceivedFromServer": true,
+    "LayerID": 255,
+    "SideDirection": "up",
+	"Custom": false,
+}
+```
 
 ## Textures list
 <img src="/textures.png" alt="Textures list"/>

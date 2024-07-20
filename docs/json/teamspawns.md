@@ -12,10 +12,10 @@ title: TeamSpawns
         // ControlShiftSpawnOffset: Seperate from TeamSpawns. Default value is 0.2, i.e. 20%.
         // Players spawn where the zone would be if the zone was shifted back X%.
         //
-        // Type: box, line, radius
+        // Type: point, line, box, free, radius(?)
         // Team: 0 or 1
         // Min & Max: max must be greater than min, otherwise have glitchy spawn area.
-        // OOBDistance: Out of bounds distance behind spawn.
+        // OOBDistance: Out of bounds distance behind(?) spawn.
         // SearchTopDown: True/false.Searches top→down instead.
         // Indoors: True/false. Always spawns a player under a block.
         "GameMode": "all",
@@ -31,7 +31,7 @@ title: TeamSpawns
 ```
 
 ```json
-// Corahk Canyon only uses Yaw.
+// As far as I know, official maps only use Yaw.
 // Type: All valid values for this are unknown, but pan is often used.
 // Yaw: A value of 3.145 is approximately 180 degrees. π!
 // Position: ???

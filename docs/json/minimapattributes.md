@@ -6,7 +6,7 @@ title: Minimap attributes
 This page contains all attributes related to the minimap.
 ```json
 // MinimapBrightness: Multiplier for minimap brightness.
-//  Uses the in-game Y coordinate as the input value:
+// Uses the in-game Y coordinate as the input value:
 // HeightmapTop: The top of the heightmap for the minimap.
 // HeightmapBottom: Bottom of the heightmap for the minimap.
 // MinimapAltitudeCutOff: Altitude cutoff for the minimap.

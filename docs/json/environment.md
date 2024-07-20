@@ -20,7 +20,29 @@ This page contains all attributes related to a map's environment, such as skybox
 "SkyboxVerticalOffset": 0.0,
 // Enclosed: If true, disables shadows, skybox, and crepuscular rays. This also makes the top of the map not meshed, which lets you see into the map from the spawn screen.
 "Enclosed": false,
+// CustomSkyboxColour: Determines if the skybox is a flat 2-color sky. True/false.
+    // HorizonColour: Color of horizon. RGBA?
+    // TopColour: Color of top half of sky. RGBA?
+"CustomSkyboxColour": false,
+    "HorizonColour": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "TopColour": [
+        0,
+        0,
+        0,
+        0
+    ],
 ```
+
+```json
+// RenderDistance: Render distance in chunks(?)
+// RenderDistanceSpawn: Must be lower than RenderDistance(?), and only takes effect if RenderDistance is below ~1024.
+"RenderDistance": 2048,
+"RenderDistanceSpawn": 2048,
 
 ```json
 // SunColour: Regular color of the sun, in RGB.
@@ -40,10 +62,29 @@ This page contains all attributes related to a map's environment, such as skybox
 ```
 
 ```json
-// WaterLevel: In-game Y-coordinate for sea level.
-// WaterColour: Color of water in RGB.
+// Brightness: Multiplier for overall brightness. Defaults to 1.
+// BlockBrightness: Multiplier for the brightness of blocks. Defaults to 1.3.
+// RainBrightness: Multiplier for rain brightness? Defaults to 1.
+"Brightness": 1,
+"BlockBrightness": 1.3,
+"RainBrightness": 1,
+```
+
+```json
+// WaterLevel: In-game Y-coordinate for sea level Random displacement can reach up to about 0.2 above the specified coordinate. Defaults to 0.
+// WaterColour: Color of water in RGB. Defaults to [0,0,0].
 "WaterLevel": 7.3,
 "WaterColour": [ 124, 53, 47 ],
+
+// Example values are the defaults in received .json files. MinWaterLevel seemingly does nothing and MaxWaterLevel is a maximum for WaterLevel's value.
+"MinWaterLevel": -1000,
+"MaxWaterLevel": 1024,
+
+// These seemingly don't work properly anymore. Controls water bounds and where modified player movement ends.
+"WaterStartX": 0,
+"WaterEndX": 100,
+"WaterStartZ": 0,
+"WaterEndZ": 100,
 ```
 
 ```json
@@ -63,17 +104,17 @@ This page contains all attributes related to a map's environment, such as skybox
 ```
 
 ```json
-// WindSpeed: Wind speed, in blocks per second?
+// WindSpeed: Wind speed, in blocks per second? From limited testing appears to do nothing to falling rain/snow.
 // WindDirection: Yaw direction of wind. Pushes rain and leaf particles horizontally.
 "WindSpeed": 0.015,
 "WindDirection": 0.785375,
 ```
 
 ```json
-// Snow is seperate from Rain. If set to spawn, snow immediately begins falling from match start.
+// Snow is seperate from Rain. Snow immediately begins falling from match start.
 // HasFallingSnow: Boolean, Controls whether the map has falling snow.
-// HasBlizzardSnow: Boolean, Blizzard snow is a faster falling version of regular snow. Overrides HasFallingSnow.
-// SnowIndex: Index used for voxels placed by snowfall.
+// HasBlizzardSnow: Boolean, Blizzard snow has more intense, non-customizable wind applied. Overrides HasFallingSnow.
+// SnowIndex: Index used for voxels placed by snowfall. Don't think this works anymore.
 // FallingSnowColour: RGBA color of snowflakes. A controls bloom.
 "HasFallingSnow": true,
 "HasBlizzardSnow": false,
@@ -82,7 +123,7 @@ This page contains all attributes related to a map's environment, such as skybox
 ```
 
 ```json
-// Type: Values: wind, rumble, jungle, ice. Vercidium stated `rain` and `ship` exist but it appears they don't.
+// Type: Values: wind, rumble, jungle, ice. Vercidium stated `rain` and `ship` may exist but it appears they don't.
 // Altitude: Y coordinate where the sound plays.
 // Volume: Seems to be 0.0-1.0.
 "AmbienceSound": [
@@ -96,7 +137,7 @@ This page contains all attributes related to a map's environment, such as skybox
         ]
     }
 ],
-// Unknown all values for this
+// All possible values for this are unknown. Defaults to "underwater"
 "UnderwaterSound": "underwatercold",
 
 ```

@@ -6,9 +6,9 @@ title: Basic map info
 Allegiance is optional, and doesn't show up in map vote list.
 
 ```json
-// Allegiance: "aegis", "corahk", "devoid", "helix", "irridyne", "nova", "soltec", "terra"
+// Allegiance: "aegis", "corahk", "devoid", "helix", "irridyne", "nova", "soltec", "terra". Custom maps default to "Devoid".
 "Name": "Map name",
-"Allegiance": "corahk",
+"Allegiance": "devoid",
 "Description": "Map description\nCreated by: map author(s)",
 "MapSize": [ 256, 96, 768 ],
 ```
