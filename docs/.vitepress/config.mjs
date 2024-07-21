@@ -28,6 +28,7 @@ export default defineConfig({
             { text: 'Environment', link: '/json/environment.md' },
             { text: 'FlagSpawns', link: '/json/flagspawns.md' },
             { text: 'Game modes', link: '/json/gamemodes.md' },
+            { text: 'InvincibleMin/Max', link: '/json/invincibleminmax.md' },
             { text: 'LinearZones', link: '/json/linearzones.md' },
             { text: 'Minimap attributes', link: '/json/minimapattributes.md' },
             { text: 'Particles', link: '/json/particles.md' },

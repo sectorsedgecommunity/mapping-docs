@@ -50,7 +50,7 @@ This page contains all attributes related to a map's environment, such as skybox
 // SunRotation: Rotation of the sun.
 // CrepuscularThresholdOverride: Probably threshold to render crepuscular rays. 0.0 to ~2.0; though it does start to get a bit glitchy after about 1.5.
 // CrepuscularStartHeight: Probably lowers where the sun would be, relative to clouds? Because lowering this value causes more rays to shine through. 0.0-1.0.
-// SunDiffuseStrength: It brightens the sun. >0.0. Defaults to 0.001.
+// SunDiffuseStrength: The strength of the sun. >0.0. Defaults to 0.001.
 "SunColour": [ 255, 255, 255 ],
 "SunColourRaining": [ 36, 42, 61 ],
 "SunDiffuseStrength": 0,
@@ -59,6 +59,13 @@ This page contains all attributes related to a map's environment, such as skybox
 "CrepuscularStartHeight": 0.5,
 "CrepuscularPitch": 0,
 "CrepuscularYaw": 0,
+```
+
+```json
+// FogType: This very likely does nothing. "clear" and "fog" are valid.
+// FogColour: RGB color value for fog seen when render distance game setting is low enough?
+"FogType": "clear",
+"FogColour": [ 212, 166, 123 ],
 ```
 
 ```json
