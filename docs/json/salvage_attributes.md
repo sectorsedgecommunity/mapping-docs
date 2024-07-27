@@ -2,7 +2,7 @@
 title: Salvage Attributes
 ---
 
-## Salvage Attributes
+# Salvage Attributes
 Salvage game mode still has attributes in the `json` file but isn't functional in-game.
 
 ```json

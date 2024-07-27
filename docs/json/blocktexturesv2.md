@@ -2,7 +2,7 @@
 title: BlockTexturesV2
 ---
 
-## BlockTexturesV2
+# BlockTexturesV2
 You can have a maximum of 255 indexes. 
 ```json
 "BlockTexturesV2": [

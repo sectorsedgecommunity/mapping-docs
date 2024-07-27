@@ -2,7 +2,7 @@
 title: Environment
 ---
 
-## Environment
+# Environment
 This page contains all attributes related to a map's environment, such as skybox, ambience, sun, and more.
 ```json
 // SkyboxType: valid options: ad, cf, rw, is, lb, mc, st

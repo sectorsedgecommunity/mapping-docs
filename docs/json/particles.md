@@ -2,7 +2,7 @@
 title: Particles
 ---
 
-## Particles
+# Particles
 ```json
 "Particles": [
     {
