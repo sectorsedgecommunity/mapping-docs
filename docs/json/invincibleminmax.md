@@ -2,7 +2,7 @@
 title: InvincibleMin/Max
 ---
 
-# InvincibleMin and Max
+## InvincibleMin and Max
 Official maps use `"InvincibleMin": [ -1, 0, -1],` to make the bottom layer of the map invincible.
 
 ```json

@@ -2,7 +2,7 @@
 title: Basic map info
 ---
 
-# Basic map info
+## Basic map info
 Allegiance is optional, and doesn't show up in map vote list.
 
 ```json

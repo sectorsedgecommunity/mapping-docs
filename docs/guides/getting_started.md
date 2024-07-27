@@ -1,13 +1,13 @@
-# Getting Started
+## Getting Started
 This is a simple guide to getting a first map functional.
 
 
-## Requirements
+### Requirements
 
 The first and only requirement is to download the voxel editor [MagicaVoxel](https://ephtracy.github.io/).
 
 
-## Preparation in MagicaVoxel
+### Preparation in MagicaVoxel
 
 The corner of your map must be aligned with the center of the grid in MagicaVoxel, with the green arrow pointing forwards and the red arrow pointing to the right:
 
@@ -20,7 +20,7 @@ The corner of your map must be aligned with the center of the grid in MagicaVoxe
 Sector's Edge uses the red arrow as forwards on the minimap. This is why maps such as Railway have a map size of `[ 256, 96, 768]`.
 
 
-## Make your map playable
+### Make your map playable
 
 To add a map in-game, go to `Play → Singleplayer` and click on the folder icon to the right of the search bar. This will open the workshop folder.
 
@@ -42,7 +42,7 @@ If there are any errors or missing fields in your `json` metadata file, they wil
 </p></div>
 
 
-## Uploading maps
+### Uploading maps
 
 To upload a map folder to the workshop, it must have a `.json`, `.vox` and `preview.jpg` file. The `preview.jpg` file should be a screenshot you've taken of your map.
 
@@ -64,7 +64,7 @@ When you have these files ready, the **upload** button will light up. Select a v
 Note that each map file can be changed after your map is uploaded to the workshop. To re-upload your map, simply click the upload button again.
 
 
-## Template files
+### Template files
 
 Download these template files and place them in the `/workshop/maps/myFirstMap` folder:
 

@@ -1,10 +1,10 @@
-# Bare minimum JSON file
+## Bare minimum JSON file
 This guide covers the bare minimum required in a map `json` file.
 
 All maps require a `Name`, `Description`, `MapSize`, `BlockTextures` or `BlockTexturesV2` (V2 recommended), and `TeamSpawns`.
 
 
-## Examples
+### Examples
 Basic map info example
 ```json
 "Name": "Map name",

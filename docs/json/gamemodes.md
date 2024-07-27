@@ -1,4 +1,4 @@
-# Game modes
+## Game modes
 There are currently 11 game modes in Sector's Edge. This page lists the minimum requirements for all game modes.
 
 ### Breakthrough

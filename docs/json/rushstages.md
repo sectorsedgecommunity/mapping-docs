@@ -2,7 +2,7 @@
 title: RushStages
 ---
 
-# Json file → RushStages
+## RushStages
 ```json
 "RushStages":	// Each object in the RushStages list is a Rush stage. Minimum 1 stage.
 	[

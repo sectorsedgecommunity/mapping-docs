@@ -2,7 +2,7 @@
 title: TeamSpawns
 ---
 
-# Json file → TeamSpawns
+## TeamSpawns
 ```json
 "TeamSpawns": [
     {

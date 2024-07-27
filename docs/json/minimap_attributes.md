@@ -2,7 +2,7 @@
 title: Minimap attributes
 ---
 
-# Json file → Minimap attributes
+## Minimap attributes
 This page contains all attributes related to the minimap.
 ```json
 // MinimapBrightness: Multiplier for minimap brightness.

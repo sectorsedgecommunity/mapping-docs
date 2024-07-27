@@ -1,4 +1,4 @@
-# Removed/broken attributes
+## Removed/broken attributes
 This page lists all attributes that no longer work or have been removed.
 
 - `WorldEdgeIndex`

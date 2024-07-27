@@ -1,12 +1,12 @@
 # Multiplayer
 
-## Setting up a custom map for use
+### Setting up a custom map for use
 Make sure all contents of a folder have the same name as the parent folder. A `vox` file is not needed when on a server.
 
-## Bonuses
+### Bonuses
 - `forcemap` can pick maps with incorrect Static map size, and still be playable.
 
-## Limitations
+### Limitations
 * `forcemap` cannot pick a custom map with a space in the file name.
 * Allegiance `json` attribute is entirely non-functional in the map vote screen.
   * Needs testing if this does affect what allegiance music plays.

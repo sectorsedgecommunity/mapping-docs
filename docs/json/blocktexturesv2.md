@@ -2,7 +2,7 @@
 title: BlockTexturesV2
 ---
 
-# Json file → BlockTexturesV2
+## BlockTexturesV2
 You can have a maximum of 255 indexes. 
 ```json
 "BlockTexturesV2": [
@@ -48,7 +48,7 @@ You can have a maximum of 255 indexes.
 ],
 ```
 
-## Examples
+### Examples
 White light
 ```json
 {
@@ -107,7 +107,7 @@ Crude 17x4 "Soltricoz" sign using the `cratesoltec` texture. You may need to adj
 }
 ```
 
-## Multiplayer attributes
+### Multiplayer attributes
 The server sends multiple attributes which were previously undocumented.
 ```json
     // Default: No clue what this does. Might be if the index is in some form of master index pallete that Rocket uses?
@@ -124,5 +124,5 @@ The server sends multiple attributes which were previously undocumented.
 }
 ```
 
-## Textures list
+### Textures list
 <img src="/textures.png" alt="Textures list"/>
