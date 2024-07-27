@@ -13,7 +13,7 @@ The corner of your map must be aligned with the center of the grid in MagicaVoxe
 
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
-<img src="/alignment.png" alt="MagicaVoxel Alignment"/>
+<img src="/alignment_new.png" alt="MagicaVoxel Alignment"/>
 <br/><i>Top-down view of a map</i>
 </p></div>
 
