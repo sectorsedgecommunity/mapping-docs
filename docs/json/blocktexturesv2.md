@@ -108,7 +108,7 @@ Crude 17x4 "Soltricoz" sign using the `cratesoltec` texture. You may need to adj
 ```
 
 ## Multiplayer attributes
-There are some previously unknown attributes sent to the client from the server.
+The server sends multiple attributes which were previously undocumented.
 ```json
     // Default: No clue what this does. Might be if the index is in some form of master index pallete that Rocket uses?
     // ReceivedFromServer: Probably for loading maps if you have them saved to disk.
