@@ -88,7 +88,7 @@ This page contains all attributes related to a map's environment, such as skybox
 "MinWaterLevel": -1000,
 "MaxWaterLevel": 1024,
 
-// These seemingly don't work properly anymore. Controls water bounds and where modified player movement ends.
+// Controls water bounds and where modified player movement ends on an unknown scale.
 "WaterStartX": 0,
 "WaterEndX": 100,
 "WaterStartZ": 0,
