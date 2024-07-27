@@ -1,8 +1,8 @@
 ---
-title: Environment
+title: Environment Attributes
 ---
 
-# Environment
+# Environment Attributes
 This page contains all attributes related to a map's environment, such as skybox, ambience, sun, and more.
 ```json
 // SkyboxType: valid options: ad, cf, rw, is, lb, mc, st
@@ -43,6 +43,7 @@ This page contains all attributes related to a map's environment, such as skybox
 // RenderDistanceSpawn: Must be lower than RenderDistance(?), and only takes effect if RenderDistance is below ~1024.
 "RenderDistance": 2048,
 "RenderDistanceSpawn": 2048,
+```
 
 ```json
 // SunColour: Regular color of the sun, in RGB.
@@ -146,5 +147,4 @@ This page contains all attributes related to a map's environment, such as skybox
 ],
 // All possible values for this are unknown. Defaults to "underwater"
 "UnderwaterSound": "underwatercold",
-
 ```
