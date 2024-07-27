@@ -21,11 +21,10 @@ export default defineConfig({
       {
         text: "Map Making",
         items: [
-          { text: 'Getting Started', link: '/getting_started.md' },
           { text: 'JSON file', link: '/json.md', collapsed: true, items: [
             { text: 'Basic map info', link: '/json/basic_map_info.md' },
             { text: 'BlockTexturesV2', link: '/json/blocktexturesv2.md' },
-            { text: 'Environment', link: '/json/environment.md' },
+            { text: 'Environment attributes', link: '/json/environment.md' },
             { text: 'FlagSpawns', link: '/json/flagspawns.md' },
             { text: 'Game modes', link: '/json/gamemodes.md' },
             { text: 'InvincibleMin/Max', link: '/json/invincibleminmax.md' },
@@ -38,10 +37,11 @@ export default defineConfig({
           ]
           },
           { text: 'Multiplayer support', link: '/multiplayer.md' },
-          { text: 'Resources', link: '/resources.md', collapsed: true, items: [
+          { text: 'Resources and guides', link: '/resources.md', collapsed: true, items: [
             { text: 'Bare minimum map JSON', link: '/guides/bare_minimum.md' },
+            { text: 'Getting Started', link: '/guides/getting_started.md' },
             { text: 'Map making PDF', link: '/guides/pdf.md' },
-            { text: 'Worldpainter to MagicaVoxel', link: '/guides/worldpainter.md' },
+            { text: 'Worldpainter to MagicaVoxel', link: '/guides/worldpainter.md' }
           ]
           }
         ]
