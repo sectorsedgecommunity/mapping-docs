@@ -2,6 +2,7 @@
 layout: home
 title: Home Page
 lastUpdated: false
+editLink: false
 
 hero:
   name: Sector's Edge
