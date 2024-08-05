@@ -1,5 +1,7 @@
 ---
 title: TeamSpawns
+prev: false
+next: false
 ---
 
 # TeamSpawns

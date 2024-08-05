@@ -1,3 +1,9 @@
+---
+title: Multiplayer
+prev: false
+next: false
+---
+
 # Multiplayer
 
 ### Setting up a custom map for use

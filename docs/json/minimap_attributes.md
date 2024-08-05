@@ -1,5 +1,7 @@
 ---
 title: Minimap attributes
+prev: false
+next: false
 ---
 
 # Minimap attributes

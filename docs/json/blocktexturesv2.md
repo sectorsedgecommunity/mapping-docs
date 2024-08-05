@@ -1,5 +1,7 @@
 ---
 title: BlockTexturesV2
+prev: false
+next: false
 ---
 
 # BlockTexturesV2

@@ -1,5 +1,7 @@
 ---
 title: RushStages
+prev: false
+next: false
 ---
 
 # RushStages

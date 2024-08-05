@@ -1,5 +1,7 @@
 ---
 title: LinearZones
+prev: false
+next: false
 ---
 
 # LinearZones

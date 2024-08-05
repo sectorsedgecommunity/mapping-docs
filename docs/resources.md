@@ -1,3 +1,9 @@
+---
+title: Resources
+prev: false
+next: false
+---
+
 # Resources
 This page offers helpful resources such as recognized Discord servers and community-written guides. The official maps are a great resource for the `json` file. However, **do not reupload official maps**! You can find guides in the sidebar to the left nested under this page.
 

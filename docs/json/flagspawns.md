@@ -1,5 +1,7 @@
 ---
 title: FlagSpawns
+prev: false
+next: false
 ---
 
 # FlagSpawns

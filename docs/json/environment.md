@@ -1,5 +1,7 @@
 ---
 title: Environment Attributes
+prev: false
+next: false
 ---
 
 # Environment Attributes

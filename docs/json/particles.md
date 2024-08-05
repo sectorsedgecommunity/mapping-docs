@@ -1,5 +1,7 @@
 ---
 title: Particles
+prev: false
+next: false
 ---
 
 # Particles

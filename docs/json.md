@@ -1,3 +1,9 @@
+---
+title: JSON file
+prev: false
+next: false
+---
+
 # JSON file
 The `json` file in a map contains critical information about the map. This includes block textures, skybox information, team spawns, game mode parameters, and more.
 

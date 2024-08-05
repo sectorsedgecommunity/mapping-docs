@@ -1,7 +1,7 @@
 ---
 title: Basic map info
-prev: false,
-next: false,
+prev: false
+next: false
 ---
 
 # Basic map info

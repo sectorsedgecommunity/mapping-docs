@@ -1,5 +1,7 @@
 ---
 title: InvincibleMin/Max
+prev: false
+next: false
 ---
 
 # InvincibleMin and Max

@@ -1,5 +1,7 @@
 ---
 title: Salvage Attributes
+prev: false
+next: false
 ---
 
 # Salvage Attributes
