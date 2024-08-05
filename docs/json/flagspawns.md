@@ -2,6 +2,7 @@
 title: FlagSpawns
 prev: false
 next: false
+editLink: true
 ---
 
 # FlagSpawns

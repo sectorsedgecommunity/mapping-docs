@@ -2,6 +2,7 @@
 title: Environment Attributes
 prev: false
 next: false
+editLink: true
 ---
 
 # Environment Attributes

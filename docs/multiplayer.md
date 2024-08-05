@@ -2,6 +2,7 @@
 title: Multiplayer
 prev: false
 next: false
+editLink: true
 ---
 
 # Multiplayer
