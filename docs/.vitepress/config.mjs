@@ -39,6 +39,7 @@ export default defineConfig({
           { text: 'Multiplayer support', link: '/multiplayer.md' },
           { text: 'Resources and guides', link: '/resources.md', collapsed: true, items: [
             { text: 'Bare minimum map JSON', link: '/guides/bare_minimum.md' },
+            { text: 'How to contribute', link: '/guides/how_to_contribute.md' },
             { text: 'Getting Started', link: '/guides/getting_started.md' },
             { text: 'Map making PDF', link: '/guides/pdf.md' },
             { text: 'Worldpainter to MagicaVoxel', link: '/guides/worldpainter.md' }
