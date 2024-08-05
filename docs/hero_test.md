@@ -1,4 +1,5 @@
 ---
+--vp-home-hero-name-color: FFFFFF;
 layout: home
 
 hero:
