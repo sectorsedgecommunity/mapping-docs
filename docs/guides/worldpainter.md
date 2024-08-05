@@ -1,4 +1,4 @@
-## World Painter
+# World Painter
 
 What you will need:
 - World Painter - https://www.worldpainter.net/

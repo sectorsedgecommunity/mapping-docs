@@ -9,6 +9,8 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   editLink: true,
+  prev: false,
+  next: false,
   themeConfig: {
     logo: { light: "/se-docs-dark.png", dark: "/se-docs-light.png", alt: "Sector's Edge Documentation" },
     siteTitle: false,
