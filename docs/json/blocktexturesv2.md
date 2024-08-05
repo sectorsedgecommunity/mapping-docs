@@ -2,7 +2,6 @@
 title: BlockTexturesV2
 prev: false
 next: false
-editLink: true
 ---
 
 # BlockTexturesV2

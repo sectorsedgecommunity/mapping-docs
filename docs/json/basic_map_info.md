@@ -2,7 +2,6 @@
 title: Basic map info
 prev: false
 next: false
-editLink: true
 ---
 
 # Basic map info

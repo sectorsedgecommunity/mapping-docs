@@ -2,7 +2,6 @@
 title: LinearZones
 prev: false
 next: false
-editLink: true
 ---
 
 # LinearZones

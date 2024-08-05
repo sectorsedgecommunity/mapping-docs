@@ -2,7 +2,6 @@
 title: InvincibleMin/Max
 prev: false
 next: false
-editLink: true
 ---
 
 # InvincibleMin and Max

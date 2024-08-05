@@ -2,7 +2,6 @@
 title: JSON file
 prev: false
 next: false
-editLink: true
 ---
 
 # JSON file

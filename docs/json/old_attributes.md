@@ -2,7 +2,6 @@
 title: Removed/broken attributes
 prev: false
 next: false
-editLink: true
 ---
 
 # Removed/broken attributes

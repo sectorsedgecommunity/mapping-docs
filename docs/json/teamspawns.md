@@ -2,7 +2,6 @@
 title: TeamSpawns
 prev: false
 next: false
-editLink: true
 ---
 
 # TeamSpawns

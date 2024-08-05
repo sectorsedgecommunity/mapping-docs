@@ -48,6 +48,10 @@ export default defineConfig({
         ]
       }
     ],
+    editLink: {
+      pattern: 'https://github.com/sectorsedgecommunity/mapping-docs/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    },
     footer: {
       message: 'Made with ❤ by the Sector\'s Edge community'
     }

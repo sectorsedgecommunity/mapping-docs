@@ -2,7 +2,6 @@
 title: Game modes
 prev: false
 next: false
-editLink: true
 ---
 
 # Game modes

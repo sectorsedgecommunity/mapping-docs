@@ -2,7 +2,6 @@
 title: Salvage Attributes
 prev: false
 next: false
-editLink: true
 ---
 
 # Salvage Attributes

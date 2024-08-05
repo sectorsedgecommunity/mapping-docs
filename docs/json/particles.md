@@ -2,7 +2,6 @@
 title: Particles
 prev: false
 next: false
-editLink: true
 ---
 
 # Particles

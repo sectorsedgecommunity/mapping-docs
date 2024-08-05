@@ -2,7 +2,6 @@
 title: Minimap attributes
 prev: false
 next: false
-editLink: true
 ---
 
 # Minimap attributes

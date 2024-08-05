@@ -1,3 +1,7 @@
+---
+editLink: false
+---
+
 # World Painter
 
 What you will need:

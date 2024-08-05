@@ -1,3 +1,7 @@
+---
+editLink: false
+---
+
 # Bare minimum JSON file
 This guide covers the bare minimum required in a map `json` file.
 
