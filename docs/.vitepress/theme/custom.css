@@ -26,7 +26,8 @@
   }
 
 :root {
-    --vp-local-search-result-selected-border: var(--vp-c-brand-4);
-    --vp-local-search-highlight-bg: var(--vp-c-brand-4);
+    --vp-local-search-result-border: var(--vp-c-brand-3);
+    --vp-local-search-result-selected-border: var(--vp-c-brand-3);
+    --vp-local-search-highlight-bg: var(--vp-c-brand-2);
 }
   
