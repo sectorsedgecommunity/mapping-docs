@@ -10,13 +10,13 @@
 :root {
     --vp-button-brand-border: transparent;
     --vp-button-brand-text: #FFFFFF;
-    --vp-button-brand-bg: var(--vp-c-brand-3);
+    --vp-button-brand-bg: var(--vp-c-brand-4);
     --vp-button-brand-hover-border: transparent;
     --vp-button-brand-hover-text: #FFFFFF;
-    --vp-button-brand-hover-bg: var(--vp-c-brand-4);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-5);
     --vp-button-brand-active-border: transparent;
     --vp-button-brand-active-text: #FFFFFF;
-    --vp-button-brand-active-bg: var(--vp-c-brand-3);
+    --vp-button-brand-active-bg: var(--vp-c-brand-4);
   }
 
 :root {
