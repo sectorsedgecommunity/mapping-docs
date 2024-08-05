@@ -2,25 +2,26 @@
     --vp-c-brand-1: #17d3da;
     --vp-c-brand-2: #14c5cb;
     --vp-c-brand-3: #0f939c;
-    --vp-c-brand-4: #15c588;
-    --vp-c-brand-5: #0f9c6b;
+    --vp-c-brand-4: #075055;
+    --vp-c-brand-5: #15c588;
+    --vp-c-brand-6: #0f9c6b;
     --vp-c-brand-soft: #1affec7c;
   }
 
 :root {
     --vp-button-brand-border: transparent;
     --vp-button-brand-text: #FFFFFF;
-    --vp-button-brand-bg: var(--vp-c-brand-4);
+    --vp-button-brand-bg: var(--vp-c-brand-5);
     --vp-button-brand-hover-border: transparent;
     --vp-button-brand-hover-text: #FFFFFF;
-    --vp-button-brand-hover-bg: var(--vp-c-brand-5);
+    --vp-button-brand-hover-bg: var(--vp-c-brand-6);
     --vp-button-brand-active-border: transparent;
     --vp-button-brand-active-text: #FFFFFF;
-    --vp-button-brand-active-bg: var(--vp-c-brand-4);
+    --vp-button-brand-active-bg: var(--vp-c-brand-5);
   }
 
 :root {
-    --vp-local-search-result-selected-border: var(--vp-c-brand-3);
-    --vp-local-search-highlight-bg: var(--vp-c-brand-3);
+    --vp-local-search-result-selected-border: var(--vp-c-brand-4);
+    --vp-local-search-highlight-bg: var(--vp-c-brand-4);
 }
   

@@ -47,6 +47,9 @@ export default defineConfig({
           }
         ]
       }
-    ]
+    ],
+    footer: {
+      message: 'Made with ❤ by the Sector\'s Edge community'
+    }
   }
 })
