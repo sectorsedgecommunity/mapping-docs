@@ -1,5 +1,7 @@
 ---
 editLink: false
+prev: false
+next: false
 ---
 
 # Old Map Making guide

@@ -1,5 +1,7 @@
 ---
 editLink: false
+prev: false
+next: false
 ---
 
 # How to contribute
