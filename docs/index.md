@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Home Page
 lastUpdated: false
 editLink: false
 prev: false
