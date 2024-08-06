@@ -20,11 +20,6 @@
     --vp-button-brand-active-bg: var(--vp-c-brand-5);
   }
 
-  :root {
-    --vp-sidebar-width: 272px;
-    --vp-sidebar-bg-color: var(--vp-c-bg-alt);
-  }
-
 :root {
     --vp-local-search-result-border: var(--vp-c-brand-3);
     --vp-local-search-result-selected-border: var(--vp-c-brand-3);

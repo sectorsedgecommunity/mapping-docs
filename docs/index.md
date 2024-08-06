@@ -10,7 +10,9 @@ hero:
   name: Sector's Edge
   text: Mapmaking Documentation
   tagline: Opening up map making to everybody.
-  image: { light: se-docs-dark, dark: se-docs-light, alt?: Sector's Edge docs }
+  image:
+    src: /scaffolding.png
+    alt: A render of some scaffolding from Irridyne Laboratory, the Sector's Edge map
   actions:
     - theme: brand
       text: Get started
