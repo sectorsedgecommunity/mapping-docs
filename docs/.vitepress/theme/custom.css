@@ -7,7 +7,7 @@
     --vp-c-brand-6: #0f9c6b;
     --vp-c-brand-soft: #1affec80;
     --vp-c-brand-soft-2: #1fffb080;
-    --vp-c-code-orange-1: #ff783a;
+    --vp-c-code-text-1: #0d8158;
   }
 
 :root {
@@ -36,7 +36,7 @@
 }
 
 :root {
-    --vp-code-color: var(--vp-c-code-orange-1);
+    --vp-code-color: var(--vp-c-code-text-1);
     --vp-code-link-color: var(--vp-c-brand-5);
     --vp-code-link-hover-color: var(--vp-c-brand-6);
 }
