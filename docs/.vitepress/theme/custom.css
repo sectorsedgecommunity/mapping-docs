@@ -5,7 +5,8 @@
     --vp-c-brand-4: #075055;
     --vp-c-brand-5: #15c588;
     --vp-c-brand-6: #0f9c6b;
-    --vp-c-brand-soft: #1affec7c;
+    --vp-c-brand-soft: #1affec30;
+    --vp-c-brand-soft-2: #15c58830;
   }
 
 :root {
@@ -24,6 +25,7 @@
     --vp-c-tip-1: #dfdfd6;
     --vp-c-tip-2: var(--vp-c-brand-5);
     --vp-c-tip-3: var(--vp-c-brand-6);
+    --vp-c-tip-soft: var(--vp-c-brand-soft-2);
 }
 
 :root {
