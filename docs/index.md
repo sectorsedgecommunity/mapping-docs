@@ -15,15 +15,9 @@ hero:
     alt: A render of some scaffolding from Irridyne Laboratory, the Sector's Edge map
   actions:
     - theme: brand
-      text: Get started
-      link: /guides/getting_started.md
-    - theme: brand
-      text: Guides
-      link: /resources.md
-    - theme: brand
-      text: JSON file
-      link: /json.md
+      text: Take me there
+      link: /legacy_index.md
     - theme: alt
-      text: Contribute
-      link: /guides/how_to_contribute.md 
+      text: Guides and resources
+      link: /resources.md
 ---
