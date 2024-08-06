@@ -1,9 +1,4 @@
 :root {
-    --vp-home-hero-image-background-image: linear-gradient(-35deg, #888888 20%, #666666 20%);
-    --vp-home-hero-image-filter: blur(30px);;
-}
-
-:root {
     --vp-c-brand-1: #17d3da;
     --vp-c-brand-2: #14c5cb;
     --vp-c-brand-3: #0f939c;
