@@ -21,7 +21,7 @@
   }
 
 :root {
-    --vp-c-tip-1: var(--vp-c-brand-3);
+    --vp-c-tip-1: #dfdfd6;
     --vp-c-tip-2: var(--vp-c-brand-4);
     --vp-c-tip-3: var(--vp-c-brand-4);
 }
