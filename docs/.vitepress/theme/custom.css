@@ -1,6 +1,6 @@
 :root {
     --vp-c-brand-1: #17d3da;
-    --vp-c-brand-2: #14c5cb;
+    --vp-c-brand-2: #13bcc2;
     --vp-c-brand-3: #0f939c;
     --vp-c-brand-4: #075055;
     --vp-c-brand-5: #15c588;
@@ -21,7 +21,13 @@
   }
 
 :root {
-    --vp-local-search-result-border: var(--vp-c-brand-3);
+    --vp-c-tip-1: var(--vp-c-brand-3);
+    --vp-c-tip-2: var(--vp-c-brand-4);
+    --vp-c-tip-3: var(--vp-c-brand-4);
+}
+
+:root {
+    --vp-local-search-result-border: var(--vp-c-brand-4);
     --vp-local-search-result-selected-border: var(--vp-c-brand-3);
     --vp-local-search-highlight-bg: var(--vp-c-brand-2);
 }
