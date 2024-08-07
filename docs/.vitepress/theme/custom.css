@@ -45,10 +45,10 @@
     --vp-c-gutter: #333333;
   }
 
-.content-body {
-    background-image: url("/is-2.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: scroll;
-    border-bottom: 1px solid var(--vp-c-gutter);
+.VPNav, .content-body {
+  background-image: url("/is-2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  border-bottom: 1px solid var(--vp-c-gutter);
   }
