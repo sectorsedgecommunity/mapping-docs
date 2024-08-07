@@ -45,10 +45,9 @@
     --vp-c-gutter: #333333;
   }
 
-.VPNav, .VPNavBar.has-sidebar.top wrapper container content-body {
+.VPFooter {
   background-image: url("/is-2.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: scroll;
-  border-bottom: 1px solid var(--vp-c-gutter);
+  background-attachment: fixed
   }
