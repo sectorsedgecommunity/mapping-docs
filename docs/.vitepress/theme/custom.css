@@ -44,3 +44,10 @@
 .dark {
     --vp-c-gutter: #333333;
   }
+
+:VPHome {
+    background-image: url("/is-2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+  }
