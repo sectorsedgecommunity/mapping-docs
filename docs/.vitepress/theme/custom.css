@@ -45,7 +45,7 @@
     --vp-c-gutter: #333333;
   }
 
-.VPNav, .VPNavBar.has-sidebar.top {
+.VPNav, .VPNavBar.has-sidebar.top > wrapper > container > title > content > content-body {
   background-image: url("/is-2.png");
   background-repeat: no-repeat;
   background-position: center center;
