@@ -45,9 +45,9 @@
     --vp-c-gutter: #333333;
   }
 
-.VPFooter {
-  color: transparent;
-  background-color: red;
+.VPFooter container {
+  background-color: transparent;
+  background-image: url("/is-2.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
