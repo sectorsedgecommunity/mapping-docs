@@ -42,7 +42,6 @@ This page lists all attributes that no longer work or have been removed.
 - `MinWaterLevel`
 - `MaxWaterLevel`
 - `SunDistance`
-- `MinimapBackgroundColour`
 - `Language`
 - `WDObjectiveSpawns`
 - `MapPreviewCameras`

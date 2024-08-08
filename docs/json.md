@@ -14,7 +14,7 @@ The `json` file in a map contains critical information about the map. This inclu
 + Use official maps' `json` files as reference for what you can and can't do.
 
 ### Limitations
-* Arena game mode is hardcoded to `[ 96, 160 ]` X,Z in-game.
+* Arena game mode is hardcoded to `[ 96, 256, 160 ]` X,Z in-game.
 * Rush and Breakthrough require at least 2 points.
 * `grass` BlockTexturesV2 attribute does not appear in multiplayer when added in an unofficial map.
 * Grass particles can only use 1 color config per map.
