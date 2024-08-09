@@ -49,15 +49,15 @@ This page contains all attributes related to a map's environment, such as skybox
 
 ```json
 // SunColour: Regular color of the sun, in RGB.
-// SunColourRaining: Color of sun when raining, in RGB.
-// SunRotation: Rotation of the sun.
+// SunRotation: Rotation of the sun and has something to do with π.
+// SunDiffuseStrength: The strength of the sun. >0.0. Defaults to 0.001.
+// SunDistance: No clue what it does. 
 // CrepuscularThresholdOverride: Probably threshold to render crepuscular rays. 0.0 to ~2.0; though it does start to get a bit glitchy after about 1.5.
 // CrepuscularStartHeight: Probably lowers where the sun would be, relative to clouds? Because lowering this value causes more rays to shine through. 0.0-1.0.
-// SunDiffuseStrength: The strength of the sun. >0.0. Defaults to 0.001.
 "SunColour": [ 255, 255, 255 ],
-"SunColourRaining": [ 36, 42, 61 ],
-"SunDiffuseStrength": 0,
 "SunRotation": [ 0.75, 2.4915926535897932 ],
+"SunDiffuseStrength": 0,
+"SunDistance": 0.0,
 "CrepuscularThresholdOverride": 1,
 "CrepuscularStartHeight": 0.5,
 "CrepuscularPitch": 0,
@@ -99,6 +99,7 @@ This page contains all attributes related to a map's environment, such as skybox
 
 ```json
 // RainColour: RGBA color of rain. A controls bloom.
+// SunColourRaining: Color of sun when raining, in RGB.
 // RainStartMin: Minimum time in seconds into a match when rain will begin falling.
 // RainStartMax: Maximum time in seconds into a match when rain will begin falling.
 // Server randomly picks a number between those 2 numbers for when to start raining.
@@ -106,6 +107,7 @@ This page contains all attributes related to a map's environment, such as skybox
 // RainRenderDistance: Controls render distance when raining. Percentage 0.0-1.0. 0.5 for 50% lower render distance.
 // WaterRiseSpeed: # of blocks/ms. use 0.001 for 1 block per second.
 "RainColour": [ 20, 40, 40, 0],
+"SunColourRaining": [ 36, 42, 61 ],
 "RainStartMin": 900,
 "RainStartMax": 1200,
 "RainDensity": 1.0

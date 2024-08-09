@@ -39,9 +39,6 @@ This page lists all attributes that no longer work or have been removed.
 - `VictoryCamera`
 - `HasTransparency`
 - `RenderDistanceRainMultiplier`
-- `MinWaterLevel`
-- `MaxWaterLevel`
-- `SunDistance`
 - `Language`
 - `WDObjectiveSpawns`
 - `MapPreviewCameras`
