@@ -40,7 +40,7 @@ next: false
 
         // Optional, Spawn N particles in one random spot, rather than N particles each in random spots. Each particle still
         //  has random velocity
-        "Clumped": true,
+        "Clumped": false,
 
         // Each particle's velocity = Velocity + (random value between -Deviation and Deviation)
         // i.e. X velocity is a random value between -0.005 and 0.005
