@@ -17,5 +17,6 @@ Make sure all contents of a folder have the same name as the parent folder. A `v
 * Allegiance `json` attribute is only for allegiance music.
 * The map `Name` is only used for the post-vote summary.
 * `preview.jpg` isn't used in the map vote or post-vote summary.
+  * This has been confirmed to be intentional behavior.
 * Grass (particles) do not appear in custom maps, in multiplayer.
   * This is currently being worked on.
