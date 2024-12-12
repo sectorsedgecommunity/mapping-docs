@@ -13,21 +13,20 @@ This page contains all attributes related to a map's environment, such as skybox
 // RW: Used on Railway, Reactor. Foggy city with partial clouds, and futuristic skyscrapers riddled with pipes. No planets visible.
 // IS: Used on Ice Station, Corahk Canyon, Cold Harbour. Coastline of an island with extreme snow mountains, partial clouds. No planets visible. This skybox/planet is confirmed to be NYX-03.
 // LB: Used on Laboratory. Cloud planet with futuristic skyscrapers at sunset. A blue gas planet is visible. This may be the same planet seen in the default Space skybox.
-// MC: Used on Magma Chamber, Base Omicron. Blue-gray harsh mountains with some "pwetty stars" (quote from Paddy on Steam). Unlit-side of a planet with a blue atmosphere. This MAY be the same planet as in the default Space skybox, but I don't think this is confirmed.
+// MC: Used on Magma Chamber, Base Omicron. Blue-gray harsh mountains with some "pwetty stars". Unlit-side of a planet with a blue atmosphere.
 // ST: Used on Soltrium Temple, Shrine, Aegis Oasis, Devoid Cathedral. Pleasant blue-gray mountains with medium clouds. Red planet and a gray moon(?) visible.
 // SkyboxRotation: Pitch/yaw of skybox. 6.283 is approximately 360 degrees on both. π*2?
 // SkyboxVerticalOffset: Vertical offset of the literal sky box. +0.93 or -0.93 maximum before the void is exposed.
 "SkyboxType": "rw",
 "SkyboxRotation": [ 0, 0.7 ],
 "SkyboxVerticalOffset": 0.0,
-// Enclosed: If true, disables shadows, skybox, and crepuscular rays. This also makes the top of the map not meshed, which lets you see into the map from the spawn screen.
+// Enclosed: If true, disables shadows, skybox, and crepuscular rays. This also makes the top of the map invisible, which lets you see into the map from the spawn screen.
 "Enclosed": false,
-// CustomSkyboxColour: Determines if the skybox is a flat 2-color sky. True/false.
-    // HorizonColour: Color of horizon. RGBA?
-    // TopColour: Color of top half of sky. RGBA?
+// CustomSkyboxColour: Determines if the skybox is a flat 2-color sky. True/false. Useful for overcast or nighttime maps.
+    // HorizonColour: RGB Color of horizon.
+    // TopColour: RGB Color of top half of sky.
 "CustomSkyboxColour": false,
     "HorizonColour": [
-        0,
         0,
         0,
         0
@@ -35,14 +34,13 @@ This page contains all attributes related to a map's environment, such as skybox
     "TopColour": [
         0,
         0,
-        0,
         0
     ],
 ```
 
 ```json
-// RenderDistance: Render distance in chunks(?)
-// RenderDistanceSpawn: Must be lower than RenderDistance(?), and only takes effect if RenderDistance is below ~1024.
+// RenderDistance: Render distance in chunks(?) If end of render distance is visible, it will always be a fade to skybox. If render distance game setting is less than this, then that will take priority.
+// RenderDistanceSpawn: Render distance for the spawn screen. Only takes effect if RenderDistance is below ~1024.
 "RenderDistance": 2048,
 "RenderDistanceSpawn": 2048,
 ```
