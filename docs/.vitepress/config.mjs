@@ -25,14 +25,23 @@ export default defineConfig({
             { text: 'Basic map info', link: '/json/basic_map_info.md' },
             { text: 'BlockTexturesV2', link: '/json/blocktexturesv2.md' },
             { text: 'Environment attributes', link: '/json/environment.md' },
-            { text: 'FlagSpawns', link: '/json/flagspawns.md' },
-            { text: 'Game modes', link: '/json/gamemodes.md' },
+            { text: 'Game modes', link: '/json/gamemodes.md', collapsed: true, items: [
+              { text: 'Control Shift settings', link: '/json/control_shift_settings.md' },
+              { text: 'FFAPlayerSpawns', link: '/json/ffaplayerspawns.md' },
+              { text: 'FlagSpawns', link: '/json/flagspawns.md' },
+              { text: 'LinearZones', link: '/json/linearzones.md' },
+              { text: 'RushStages', link: '/json/rushstages.md' },
+              { text: 'ArenaForcefieldAltitude', link: '/json/arenaforcefieldaltitude.md' },
+              { text: 'WeaponSpawns', link: '/json/weaponspawns.md' }
+            ]
+            },
+            { text: 'Grass', link: '/json/grass.md' },
             { text: 'InvincibleMin/Max', link: '/json/invincibleminmax.md' },
-            { text: 'LinearZones', link: '/json/linearzones.md' },
+            { text: 'Max/MinCutoffHeight', link: '/json/maxmincutoffheight.md' },
             { text: 'Minimap attributes', link: '/json/minimap_attributes.md' },
             { text: 'Particles', link: '/json/particles.md' },
+            { text: 'Reverb', link: '/json/reverb.md' },
             { text: 'Removed attributes', link: '/json/old_attributes.md' },
-            { text: 'RushStages', link: '/json/rushstages.md' },
             { text: 'TeamSpawns', link: '/json/teamspawns.md' }
           ]
           },

@@ -50,9 +50,9 @@ This page contains all attributes related to a map's environment, such as skybox
 ```json
 // SunColour: Regular color of the sun, in RGB.
 // SunRotation: Rotation of the sun and has something to do with π.
-// SunDiffuseStrength: The strength of the sun. >0.0. Defaults to 0.001.
-// SunDistance: No clue what it does. 
-// CrepuscularThresholdOverride: Probably threshold to render crepuscular rays. 0.0 to ~2.0; though it does start to get a bit glitchy after about 1.5.
+// SunDiffuseStrength: The strength of the sunlight. >0.0. Defaults to 0.001.
+// SunDistance: No clue what this does.
+// CrepuscularThresholdOverride: Probably threshold to render crepuscular rays. 0.0 to ~2.0; though some flickering may occur when this is set >1.5.
 // CrepuscularStartHeight: Probably lowers where the sun would be, relative to clouds? Because lowering this value causes more rays to shine through. 0.0-1.0.
 "SunColour": [ 255, 255, 255 ],
 "SunRotation": [ 0.75, 2.4915926535897932 ],
@@ -65,8 +65,8 @@ This page contains all attributes related to a map's environment, such as skybox
 ```
 
 ```json
-// FogType: This very likely does nothing. "clear" and "fog" are valid.
-// FogColour: RGB color value for fog seen when render distance game setting is low enough?
+// FogType: This doesn't do anything. "clear" and "fog" are valid.
+// FogColour: RGB color value for fog when render distance game setting is <12
 "FogType": "clear",
 "FogColour": [ 212, 166, 123 ],
 ```
@@ -74,7 +74,7 @@ This page contains all attributes related to a map's environment, such as skybox
 ```json
 // Brightness: Multiplier for overall brightness. Defaults to 1.
 // BlockBrightness: Multiplier for the brightness of blocks. Defaults to 1.3.
-// RainBrightness: Multiplier for rain brightness? Defaults to 1.
+// RainBrightness: Value that Brightness is set to when raining. Defaults to 1.
 "Brightness": 1,
 "BlockBrightness": 1.3,
 "RainBrightness": 1,
@@ -83,8 +83,10 @@ This page contains all attributes related to a map's environment, such as skybox
 ```json
 // WaterLevel: In-game Y-coordinate for sea level Random displacement can reach up to about 0.2 above the specified coordinate. Defaults to 0.
 // WaterColour: Color of water in RGB. Defaults to [0,0,0].
+// EnclosedWater: Whether water is bound to the map borders. Requires map size to be a multiple of 64. Defaults to false.
 "WaterLevel": 7.3,
 "WaterColour": [ 124, 53, 47 ],
+"EnclosedWater": false,
 
 // Example values are the defaults in received .json files. MinWaterLevel seemingly does nothing and MaxWaterLevel is a maximum for WaterLevel's value.
 "MinWaterLevel": -1000,
@@ -100,9 +102,9 @@ This page contains all attributes related to a map's environment, such as skybox
 ```json
 // RainColour: RGBA color of rain. A controls bloom.
 // SunColourRaining: Color of sun when raining, in RGB.
-// RainStartMin: Minimum time in seconds into a match when rain will begin falling.
-// RainStartMax: Maximum time in seconds into a match when rain will begin falling.
-// Server randomly picks a number between those 2 numbers for when to start raining.
+// Server randomly picks a number between these 2 numbers for when to start raining.
+//   RainStartMin: Minimum time in seconds into a match when rain will begin falling.
+//   RainStartMax: Maximum time in seconds into a match when rain will begin falling.
 // RainDensity: Amount of rain particles spawned. Percentage 0.0-1.0. 0.75 for 25% less rain particles.
 // RainRenderDistance: Controls render distance when raining. Percentage 0.0-1.0. 0.5 for 50% lower render distance.
 // WaterRiseSpeed: # of blocks/ms. use 0.001 for 1 block per second.
@@ -135,8 +137,8 @@ This page contains all attributes related to a map's environment, such as skybox
 ```
 
 ```json
-// Type: Values: wind, rumble, jungle, ice. Vercidium stated `rain` and `ship` may exist but it appears they don't.
-// Altitude: Y coordinate where the sound plays.
+// Type: Values: wind, rumble, jungle, ice. Vercidium stated `rain` and `ship` exists but it appears they don't.
+// Altitude: Y coordinate where the sound plays?
 // Volume: Seems to be 0.0-1.0.
 "AmbienceSound": [
     {

@@ -48,8 +48,9 @@ next: false
 	    "Position": [ 208, 128, 60]
 },
 
-// Maximum height players can spawn at. Useful for maps like Railway.
+// Maximum/Minimum Y level players can spawn at. Useful for maps like Railway.
 "MaxSpawnHeight": 70,
+"MinSpawnHeight": 20,
 
 // This may work, needs testing.
 "ControlShiftIncludesSpawns": false,
