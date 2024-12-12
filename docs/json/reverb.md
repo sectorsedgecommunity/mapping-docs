@@ -16,6 +16,12 @@ Configuration for audio reverb. You can find a list of reverb settings in the Re
 	"MaxRoomSize": 15000,
     "MinIndoor": "paddedcell",
     "MaxIndoor": "wooden_hall",
-	"Outdoor": "forest"
+	"Outdoor": "forest",
+
+    // From the old mapmaking Discord server - this may not work because Room size in-game always displays 0.
+    // For clarification, reverb is strongest when in a room with volume <= MinRoomVolume, and reverb is weakest when in a room with volume >= MaxRoomVolume, e.g. in Laser Tag I've reduced MaxRoomVolume to 2000000 to reduce reverb
+    // Default values are:
+    "MinRoomVolume": 200000,
+    "MaxRoomVolume": 6000000
 },
 ```
