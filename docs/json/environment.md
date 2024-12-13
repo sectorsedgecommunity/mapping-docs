@@ -31,15 +31,15 @@ This page contains all attributes related to a map's environment, such as skybox
     ],
 ```
 ### SkyboxType skybox codes
-| Skybox code | Official usage                                          | Description                                                                                 |
-|:------------|:--------------------------------------------------------|:--------------------------------------------------------------------------------------------|
-| AD          | Aegis Desert, Devoid Wasteland.                         | Open desert with a clear sky, mountains. A pink planet (moon?) and blue planet with rings.  |
-| CF          | Crashed Freighter, Soltec Plaza.                        | Pretty red mountains at sunset in the open waters with plenty of stars. No planets visible. |
-| RW          | Railway, Reactor.                                       | Dark beige foggy city with partial clouds, and futuristic skyscrapers. No planets visible.  |
-| IS          | Ice Station, Corahk Canyon, Cold Harbour.               | Coastline of an island with extreme snow mountains, partial clouds. No planets visible.     |
-| LB          | Laboratory.                                             | Cloud planet with futuristic skyscrapers at sunset. A blue gas planet is visible.           |
-| MC          | Magma Chamber, Base Omicron.                            | Blue-gray harsh mountains with some "pwetty stars". Unlit-side of a planet is visible.      |
-| ST          | Soltrium Temple, Shrine, Aegis Oasis, Devoid Cathedral. | Pleasant blue-gray mountains with medium clouds. Red planet and a gray moon(?) visible.     |
+| Skybox code   | Official usage                                          | Description                                                                                 |
+|:-------------:|:--------------------------------------------------------|:--------------------------------------------------------------------------------------------|
+| AD            | Aegis Desert, Devoid Wasteland.                         | Open desert with a clear sky, mountains. A pink planet (moon?) and blue planet with rings.  |
+| CF            | Crashed Freighter, Soltec Plaza.                        | Pretty red mountains at sunset in the open waters with plenty of stars. No planets visible. |
+| RW            | Railway, Reactor.                                       | Dark beige foggy city with partial clouds, and futuristic skyscrapers. No planets visible.  |
+| IS            | Ice Station, Corahk Canyon, Cold Harbour.               | Coastline of an island with extreme snow mountains, partial clouds. No planets visible.     |
+| LB            | Laboratory.                                             | Cloud planet with futuristic skyscrapers at sunset. A blue gas planet is visible.           |
+| MC            | Magma Chamber, Base Omicron.                            | Blue-gray harsh mountains with some "pwetty stars". Unlit-side of a planet is visible.      |
+| ST            | Soltrium Temple, Shrine, Aegis Oasis, Devoid Cathedral. | Pleasant blue-gray mountains with medium clouds. Red planet and a gray moon(?) visible.     |
 
 ```json
 // RenderDistance: Render distance in chunks(?) If end of render distance is visible, it will always be a fade to skybox. If render distance game setting is less than this, then that will take priority.
