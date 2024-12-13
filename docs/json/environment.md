@@ -121,26 +121,26 @@ This page contains all attributes related to a map's environment, such as skybox
 ```
 
 ```json
-// WindSpeed: Wind speed, in blocks per second? From limited testing appears to do nothing to falling rain/snow.
-// WindDirection: Yaw direction of wind. Pushes rain and leaf particles horizontally.
+// WindSpeed: Wind speed, in blocks per second? From limited testing appears to do nothing to weather particles.
+// WindDirection: Yaw direction of wind. Pushes rain and leaf particles horizontally. Also does nothing to weather particles.
 "WindSpeed": 0.015,
 "WindDirection": 0.785375,
 ```
 
 ```json
-// Snow is seperate from Rain. Snow immediately begins falling from match start.
+// Snow immediately begins falling from match start. Snow is seperate from Rain.
 // HasFallingSnow: Boolean, Controls whether the map has falling snow.
 // HasBlizzardSnow: Boolean, Blizzard snow has more intense, non-customizable wind applied. Overrides HasFallingSnow.
 // SnowIndex: Index used for voxels placed by snowfall. Don't think this works anymore.
 // FallingSnowColour: RGBA color of snowflakes. A controls bloom.
 "HasFallingSnow": true,
 "HasBlizzardSnow": false,
-"SnowIndex": 19,
 "FallingSnowColour": [ 255, 255, 255, 255],
+"SnowIndex": 19, // BROKEN
 ```
 
 ```json
-// Type: Values: wind, rumble, jungle, ice. Vercidium stated `rain` and `ship` exists but it appears they don't.
+// Type: Values: wind, rumble, jungle, ice. Vercidium stated `rain` and `ship` exists but it appears that they don't.
 // Altitude: Y coordinate where the sound plays?
 // Volume: Seems to be 0.0-1.0.
 "AmbienceSound": [
@@ -155,5 +155,5 @@ This page contains all attributes related to a map's environment, such as skybox
     }
 ],
 // All possible values for this are unknown. Defaults to "underwater"
-"UnderwaterSound": "underwatercold",
+"UnderwaterSound": "underwatercold", // Some snowy official maps use this.
 ```
