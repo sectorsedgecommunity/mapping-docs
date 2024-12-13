@@ -7,16 +7,9 @@ next: false
 # Environment Attributes
 This page contains all attributes related to a map's environment, such as skybox, ambience, sun, and more.
 ```json
-// SkyboxType: valid options: ad, cf, rw, is, lb, mc, st
-// AD: Used on Aegis Desert, Devoid Wasteland. Open desert with a clear sky, mountains and plenty of sand. A pink planet (moon?) and blue planet with rings.
-// CF: Used on Crashed Freighter, Soltec Plaza. Pretty red mountains at sunset in the open waters. No planets visible but plenty of very bright stars.
-// RW: Used on Railway, Reactor. Foggy city with partial clouds, and futuristic skyscrapers riddled with pipes. No planets visible.
-// IS: Used on Ice Station, Corahk Canyon, Cold Harbour. Coastline of an island with extreme snow mountains, partial clouds. No planets visible. This skybox/planet is confirmed to be NYX-03.
-// LB: Used on Laboratory. Cloud planet with futuristic skyscrapers at sunset. A blue gas planet is visible. This may be the same planet seen in the default Space skybox.
-// MC: Used on Magma Chamber, Base Omicron. Blue-gray harsh mountains with some "pwetty stars". Unlit-side of a planet with a blue atmosphere.
-// ST: Used on Soltrium Temple, Shrine, Aegis Oasis, Devoid Cathedral. Pleasant blue-gray mountains with medium clouds. Red planet and a gray moon(?) visible.
-// SkyboxRotation: Pitch/yaw of skybox. 6.283 is approximately 360 degrees on both. π*2?
-// SkyboxVerticalOffset: Vertical offset of the literal sky box. +0.93 or -0.93 maximum before the void is exposed.
+// SkyboxType: valid options: ad, cf, rw, is, lb, mc, st. See table below for details.
+// SkyboxRotation: Pitch/yaw of skybox. 6.283 (2π) is approximately 360 degrees.
+// SkyboxVerticalOffset: Vertical offset of the literal sky box. ±0.93 maximum before the void is exposed.
 "SkyboxType": "rw",
 "SkyboxRotation": [ 0, 0.7 ],
 "SkyboxVerticalOffset": 0.0,
@@ -37,6 +30,16 @@ This page contains all attributes related to a map's environment, such as skybox
         0
     ],
 ```
+### SkyboxType skybox codes
+| Skybox code | Official usage                                          | Description                                                                                 |
+|:------------|:--------------------------------------------------------|:--------------------------------------------------------------------------------------------|
+| AD          | Aegis Desert, Devoid Wasteland.                         | Open desert with a clear sky, mountains. A pink planet (moon?) and blue planet with rings.  |
+| CF          | Crashed Freighter, Soltec Plaza.                        | Pretty red mountains at sunset in the open waters with plenty of stars. No planets visible. |
+| RW          | Railway, Reactor.                                       | Dark beige foggy city with partial clouds, and futuristic skyscrapers. No planets visible.  |
+| IS          | Ice Station, Corahk Canyon, Cold Harbour.               | Coastline of an island with extreme snow mountains, partial clouds. No planets visible.     |
+| LB          | Laboratory.                                             | Cloud planet with futuristic skyscrapers at sunset. A blue gas planet is visible.           |
+| MC          | Magma Chamber, Base Omicron.                            | Blue-gray harsh mountains with some "pwetty stars". Unlit-side of a planet is visible.      |
+| ST          | Soltrium Temple, Shrine, Aegis Oasis, Devoid Cathedral. | Pleasant blue-gray mountains with medium clouds. Red planet and a gray moon(?) visible.     |
 
 ```json
 // RenderDistance: Render distance in chunks(?) If end of render distance is visible, it will always be a fade to skybox. If render distance game setting is less than this, then that will take priority.
@@ -47,11 +50,11 @@ This page contains all attributes related to a map's environment, such as skybox
 
 ```json
 // SunColour: Regular color of the sun, in RGB.
-// SunRotation: Rotation of the sun and has something to do with π.
+// SunRotation: Rotation of the sun. 6.283 (2π) is approximately 360 degrees.
 // SunDiffuseStrength: The strength of the sunlight. >0.0. Defaults to 0.001.
 // SunDistance: No clue what this does.
 // CrepuscularThresholdOverride: Probably threshold to render crepuscular rays. 0.0 to ~2.0; though some flickering may occur when this is set >1.5.
-// CrepuscularStartHeight: Probably lowers where the sun would be, relative to clouds? Because lowering this value causes more rays to shine through. 0.0-1.0.
+// CrepuscularStartHeight: Probably lowers where the sun would be, relative to clouds? Lowering this value causes more rays to shine through. 0.0-1.0.
 "SunColour": [ 255, 255, 255 ],
 "SunRotation": [ 0.75, 2.4915926535897932 ],
 "SunDiffuseStrength": 0,
@@ -79,18 +82,20 @@ This page contains all attributes related to a map's environment, such as skybox
 ```
 
 ```json
-// WaterLevel: In-game Y-coordinate for sea level Random displacement can reach up to about 0.2 above the specified coordinate. Defaults to 0.
-// WaterColour: Color of water in RGB. Defaults to [0,0,0].
+// WaterLevel: In-game Y-coordinate for sea level. Random displacement can reach up to about 0.2 above the specified coordinate. Defaults to 0.
+// WaterColour: Color of water in RGB. Defaults to [0, 0, 0].
 // EnclosedWater: Whether water is bound to the map borders. Requires map size to be a multiple of 64. Defaults to false.
 "WaterLevel": 7.3,
 "WaterColour": [ 124, 53, 47 ],
 "EnclosedWater": false,
 
-// Example values are the defaults in received .json files. MinWaterLevel seemingly does nothing and MaxWaterLevel is a maximum for WaterLevel's value.
+// MinWaterLevel seemingly does nothing.
+// MaxWaterLevel is the maximum value for WaterLevel.
+// Example values are the defaults in received .json files.
 "MinWaterLevel": -1000,
 "MaxWaterLevel": 1024,
 
-// Controls water bounds and where modified player movement ends on an unknown scale.
+// Controls water bounds and where water player movement ends in chunks (16x16 horizontally). Caustics are always visible though. A start position of 0 is 64 blocks (4 chunks) BEFORE 0 on that axis.
 "WaterStartX": 0,
 "WaterEndX": 100,
 "WaterStartZ": 0,
