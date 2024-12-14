@@ -73,7 +73,6 @@ Some light shafts may flicker when CrepuscularThresholdOverride is set between 1
 "CrepuscularYaw": 0,
 ```
 
-:::
 ```json
 // FogColour: RGB color value for fog when render distance game setting is <12
 "FogColour": [ 212, 166, 123 ],
