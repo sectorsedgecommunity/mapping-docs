@@ -3,6 +3,7 @@
     --vp-c-brand-2: #13bcc2;
     --vp-c-brand-3: #0f939c;
     --vp-c-brand-4: #075055;
+    --vp-c-brand-4-lowopac: #07505533;
     --vp-c-brand-5: #15c588;
     --vp-c-brand-6: #0f9c6b;
     --vp-c-brand-soft: #1affec80;
@@ -23,7 +24,7 @@
   }
 
 .custom-block.tip a:hover {
-  color: var(--vp-custom-block-tip-text)
+  color: var(--vp-brand-3)
 }
 
 :root {
@@ -39,7 +40,7 @@
 }
 
 :root {
-    --vp-local-search-result-border: var(--vp-c-brand-4);
+    --vp-local-search-result-border: var(--vp-c-brand-4-lowopac);
     --vp-local-search-result-selected-border: var(--vp-c-brand-3);
     --vp-local-search-highlight-bg: var(--vp-c-brand-2);
 }
