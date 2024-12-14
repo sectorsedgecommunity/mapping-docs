@@ -41,7 +41,7 @@
 }
 
 :root {
-    --vp-code-color: var(--vp-c-brand-4);
+    --vp-code-color: var(--vp-c-brand-3);
     --vp-code-link-color: var(--vp-c-brand-1);
     --vp-code-link-hover-color: var(--vp-c-brand-3);
 }
