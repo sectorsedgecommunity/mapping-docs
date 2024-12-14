@@ -65,5 +65,3 @@ Static has 2 teams duel in a small arena with randomized loadouts. First team to
 ## Team Deathmatch
 Team Deathmatch has 2 teams kill each other. That's it.
 - Always there for you
-
-## See also

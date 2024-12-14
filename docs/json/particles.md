@@ -76,6 +76,6 @@ Particles can be used to add detail to maps, such as flowing sewer pipes, or smo
 
         // The scale (size) of the particle in voxels(?)
         "Scale": 0.1
-    }
+    }, // Add more particle spawners... 
 ],
 ```

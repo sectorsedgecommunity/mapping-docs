@@ -5,6 +5,7 @@ next: false
 ---
 
 # TeamSpawns
+`TeamSpawns` determines spawns for teams (what a surprise right?). You must have configs for team 0 and team 1.
 ```json
 "TeamSpawns": [
     {

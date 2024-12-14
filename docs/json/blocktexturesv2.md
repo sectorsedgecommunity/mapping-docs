@@ -5,7 +5,7 @@ next: false
 ---
 
 # BlockTexturesV2
-BlockTexturesV2 lists all block types, aka indexes, in the map and their configuration. Sector's Edge and MagicaVoxle can handle up to 255 indexes. There cannot be two or more indexes with duplicate configuration.
+BlockTexturesV2 lists all block types, aka indexes, in the map and their configuration. Sector's Edge and MagicaVoxel can handle up to 255 indexes. There cannot be two or more indexes with duplicate configuration.
 ::: tip WORKAROUND
 It is possible to have two or more indexes with the same look in-game. To do this, use fields that can loop. Using `Offset` as an example, increase the offset on an axis by a multiple of the index's Size value. This outputs a visually identical block with differing indexes.
 :::
@@ -14,12 +14,12 @@ It is possible to have two or more indexes with the same look in-game. To do thi
     { // An index
         // Note: Optional, used to describe an index
         // Name: Optional if HSL/HSLA/RGB/RGBA is set, name of texture; list of textures is below. Not setting a Name is fine
-        //  when a color field is set.
+            // when a color field is set.
         // Index: Determines which index in MagicaVoxel corresponds to this texture.
         // Offset: Per-axis offset for the texture. Used to align things like crate textures and Railway train textures.
 
         // HSL/RGB/RGBA: Optional if Name is set, used to color a texture. Soltrium HSL: [ 0.5444, 1, 0.48 ]. Recommended to
-        //  use RGB for flat textures and RGBA for glass.
+            // use RGB for flat textures and RGBA for glass.
 
         // Attributes: explosive, light-fade-brightness, light-on-brightness, floating, invincible, transparent, ice
         //
@@ -37,7 +37,7 @@ It is possible to have two or more indexes with the same look in-game. To do thi
         // Health: Block health; integer 0-255.
         // Armour: Probably damage*armour.
         // Damage: Amount of damage given to any player standing on the index. If set, 1 is always used in official maps.
-        //  Non-negative integer.
+            // Non-negative integer.
         "Note": "Example texture",
         "Name": "concrete",
         "Offset": [ 0, 0, 0 ],

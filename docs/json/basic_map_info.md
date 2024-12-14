@@ -5,7 +5,11 @@ next: false
 ---
 
 # Basic map info
-Allegiance is optional, and doesn't show up in map vote list. Linear maps are often X=256 Z=768.
+This is the basic info about a map, such as its name, description, and dimensions.  Linear map dimensions are often X=256 Z=768. Maps also require [`TeamSpawns`](/json/teamspawns.md).
+
+::: info
+`Allegiance` is optional, only serving to customize music. This may not even work anymore though. Valid values are: `devoid`, `aegis`, `corahk`, `helix`, `irridyne`, `nova`, `soltec`, `terra`.
+:::
 
 ```json
 "Name": "Map name",
