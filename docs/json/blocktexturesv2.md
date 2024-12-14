@@ -67,7 +67,7 @@ It is possible to have two or more indexes with the same look in-game. See [the 
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
 <p align="center">
 <img src="/sidedirection_example.png" alt="SideDirection set to right (pictured on right)"/>
-<br/><i>`signirridyne` texture with `SideDirection` set to "right" (on the right)</i>
+<br/><i><code>signirridyne</code> texture with <code>SideDirection</code> set to <code>"right"</code> (on the right)</i>
 </p></div>
 
 ## Examples
