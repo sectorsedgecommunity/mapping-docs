@@ -44,7 +44,7 @@ Rush has 2 Rush Objectives, which one team attempts to arm and then protect unti
 - At least 2 Rush Objectives in at least 1 stage
 
 ## Salvage
-Salvage was a game mode in which 2 teams fight over harvesting meteors that fall mid-game. Salvage was removed from the game to be replaced by another similar game mode that never released.
+Salvage was a game mode in which 2 teams fight over harvesting meteors that fall mid-game. Salvage was removed from the game to be replaced by another similar game mode that never released. When Salvage is the active game mode, the team information and match time HUDs disappear. The game mode on the scoreboard is `All`, which is most likely a placeholder.
 - `MeteorBottom` attribute is set correctly
 - `MeteorTop` attribute is set correctly
 - `MeteorBreachChance` attribute is set correctly
