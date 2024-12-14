@@ -43,6 +43,7 @@ This page contains all fields related to a map's environment, such as skybox, am
 | MC            | Magma Chamber, Base Omicron.                            | Blue-gray harsh mountains and some "pwetty stars". Unlit-side of a planet is visible.       |
 | ST            | Soltrium Temple, Shrine, Aegis Oasis, Devoid Cathedral. | Pleasant blue-gray mountains with medium clouds. Red planet and a gray moon(?) visible.     |
 
+## Render Distance
 ```json
 // RenderDistance: Render distance in chunks(?) If end of render distance is visible, it will always be a fade to skybox. This is overruled by the render distance game setting if the game setting is lower.
 // RenderDistanceSpawn: Render distance for the spawn screen. Only takes effect if RenderDistance is below ~1024.
@@ -50,11 +51,19 @@ This page contains all fields related to a map's environment, such as skybox, am
 "RenderDistanceSpawn": 2048,
 ```
 
+## Brightness
+```json
+// Brightness: Multiplier for overall brightness. Defaults to 1.
+// BlockBrightness: Multiplier for the brightness of blocks. Defaults to 1.3.
+// RainBrightness: Value that Brightness is set to when raining. Defaults to 1.
+"Brightness": 1,
+"BlockBrightness": 1.3,
+"RainBrightness": 1,
+```
+
+## Sun
 ::: warning
 Setting SunRotation values within 0.25 of a cardinal direction causes flickering or inaccurate shading on block faces. If the other rotation value is safe, it is possible to set a rotation value to within 0.1 of a cardinal direction.
-:::
-::: warning
-Some light shafts may flicker when CrepuscularThresholdOverride is set between 1.5 and 2.0.
 :::
 ```json
 // SunColour: Regular color of the sun, in RGB.
@@ -65,28 +74,28 @@ Some light shafts may flicker when CrepuscularThresholdOverride is set between 1
 // CrepuscularStartHeight: Lowering this value causes more rays to shine through. 0.0-1.0.
 "SunColour": [ 255, 255, 255 ],
 "SunRotation": [ 0.75, 0.25 ],
-"SunDiffuseStrength": 0,
+"SunDiffuseStrength": 0.001,
 "SunDistance": 0.0,
+```
+
+## Crepuscular rays
+::: warning
+Some rays may flicker when CrepuscularThresholdOverride is set between 1.5 and 2.0.
+:::
+```json
 "CrepuscularThresholdOverride": 1,
 "CrepuscularStartHeight": 0.5,
 "CrepuscularPitch": 0,
 "CrepuscularYaw": 0,
 ```
 
+## FogColour
 ```json
 // FogColour: RGB color value for fog when render distance game setting is <12
 "FogColour": [ 212, 166, 123 ],
 ```
 
-```json
-// Brightness: Multiplier for overall brightness. Defaults to 1.
-// BlockBrightness: Multiplier for the brightness of blocks. Defaults to 1.3.
-// RainBrightness: Value that Brightness is set to when raining. Defaults to 1.
-"Brightness": 1,
-"BlockBrightness": 1.3,
-"RainBrightness": 1,
-```
-
+## Water
 ::: danger
 Do not set WaterStartX or WaterStartZ to a negative number. This will hang rendering if the -x or -z side of the map is in view and can crash clients.
 :::
@@ -111,6 +120,15 @@ Do not set WaterStartX or WaterStartZ to a negative number. This will hang rende
 "WaterEndZ": 100,
 ```
 
+## Wind
+```json
+// WindSpeed: Wind speed, in blocks per second? From limited testing appears to do nothing to weather particles.
+// WindDirection: Yaw direction of wind. Pushes rain and leaf particles horizontally. Also does nothing to weather particles.
+"WindSpeed": 0.015,
+"WindDirection": 0.785375,
+```
+
+## Rain
 ```json
 // RainColour: RGBA color of rain. A controls bloom.
 // SunColourRaining: Color of sun when raining, in RGB.
@@ -129,25 +147,23 @@ Do not set WaterStartX or WaterStartZ to a negative number. This will hang rende
 "WaterRiseSpeed": 0,
 ```
 
-```json
-// WindSpeed: Wind speed, in blocks per second? From limited testing appears to do nothing to weather particles.
-// WindDirection: Yaw direction of wind. Pushes rain and leaf particles horizontally. Also does nothing to weather particles.
-"WindSpeed": 0.015,
-"WindDirection": 0.785375,
-```
-
+## Snow
+::: warning
+`SnowIndex` most likely has been removed.
+:::
 ```json
 // Snow immediately begins falling from match start. Snow is seperate from Rain.
 // HasFallingSnow: Boolean, Controls whether the map has falling snow.
 // HasBlizzardSnow: Boolean, Blizzard snow has more intense, non-customizable wind applied. Overrides HasFallingSnow.
-// SnowIndex: Index used for voxels placed by snowfall. Don't think this works anymore.
-// FallingSnowColour: RGBA color of snowflakes. A controls bloom.
+// FallingSnowColour: RGBA color of snowflakes. A controls bloom. Default value is [255, 255, 255, 255]
+// SnowIndex: Index used for voxels placed by snowfall.
 "HasFallingSnow": true,
 "HasBlizzardSnow": false,
-"FallingSnowColour": [ 255, 255, 255, 255],
+"FallingSnowColour": [ 255, 255, 255, 255 ],
 "SnowIndex": 19, // BROKEN
 ```
 
+## Sounds
 ```json
 // Type: Values: wind, rumble, jungle, ice. Vercidium stated `rain` and `ship` exists but it appears that they don't.
 // Altitude: Y coordinate where the sound plays?

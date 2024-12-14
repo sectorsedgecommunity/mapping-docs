@@ -27,6 +27,7 @@ Configuration for audio reverb. You can find a list of reverb settings below. In
 ```
 
 ## List of reverb settings
+These are used for `MinIndoor` and `MaxIndoor`.
 | General         | Outdoor       | Castle              | Factory              | Wood                | Sport                   | Prefab              | Space Station             | City           | Driving                 | Ice Palace             | Dome            | Mood         |
 |:---------------:|:-------------:|:-------------------:|:--------------------:|:-------------------:|:-----------------------:|:-------------------:|:-------------------------:|:--------------:|:-----------------------:|:----------------------:|:---------------:|:------------:|
 | generic         | backyard      | castle_smallroom    | factory_smallroom    | wooden_smallroom    | sport_emptystadium      | prefab_workshop     | spacestation_smallroom    | city_streets   | driving_commentator     | icepalace_smallroom    | dome_tomb       | mood_heaven  |

@@ -6,7 +6,7 @@ next: false
 
 # LinearZones
 LinearZones are used in Breakthrough and Control Shift to mark where a zone should be.
-The Control Shift zone always chooses the most direct path between LinearZones, so you may want to add corner zones if the intended path is around a corner. Additionally, the zone will also change scale to match the nearest LinearZone.
+The Control Shift zone always chooses the most direct path between LinearZones, so you may want to add corner zones if the intended path is around a corner. Additionally, the zone will also change size to match the nearest LinearZone. Additionally, the Control Shift zone also interpolates size linearly (needs testing) between the current zone and the next one.
 ```json
 "LinearZones": [
 	{
