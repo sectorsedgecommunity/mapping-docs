@@ -7,7 +7,7 @@ next: false
 # BlockTexturesV2
 BlockTexturesV2 lists all block types, aka indexes, in the map and their configuration. Sector's Edge and MagicaVoxel can handle up to 255 indexes. There cannot be two or more indexes with duplicate configuration.
 ::: tip WORKAROUND
-It is possible to have two or more indexes with the same look in-game. See [the guide on how](/guides/identical_indxes.md).
+It is possible to have two or more indexes with the same look in-game. See [the guide on how](/guides/identical_indexes.md).
 :::
 ```json
 "BlockTexturesV2": [
