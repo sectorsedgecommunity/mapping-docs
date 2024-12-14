@@ -22,6 +22,10 @@
     --vp-button-brand-active-bg: var(--vp-c-brand-5);
   }
 
+.custom-block.tip a:hover {
+  color: var(--vp-custom-block-tip-text)
+}
+
 :root {
     --vp-c-tip-2: #9ebaea70;
     --vp-c-tip-3: #869fc970;
