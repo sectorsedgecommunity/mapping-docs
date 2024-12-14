@@ -1,11 +1,11 @@
 ---
-title: Minimap attributes
+title: Minimap fields
 prev: false
 next: false
 ---
 
-# Minimap attributes
-This page contains all attributes related to the minimap.
+# Minimap fields
+This page contains all current fields related to the minimap.
 ```json
 // MinimapBrightness: Multiplier for minimap brightness.
 // Uses the in-game Y coordinate as the input value:

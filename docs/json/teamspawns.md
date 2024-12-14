@@ -8,50 +8,54 @@ next: false
 ```json
 "TeamSpawns": [
     {
-        // GameMode: sta (Static), brk (Breakthrough), ctf (Capture the Flag), esc (Escort), all,
-        //  sal. (Salvage, non-functional game mode)
-        //
-        // ControlShiftSpawnOffset: Seperate from TeamSpawns. Default value is 0.2, i.e. 20%.
-        // Players spawn where the zone would be if the zone was shifted back X%.
-        //
+        // GameMode: sta (Static), brk (Breakthrough), ctf (Capture the Flag), esc (Escort), all, sal (Salvage, removed game mode)
         // Type: point, line, box, free, radius(?)
         // Team: 0 or 1
         // Min & Max: max must be greater than min, otherwise have glitchy spawn area.
         // OOBDistance: Out of bounds distance behind(?) spawn.
-        // SearchTopDown: True/false.Searches top→down instead.
-        // Indoors: True/false. Always spawns a player under a block.
+        // Radius: Likely used in FFA game modes as a minimum distance between players.
+        // SearchTopDown: True/false. If true, searches top to bottom instead of bottom to top.
+        // Indoors: True/false. If true, always spawn a player under a block.
         "GameMode": "all",
         "Type": "box",
         "Team": 0,
         "Min": [ 0, 0, 0 ],
-        "Max": [ 1, 1, 1],
+        "Max": [ 1, 1, 1 ],
         "OOBDistance": 40,
+        "Radius": 0,
         "SearchTopDown": false,
         "Indoors": false
 	}
 ],
 ```
+| GameMode value | Game mode        |
+|:--------------:|:-----------------|
+| sta            | Static           |
+| brk            | Breakthrough     |
+| ctf            | Capture the Flag |
+| esc            | Escort           |
+| all            | Any              |
 
+## SpawnCamera
 ```json
-// As far as I know, official maps only use Yaw.
-// Type: All valid values for this are unknown, but pan is often used.
-// Yaw: A value of 3.145 is approximately 180 degrees. π!
-// Position: ???
+// Type: All values for this are unknown.
+// Yaw: A value of 3.145 (1π) is approximately 180 degrees.
+// Position: Doesn't seem to work anymore.
 "SpawnCamera0": {
 		"Type": "pan",
 		"Yaw": 0,
-		"Position": [ 93, 128, 48]
+		"Position": [ 93, 128, 48 ] // BROKEN
 },
 "SpawnCamera1": {
 	    "Type": "pan",
 	    "Yaw": 0,
-	    "Position": [ 208, 128, 60]
+	    "Position": [ 208, 128, 60 ] // BROKEN
 },
+```
 
-// Maximum/Minimum Y level players can spawn at. Useful for maps like Railway.
+## Min/MaxSpawnHeight
+```json
+// Maximum/Minimum Y level players can spawn at. Useful for maps like Railway or Corahk Canyon.
 "MaxSpawnHeight": 70,
-"MinSpawnHeight": 20,
-
-// This may work, needs testing.
-"ControlShiftIncludesSpawns": false,
+"MinSpawnHeight": 20
 ```

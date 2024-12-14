@@ -5,20 +5,23 @@ next: false
 ---
 
 # BlockTexturesV2
-You can have a maximum of 255 indexes. 
+BlockTexturesV2 lists all block types, aka indexes, in the map and their configuration. Sector's Edge and MagicaVoxle can handle up to 255 indexes. There cannot be two or more indexes with duplicate configuration.
+::: tip WORKAROUND
+It is possible to have two or more indexes with the same look in-game. To do this, use fields that can loop. Using `Offset` as an example, increase the offset on an axis by a multiple of the index's Size value. This outputs a visually identical block with differing indexes.
+:::
 ```json
 "BlockTexturesV2": [
-    {
-        // Note: optional, used to describe an index
-        // Name: optional if HSL/HSLA/RGB/RGBA is set, name of texture; list of textures is below. Not setting a Name is fine
+    { // An index
+        // Note: Optional, used to describe an index
+        // Name: Optional if HSL/HSLA/RGB/RGBA is set, name of texture; list of textures is below. Not setting a Name is fine
         //  when a color field is set.
         // Index: Determines which index in MagicaVoxel corresponds to this texture.
         // Offset: Per-axis offset for the texture. Used to align things like crate textures and Railway train textures.
 
-        // HSL/RGB/RGBA: optional if Name is set, used to color a texture. Soltrium HSL: [ 0.5444, 1, 0.48 ]. Recommended to
+        // HSL/RGB/RGBA: Optional if Name is set, used to color a texture. Soltrium HSL: [ 0.5444, 1, 0.48 ]. Recommended to
         //  use RGB for flat textures and RGBA for glass.
 
-        // Attributes: explosive, light-fade, light-on-brightness, floating, invincible, transparent, ice, meteor (unused)
+        // Attributes: explosive, light-fade-brightness, light-on-brightness, floating, invincible, transparent, ice
         //
         // explosive: Block explodes if damaged; uses ExplosionRadius as the radius. Can be detonated by blocks with the conductor attribute.
         // light-fade: Fades the light instead of immediately removing light.
@@ -46,12 +49,15 @@ You can have a maximum of 255 indexes.
         "Health": 8,
         "Armour": 0.3,
         "Damage": 1
-    }
+    },
+    // Add more indexes...
 ],
 ```
 
-### Examples
-White light
+## Examples
+Copy this into the `BlockTexturesV2` list.
+
+### White light
 ```json
 {
     "Note": "White light",
@@ -62,7 +68,7 @@ White light
 }
 ```
 
-Soltrium
+### Soltrium
 ```json
 {
     "Note": "Explosive soltrium",
@@ -73,7 +79,7 @@ Soltrium
 }
 ```
 
-Glass
+### Glass
 ```json
 {
     "Note": "Glass",
@@ -83,7 +89,7 @@ Glass
 }
 ```
 
-Railway/Reactor lasers
+### Railway/Reactor lasers
 ```json
 {
 	"Note": "Laser",
@@ -94,7 +100,8 @@ Railway/Reactor lasers
 }
 ```
 
-Crude 17x4 "Soltricoz" sign using the `cratesoltec` texture. You may need to adjust the `Offset`
+### Crude 17x4 "Soltricoz" sign
+Uses the `cratesoltec` texture. You may need to adjust the `Offset`.
 ```json
 {
 	"Note": "Soltricoz sign",
@@ -109,8 +116,8 @@ Crude 17x4 "Soltricoz" sign using the `cratesoltec` texture. You may need to adj
 }
 ```
 
-### Multiplayer attributes
-The server sends multiple attributes which were previously undocumented.
+## Multiplayer fields
+The server sends multiple fields which were previously undocumented.
 ```json
     // Default: No clue what this does. Might be if the index is in some form of master index pallete that Rocket uses?
     // ReceivedFromServer: Probably for loading maps if you have them saved to disk.
@@ -126,5 +133,5 @@ The server sends multiple attributes which were previously undocumented.
 }
 ```
 
-### Textures list
+## Textures list
 <img src="/textures.png" alt="Textures list"/>

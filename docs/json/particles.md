@@ -5,6 +5,10 @@ next: false
 ---
 
 # Particles
+::: info
+The `smoke` particle type has a hardcoded color and size.
+:::
+Particles can be used to add detail to maps, such as flowing sewer pipes, or smoke.
 ```json
 "Particles": [
     {

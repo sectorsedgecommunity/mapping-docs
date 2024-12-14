@@ -1,11 +1,13 @@
 ---
-title: Environment Attributes
+title: Environment
 prev: false
 next: false
 ---
 
-# Environment Attributes
-This page contains all attributes related to a map's environment, such as skybox, ambience, sun, and more.
+# Environment
+This page contains all fields related to a map's environment, such as skybox, ambience, sun, and more.
+
+## Skybox fields
 ```json
 // SkyboxType: valid options: ad, cf, rw, is, lb, mc, st. See table below for details.
 // SkyboxRotation: Pitch/yaw of skybox. 6.283 (2π) is approximately 360 degrees.
@@ -30,33 +32,39 @@ This page contains all attributes related to a map's environment, such as skybox
         0
     ],
 ```
-### SkyboxType skybox codes
+## SkyboxType skybox codes
 | Skybox code   | Official usage                                          | Description                                                                                 |
 |:-------------:|:--------------------------------------------------------|:--------------------------------------------------------------------------------------------|
 | AD            | Aegis Desert, Devoid Wasteland.                         | Open desert with a clear sky, mountains. A pink planet (moon?) and blue planet with rings.  |
-| CF            | Crashed Freighter, Soltec Plaza.                        | Pretty red mountains at sunset in the open waters with plenty of stars. No planets visible. |
+| CF            | Crashed Freighter, Soltec Plaza.                        | Red mountains at sunset in the open waters with plenty of stars. No planets visible.        |
 | RW            | Railway, Reactor.                                       | Dark beige foggy city with partial clouds, and futuristic skyscrapers. No planets visible.  |
-| IS            | Ice Station, Corahk Canyon, Cold Harbour.               | Coastline of an island with extreme snow mountains, partial clouds. No planets visible.     |
+| IS            | Ice Station, Corahk Canyon, Cold Harbour.               | Coastline with extreme snow mountains nearby, and partial clouds. No planets visible.       |
 | LB            | Laboratory.                                             | Cloud planet with futuristic skyscrapers at sunset. A blue gas planet is visible.           |
-| MC            | Magma Chamber, Base Omicron.                            | Blue-gray harsh mountains with some "pwetty stars". Unlit-side of a planet is visible.      |
+| MC            | Magma Chamber, Base Omicron.                            | Blue-gray harsh mountains and some "pwetty stars". Unlit-side of a planet is visible.       |
 | ST            | Soltrium Temple, Shrine, Aegis Oasis, Devoid Cathedral. | Pleasant blue-gray mountains with medium clouds. Red planet and a gray moon(?) visible.     |
 
 ```json
-// RenderDistance: Render distance in chunks(?) If end of render distance is visible, it will always be a fade to skybox. If render distance game setting is less than this, then that will take priority.
+// RenderDistance: Render distance in chunks(?) If end of render distance is visible, it will always be a fade to skybox. This is overruled by the render distance game setting if the game setting is lower.
 // RenderDistanceSpawn: Render distance for the spawn screen. Only takes effect if RenderDistance is below ~1024.
 "RenderDistance": 2048,
 "RenderDistanceSpawn": 2048,
 ```
 
+::: warning
+Setting SunRotation values within 0.25 of a cardinal direction causes flickering or inaccurate shading on block faces. If the other rotation value is safe, it is possible to set a rotation value to within 0.1 of a cardinal direction.
+:::
+::: warning
+Some light shafts may flicker when CrepuscularThresholdOverride is set between 1.5 and 2.0.
+:::
 ```json
 // SunColour: Regular color of the sun, in RGB.
 // SunRotation: Rotation of the sun. 6.283 (2π) is approximately 360 degrees.
 // SunDiffuseStrength: The strength of the sunlight. >0.0. Defaults to 0.001.
 // SunDistance: No clue what this does.
-// CrepuscularThresholdOverride: Probably threshold to render crepuscular rays. 0.0 to ~2.0; though some flickering may occur when this is set >1.5.
-// CrepuscularStartHeight: Probably lowers where the sun would be, relative to clouds? Lowering this value causes more rays to shine through. 0.0-1.0.
+// CrepuscularThresholdOverride: Probably threshold to render crepuscular rays. 0.0 to ≈2.0.
+// CrepuscularStartHeight: Lowering this value causes more rays to shine through. 0.0-1.0.
 "SunColour": [ 255, 255, 255 ],
-"SunRotation": [ 0.75, 2.4915926535897932 ],
+"SunRotation": [ 0.75, 0.25 ],
 "SunDiffuseStrength": 0,
 "SunDistance": 0.0,
 "CrepuscularThresholdOverride": 1,
@@ -65,10 +73,9 @@ This page contains all attributes related to a map's environment, such as skybox
 "CrepuscularYaw": 0,
 ```
 
+:::
 ```json
-// FogType: This doesn't do anything. "clear" and "fog" are valid.
 // FogColour: RGB color value for fog when render distance game setting is <12
-"FogType": "clear",
 "FogColour": [ 212, 166, 123 ],
 ```
 
@@ -81,6 +88,9 @@ This page contains all attributes related to a map's environment, such as skybox
 "RainBrightness": 1,
 ```
 
+::: danger
+Do not set WaterStartX or WaterStartZ to a negative number. This will hang rendering if the -x or -z side of the map is in view and can crash clients.
+:::
 ```json
 // WaterLevel: In-game Y-coordinate for sea level. Random displacement can reach up to about 0.2 above the specified coordinate. Defaults to 0.
 // WaterColour: Color of water in RGB. Defaults to [0, 0, 0].
@@ -95,7 +105,7 @@ This page contains all attributes related to a map's environment, such as skybox
 "MinWaterLevel": -1000,
 "MaxWaterLevel": 1024,
 
-// Controls water bounds and where water player movement ends in chunks (16x16 horizontally). Caustics are always visible though. A start position of 0 is 64 blocks (4 chunks) BEFORE 0 on that axis.
+// Controls water bounds and where water player movement ends in chunks (32x32). Caustics are always visible though. A start position of 0 is 64 blocks (2 chunks) BEFORE 0 on that axis.
 "WaterStartX": 0,
 "WaterEndX": 100,
 "WaterStartZ": 0,
@@ -106,11 +116,11 @@ This page contains all attributes related to a map's environment, such as skybox
 // RainColour: RGBA color of rain. A controls bloom.
 // SunColourRaining: Color of sun when raining, in RGB.
 // Server randomly picks a number between these 2 numbers for when to start raining.
-//   RainStartMin: Minimum time in seconds into a match when rain will begin falling.
-//   RainStartMax: Maximum time in seconds into a match when rain will begin falling.
+    // RainStartMin: Minimum time in seconds into a match when rain will begin falling.
+    // RainStartMax: Maximum time in seconds into a match when rain will begin falling.
 // RainDensity: Amount of rain particles spawned. Percentage 0.0-1.0. 0.75 for 25% less rain particles.
 // RainRenderDistance: Controls render distance when raining. Percentage 0.0-1.0. 0.5 for 50% lower render distance.
-// WaterRiseSpeed: # of blocks/ms. use 0.001 for 1 block per second.
+// WaterRiseSpeed: # of blocks/ms. use 0.001 for 1 block per second. Defaults to 0.
 "RainColour": [ 20, 40, 40, 0],
 "SunColourRaining": [ 36, 42, 61 ],
 "RainStartMin": 900,

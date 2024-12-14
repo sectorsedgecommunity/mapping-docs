@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  head: [['link', { rel: 'icon', href: '/mapping-docs/favicon.png' }]],
+  head: [['link', { rel: 'icon', href: '/mapping-docs/se_logo.svg' }]],
   title: "Mapmaking Documentation | Sector's Edge Community",
   description: "Mapmaking documentation for Sector's Edge",
   base: "/mapping-docs/",
@@ -24,24 +24,24 @@ export default defineConfig({
           { text: 'JSON file', link: '/json.md', collapsed: true, items: [
             { text: 'Basic map info', link: '/json/basic_map_info.md' },
             { text: 'BlockTexturesV2', link: '/json/blocktexturesv2.md' },
-            { text: 'Environment attributes', link: '/json/environment.md' },
+            { text: 'Environment', link: '/json/environment.md' },
             { text: 'Game modes', link: '/json/gamemodes.md', collapsed: true, items: [
-              { text: 'Control Shift settings', link: '/json/control_shift_settings.md' },
-              { text: 'FFAPlayerSpawns', link: '/json/ffaplayerspawns.md' },
-              { text: 'FlagSpawns', link: '/json/flagspawns.md' },
-              { text: 'LinearZones', link: '/json/linearzones.md' },
-              { text: 'RushStages', link: '/json/rushstages.md' },
-              { text: 'ArenaForcefieldAltitude', link: '/json/arenaforcefieldaltitude.md' },
-              { text: 'WeaponSpawns', link: '/json/weaponspawns.md' }
+              { text: 'ArenaForcefieldAltitude', link: '/json/gamemodes/arenaforcefieldaltitude.md' },
+              { text: 'Control Shift settings', link: '/json/gamemodes/control_shift_settings.md' },
+              { text: 'FFAPlayerSpawns', link: '/json/gamemodes/ffaplayerspawns.md' },
+              { text: 'FlagSpawns', link: '/json/gamemodes/flagspawns.md' },
+              { text: 'LinearZones', link: '/json/gamemodes/linearzones.md' },
+              { text: 'RushStages', link: '/json/gamemodes/rushstages.md' },
+              { text: 'Salvage settings', link: '/json/gamemodes/salvage_settings.md' },
+              { text: 'WeaponSpawns', link: '/json/gamemodes/weaponspawns.md' }
             ]
             },
             { text: 'Grass', link: '/json/grass.md' },
             { text: 'InvincibleMin/Max', link: '/json/invincibleminmax.md' },
-            { text: 'Max/MinCutoffHeight', link: '/json/maxmincutoffheight.md' },
-            { text: 'Minimap attributes', link: '/json/minimap_attributes.md' },
+            { text: 'Minimap fields', link: '/json/minimap_fields.md' },
             { text: 'Particles', link: '/json/particles.md' },
             { text: 'Reverb', link: '/json/reverb.md' },
-            { text: 'Removed attributes', link: '/json/old_attributes.md' },
+            { text: 'Removed fields', link: '/json/old_fields.md' },
             { text: 'TeamSpawns', link: '/json/teamspawns.md' }
           ]
           },

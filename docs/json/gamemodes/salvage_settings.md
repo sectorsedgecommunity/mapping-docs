@@ -1,11 +1,11 @@
 ---
-title: Salvage Attributes
+title: Salvage fields
 prev: false
 next: false
 ---
 
-# Salvage Attributes
-Salvage game mode still has attributes in the `json` file but isn't functional in-game.
+# Salvage fields
+Salvage game mode still has fields in the `json` file but isn't functional in-game.
 
 ```json
 // MeteorBottom: Lowest Y level a meteor can land on
