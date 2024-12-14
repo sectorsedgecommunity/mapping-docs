@@ -2,6 +2,7 @@
     --vp-c-brand-1: #17d3da;
     --vp-c-brand-2: #13bcc2;
     --vp-c-brand-3: #0f939c;
+    --vp-c-brand-3-maxopac: #0f939cff;
     --vp-c-brand-4: #075055;
     --vp-c-brand-4-lowopac: #07505533;
     --vp-c-brand-5: #15c588;
@@ -24,7 +25,7 @@
   }
 
 .custom-block.tip a:hover {
-  color: var(--vp-c-brand-3)
+  color: var(--vp-c-brand-3-maxopac)
 }
 
 :root {
