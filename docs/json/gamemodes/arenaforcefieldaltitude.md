@@ -5,7 +5,7 @@ next: false
 ---
 
 # ArenaForcefieldAltitude
-Controls altitude of the pre-round forcefield in Static. Probably defaults to 0.
+Controls altitude of the pre-round forcefield in Static. Defaults to 0.
 
 ```json
 "ArenaForcefieldAltitude": 0,
