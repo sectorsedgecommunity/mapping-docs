@@ -7,7 +7,7 @@ next: false
 # BlockTexturesV2
 BlockTexturesV2 lists all block types, aka indexes, in the map and their configuration. Sector's Edge and MagicaVoxel can handle up to 255 indexes. There cannot be two or more indexes with duplicate configuration.
 ::: tip WORKAROUND
-It is possible to have two or more indexes with the same look in-game. To do this, use fields that can loop. Using `Offset` as an example, increase the offset on an axis by a multiple of the index's Size value. This outputs a visually identical block with differing indexes.
+It is possible to have two or more indexes with the same look in-game. See [the guide on how](/guides/identical_indxes.md).
 :::
 ```json
 "BlockTexturesV2": [
@@ -38,6 +38,8 @@ It is possible to have two or more indexes with the same look in-game. To do thi
         // Armour: Probably damage*armour.
         // Damage: Amount of damage given to any player standing on the index. If set, 1 is always used in official maps.
             // Non-negative integer.
+        // TopDirection: Rotation of the texture on the top/bottom faces of the index. Used for the Railway trains. Should default to "up".
+        // SideDirection: Same thing as TopDirection, but for the sides of the block. Defaults to "up".
         "Note": "Example texture",
         "Name": "concrete",
         "Offset": [ 0, 0, 0 ],
@@ -48,11 +50,25 @@ It is possible to have two or more indexes with the same look in-game. To do thi
         "Bloom": 1.0,
         "Health": 8,
         "Armour": 0.3,
-        "Damage": 1
+        "Damage": 1,
+        "TopDirection": "up",
+        "SideDirection": "up",
     },
     // Add more indexes...
 ],
 ```
+`SideDirection` sets the top of the texture to the given direction. This means the bottom of the texture is on the opposite side that you set.
+| Direction    | Angle |
+|:------------:|:-----:|
+| up (default) | 0°    |
+| right        | 90°   |
+| down         | 180°  |
+| left         | 270°  |
+<div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">
+<p align="center">
+<img src="/sidedirection_example.png" alt="SideDirection set to right (pictured on right)"/>
+<br/><i>`signirridyne` texture with `SideDirection` set to "right" (on the right)</i>
+</p></div>
 
 ## Examples
 Copy this into the `BlockTexturesV2` list.
@@ -128,7 +144,6 @@ The server sends multiple fields which were previously undocumented.
     "Default": false,
     "ReceivedFromServer": true,
     "LayerID": 255,
-    "SideDirection": "up",
 	"Custom": false,
 }
 ```

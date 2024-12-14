@@ -9,7 +9,7 @@ next: false
 ```json
 "TeamSpawns": [
     {
-        // GameMode: sta (Static), brk (Breakthrough), ctf (Capture the Flag), esc (Escort), all, sal (Salvage, removed game mode)
+        // GameMode: sta/brk/ctf/esc/ffa/all
         // Type: point, line, box, free, radius(?)
         // Team: 0 or 1
         // Min & Max: max must be greater than min, otherwise have glitchy spawn area.
@@ -29,13 +29,14 @@ next: false
 	}
 ],
 ```
-| GameMode value | Game mode        |
-|:--------------:|:-----------------|
-| sta            | Static           |
-| brk            | Breakthrough     |
-| ctf            | Capture the Flag |
-| esc            | Escort           |
-| all            | Any              |
+| GameMode value | Game mode                              |
+|:--------------:|:---------------------------------------|
+| sta            | Static                                 |
+| brk            | Breakthrough                           |
+| ctf            | Capture the Flag                       |
+| esc            | Escort                                 |
+| ffa            | Free for all game modes (confirm this) |
+| all            | Any                                    |
 
 ## SpawnCamera
 ```json
