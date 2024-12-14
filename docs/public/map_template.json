@@ -1,0 +1,28 @@
+{
+    "Name": "Example map",
+    "Description": "Example map description",
+    "MapSize": [ 256, 96, 768 ],
+
+    "TeamSpawns": [
+        {
+            "GameMode": "all",
+            "Type": "free",
+            "Team": 0,
+            "Radius": 50
+	    },
+        {
+            "GameMode": "all",
+            "Type": "free",
+            "Team": 1,
+            "Radius": 50
+	    }
+    ],
+
+    "BlockTexturesV2": [
+        {
+            "Note": "Human-readable description here",
+            "Name": "concretecolour",
+		    "Index": 1
+	    }
+    ]
+}
