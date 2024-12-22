@@ -41,7 +41,7 @@ If a block light is given the Ion effect, it loses its light source permanently.
         // Armour: Probably damage*armour.
         // Damage: Amount of damage given to any player standing on the index. If set, 1 is always used in official maps.
             // Non-negative integer.
-        // TopDirection: Rotation of the texture on the top/bottom faces of the index. Used for the Railway trains. Should default to "up".
+        // TopDirection: Rotation of the texture on the top/bottom faces of the index. Used for the Railway trains. Defaults to "up".
         // SideDirection: Same thing as TopDirection, but for the sides of the block. Defaults to "up".
         "Note": "Example texture",
         "Name": "concrete",
@@ -141,7 +141,6 @@ The server sends multiple fields which were previously undocumented.
     // Default: No clue what this does. Might be if the index is in some form of master index pallete that Rocket uses?
     // ReceivedFromServer: Probably for loading maps if you have them saved to disk.
     // LayerID: No idea.
-    // SideDirection: Probably the same as TopDirection. Defaults to up.
     // Custom: No clue what it does as well. Defaults to false.
 {
     "Default": false,
