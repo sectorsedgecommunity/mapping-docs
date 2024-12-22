@@ -9,6 +9,9 @@ BlockTexturesV2 lists all block types, aka indexes, in the map and their configu
 ::: tip WORKAROUND
 It is possible to have two or more indexes with the same look in-game. See [the guide on how](/guides/identical_indexes.md).
 :::
+::: info
+If a block light is given the Ion effect, it loses its light source permanently.
+:::
 ```json
 "BlockTexturesV2": [
     { // An index
