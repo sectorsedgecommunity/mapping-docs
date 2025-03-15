@@ -39,7 +39,7 @@ export default defineConfig({
             { text: 'Grass', link: '/json/grass.md' },
             { text: 'InvincibleMin/Max', link: '/json/invincibleminmax.md' },
             { text: 'Minimap fields', link: '/json/minimap_fields.md' },
-            { text: 'OOBMin/Max', link: '/json/gamemodes/oobminmax.md' },
+            { text: 'OOBMin/Max', link: '/json/oobminmax.md' },
             { text: 'Particles', link: '/json/particles.md' },
             { text: 'Reverb', link: '/json/reverb.md' },
             { text: 'Removed fields', link: '/json/old_fields.md' },
