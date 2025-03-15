@@ -5,8 +5,6 @@ next: false
 ---
 
 # Control Shift settings
-Allegiance is optional, and doesn't show up in map vote list.
-
 ```json
 // ControlShiftSpawnOverrideMin: If not -1, both team's spawn positions will always start at this XYZ value.
 // ControlShiftSpawnOverrideMax: If not -1, both team's spawn positions will always end at this XYZ value.

@@ -1,4 +1,5 @@
 ---
+title: Bare minimum JSON file
 editLink: false
 prev: false
 next: false

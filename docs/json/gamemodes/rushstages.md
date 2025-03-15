@@ -5,7 +5,7 @@ next: false
 ---
 
 # RushStages
-At least one stage and two areas.
+A minimum of one stage and two areas are needed to enable Rush.
 ```json
 "RushStages": [ // Each object in the RushStages list is a Rush stage.
 	{	// First Rush stage

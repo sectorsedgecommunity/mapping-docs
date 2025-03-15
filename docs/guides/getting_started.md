@@ -1,10 +1,11 @@
 ---
+title: Getting started
 editLink: false
 prev: false
 next: false
 ---
 
-# Getting Started
+# Getting started
 This is a simple guide to getting a first map functional.
 
 
@@ -49,7 +50,9 @@ If there are any errors or missing fields in your `json` metadata file, they wil
 
 
 ### Uploading maps
-
+::: warning
+GitHub versions of the game are unable to use Steam, including uploading maps to the Steam Workshop.
+:::
 To upload a map folder to the workshop, it must have a `.json`, `.vox` and `preview.jpg` file. The `preview.jpg` file should be a screenshot you've taken of your map.
 
 <div style="justify-content: center; display: flex; margin-top:10px; font-size: 13px; margin-bottom: 40px">

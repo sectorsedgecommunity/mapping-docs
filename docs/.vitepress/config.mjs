@@ -27,7 +27,6 @@ export default defineConfig({
             { text: 'Environment', link: '/json/environment.md' },
             { text: 'Game modes', link: '/json/gamemodes.md', collapsed: true, items: [
               { text: 'ArenaForcefieldAltitude', link: '/json/gamemodes/arenaforcefieldaltitude.md' },
-              { text: 'CanisterSpawns', link: '/json/gamemodes/canisterspawns.md' },
               { text: 'Control Shift settings', link: '/json/gamemodes/control_shift_settings.md' },
               { text: 'FFAPlayerSpawns', link: '/json/gamemodes/ffaplayerspawns.md' },
               { text: 'FlagSpawns', link: '/json/gamemodes/flagspawns.md' },

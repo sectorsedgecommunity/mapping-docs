@@ -6,9 +6,9 @@ next: false
 
 # Creating visually identical indexes
 ::: tip
-There is no actual use case for having identical indexes in a map.
+There is no real use case for having identical indexes in a map.
 :::
-It is possible to have two or more indexes with the same look in-game. To do this, use block attributes that can loop.
+It is possible to have two or more indexes with the same look in-game. To do this, use block attributes that can loop or look functionally identical.
 
 ## `Offset` method
 Using `Offset`, increase the offset on an axis by a multiple of the index's `Size` value. This outputs a visually identical block with differing indexes.
@@ -17,7 +17,7 @@ Using `Offset`, increase the offset on an axis by a multiple of the index's `Siz
 This method isn't actually identical, but it can be used for detailing. Using `HSL`, you can do slight variance in any of the three values. PadreToto recommends using small lightness variation for detailing in some cases.
 
 ## Example
-Example of some visually identical indexes.
+Example of two visually identical indexes.
 
 ### Gray crate
 Normal crate

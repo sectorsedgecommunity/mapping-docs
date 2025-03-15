@@ -5,7 +5,7 @@ next: false
 ---
 
 # WeaponSpawns
-Configuration for weapon spawning used in Head Hunter. WeaponSpawns is required for Head Hunter to be a valid game mode on a map.
+Configuration for groups of weapons spawned in Head Hunter. WeaponSpawns is required for Head Hunter to be a valid game mode on a map.
 
 ```json
 // This is the first config used on Shrine.

@@ -10,7 +10,8 @@ next: false
 "TeamSpawns": [
     {
         // GameMode: sta/brk/ctf/esc/ffa/all
-        // Type: point, line, box, free, radius(?)
+        // Type: box, free, line, point
+        //  point: uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]
         // Team: 0 or 1
         // Min & Max: max must be greater than min, otherwise have glitchy spawn area.
         // OOBDistance: Out of bounds distance behind(?) spawn.
