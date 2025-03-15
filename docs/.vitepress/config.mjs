@@ -39,6 +39,7 @@ export default defineConfig({
             { text: 'Grass', link: '/json/grass.md' },
             { text: 'InvincibleMin/Max', link: '/json/invincibleminmax.md' },
             { text: 'Minimap fields', link: '/json/minimap_fields.md' },
+            { text: 'OOBMin/Max', link: '/json/gamemodes/oobminmax.md' },
             { text: 'Particles', link: '/json/particles.md' },
             { text: 'Reverb', link: '/json/reverb.md' },
             { text: 'Removed fields', link: '/json/old_fields.md' },
@@ -47,6 +48,7 @@ export default defineConfig({
           },
           { text: 'Multiplayer support', link: '/multiplayer.md' },
           { text: 'Resources and guides', link: '/resources.md', collapsed: true, items: [
+            { text: 'Advanced water', link: '/guides/advanced_water.md' },
             { text: 'Bare minimum map JSON', link: '/guides/bare_minimum.md' },
             { text: 'Getting Started', link: '/guides/getting_started.md' },
             { text: 'How to contribute', link: '/guides/how_to_contribute.md' },

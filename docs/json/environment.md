@@ -121,38 +121,39 @@ Do not set WaterStartX or WaterStartZ to a negative number. This will hang rende
 ```
 
 ## Wind
+These fields only affect leaf particles and rain.
 ```json
-// WindSpeed: Wind speed, in blocks per second? From limited testing appears to do nothing to weather particles.
-// WindDirection: Yaw direction of wind. Pushes rain and leaf particles horizontally. Also does nothing to weather particles.
+// WindSpeed: Float, wind speed in blocks per second(?)
+// WindDirection: Float, yaw direction of wind.
 "WindSpeed": 0.015,
 "WindDirection": 0.785375,
 ```
 
 ## Rain
+The server randomly picks between `RainStartMin` and `RainStartMax` for when to start rainfall.
 ```json
-// RainColour: RGBA color of rain. A controls bloom.
-// SunColourRaining: Color of sun when raining, in RGB.
-// Server randomly picks a number between these 2 numbers for when to start raining.
-    // RainStartMin: Minimum time in seconds into a match when rain will begin falling.
-    // RainStartMax: Maximum time in seconds into a match when rain will begin falling.
-// RainDensity: Amount of rain particles spawned. Percentage 0.0-1.0. 0.75 for 25% less rain particles.
-// RainRenderDistance: Controls render distance when raining. Percentage 0.0-1.0. 0.5 for 50% lower render distance.
-// WaterRiseSpeed: # of blocks/ms. use 0.001 for 1 block per second. Defaults to 0.
-"RainColour": [ 20, 40, 40, 0],
-"SunColourRaining": [ 36, 42, 61 ],
+// RainStartMin: Minimum time in seconds into a match when rain will begin falling.
+// RainStartMax: Maximum time in seconds into a match when rain will begin falling.
+// RainColour: RGBA, Color of rain particles. A controls bloom.
+// RainDensity: Float 0.0-1.0, Amount of rain particles spawned. 0.75 for 25% less rain particles.
+// RainRenderDistance: Float 0.0-1.0, Controls render distance when raining. 0.5 for 50% lower render distance.
+// SunColourRaining: RGB, Color of sun when raining.
+// WaterRiseSpeed: Float, # of blocks/ms. use 0.001 for 1 block per second. Defaults to 0.
 "RainStartMin": 900,
 "RainStartMax": 1200,
-"RainDensity": 1.0
+"RainColour": [ 20, 40, 40, 0],
+"RainDensity": 1.0,
 "RainRenderDistance": 1.0,
+"SunColourRaining": [ 36, 42, 61 ],
 "WaterRiseSpeed": 0,
 ```
 
 ## Snow
-::: warning
+::: info
 `SnowIndex` most likely has been removed.
 :::
+Snow immediately begins falling from match start and can be stacked with rain.
 ```json
-// Snow immediately begins falling from match start. Snow is seperate from Rain.
 // HasFallingSnow: Boolean, Controls whether the map has falling snow.
 // HasBlizzardSnow: Boolean, Blizzard snow has more intense, non-customizable wind applied. Overrides HasFallingSnow.
 // FallingSnowColour: RGBA color of snowflakes. A controls bloom. Default value is [255, 255, 255, 255]
@@ -160,14 +161,15 @@ Do not set WaterStartX or WaterStartZ to a negative number. This will hang rende
 "HasFallingSnow": true,
 "HasBlizzardSnow": false,
 "FallingSnowColour": [ 255, 255, 255, 255 ],
-"SnowIndex": 19, // BROKEN
+"SnowIndex": 19,
 ```
 
 ## Sounds
+Vercidium stated the `rain` and `ship` ambient sounds exist, but from testing they actually don't.
 ```json
-// Type: Values: wind, rumble, jungle, ice. Vercidium stated `rain` and `ship` exists but it appears that they don't.
-// Altitude: Y coordinate where the sound plays?
-// Volume: Seems to be 0.0-1.0.
+// Type: Values: wind, rumble, jungle, ice.
+// Altitude: Y coordinate where the sound plays(?)
+// Volume: Float, 0.0-1.0.
 "AmbienceSound": [
     {
         "Type": "wind",
