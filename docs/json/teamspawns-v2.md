@@ -13,18 +13,18 @@ This page covers fields related to spawning.
 ## Fields
 **GameMode** \<string>
     Specifies game mode(s) this config affects.
-        * sta: Static
-        * brk: Breakthrough
-        * ctf: Capture the Flag
-        * esc: Escort
-        * ffa: Free for All, Gun Game, Head Hunter
-        * all: All game modes
+        - sta: Static
+        - brk: Breakthrough
+        - ctf: Capture the Flag
+        - esc: Escort
+        - ffa: Free for All, Gun Game, Head Hunter
+        - all: All game modes
 **Type** \<string>
     box, free, line, point
-        * box: Uses Min, Max
-        * free: Uses Radius for enemy distance check. Does not display spawn area effect
-        * line: Uses Min and Max for end points, Radius for thickness.
-        * point: Uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]. Does not display spawn area effect
+        - box: Uses Min, Max
+        - free: Uses Radius for enemy distance check. Does not display spawn area effect
+        - line: Uses Min and Max for end points, Radius for thickness.
+        - point: Uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]. Does not display spawn area effect
 **Team** \<numeric boolean>
     Determines which team this config is affecting.
 **Min & Max** \<list>
@@ -33,11 +33,11 @@ This page covers fields related to spawning.
     Out of bounds distance behind(?) spawn.
 **Radius** \<integer>
     Integer >0. Functionality depends on Type.
-        * Defaults to 0.
+        - Defaults to 0.
 **FFA game modes** \<integer>
     Minimum distance between players.
-        * Type="line": Thickness of line
-        * Type="point": Valid spawn radius around point
+        - Type="line": Thickness of line
+        - Type="point": Valid spawn radius around point
 **SearchTopDown** \<boolean>
     If true, players will spawn on the highest valid block. Defaults to false.
 
