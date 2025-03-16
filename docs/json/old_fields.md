@@ -28,14 +28,15 @@ This page lists all fields that no longer work or have been removed.
 - `WDObjectiveSpawns` Old field for where objectives would spawn in Wave Defense, a game mode that was never finished
 - `WorldEdgeIndex` Was used as fake infinite repeating terrain to hide map edge
 - `WorldFloorIndex` Was used as fake infinite repeating terrain to hide map edge
-- `MaxCutoffHeight`
-- `MinCutoffHeight`
-- `MinimapRotationAegis` 
+- `MaxCutoffHeight` Unknown, related to the minimap
+- `MinCutoffHeight` Unknown, related to the minimap
+- `MinimapRotationAegis`
 - `MinimapRotationHelix`
 - `PodiumCamera` Where the camera for the podium is that would display the player models with the map in the background
 - `RainSpawnRadius`
 - `RainStartActual`
 - `RenderDistanceRainMultiplier` Old field for `RainRenderDistance`
+- `Spawn.AllowWaterSpawn`
 - `Spawn.LandingPodSpawn`
 - `Spawn.LandingPodSpeed`
 - `Skybox."AR"` Skybox for arena; there were plans to make a new, higher detail skybox

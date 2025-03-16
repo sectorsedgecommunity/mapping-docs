@@ -5,19 +5,26 @@ next: false
 ---
 
 # TeamSpawns
-`TeamSpawns` determines spawns for teams (what a surprise right?). You must have configs for team 0 and team 1.
+You must have configs for team 0 and team 1 even in FFA game modes.
 ```json
+// GameMode: String. Specifies game mode(s) this config affects. See below for values.
+// Type: box, free, line, point
+//     box: Uses Min, Max
+//     free: Uses Radius for enemy distance check. Does not display spawn area effect
+//     line: Uses Min and Max for end points, Radius for thickness.
+//     point: Uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]. Does not display spawn area effect
+// Team: 0 or 1. Determines which team this config is affecting.
+// Min & Max: List of 3 integers. Minimum and maximum coordinates a player can spawn at.
+//     Max must be greater than min, otherwise have glitchy spawn area.
+// OOBDistance: Integer. Out of bounds distance behind(?) spawn.
+// Radius: Integer >0. Functionality depends on Type. Defaults to 0.
+//     FFA game modes: minimum distance between players.
+//     Type="line": Thickness of line
+//     Type="point": Valid spawn radius around point
+// SearchTopDown: Boolean. If true, players will spawn on the highest valid block. Defaults to false.
+// Indoors: Boolean. If true, always spawn a player under a block. Defaults to false.
 "TeamSpawns": [
     {
-        // GameMode: sta/brk/ctf/esc/ffa/all
-        // Type: box, free, line, point
-        //  point: uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]
-        // Team: 0 or 1
-        // Min & Max: max must be greater than min, otherwise have glitchy spawn area.
-        // OOBDistance: Out of bounds distance behind(?) spawn.
-        // Radius: Likely used in FFA game modes as a minimum distance between players.
-        // SearchTopDown: True/false. If true, searches top to bottom instead of bottom to top.
-        // Indoors: True/false. If true, always spawn a player under a block.
         "GameMode": "all",
         "Type": "box",
         "Team": 0,
@@ -30,14 +37,14 @@ next: false
 	}
 ],
 ```
-| GameMode value | Game mode                              |
-|:--------------:|:---------------------------------------|
-| sta            | Static                                 |
-| brk            | Breakthrough                           |
-| ctf            | Capture the Flag                       |
-| esc            | Escort                                 |
-| ffa            | Free for all game modes (confirm this) |
-| all            | Any                                    |
+| GameMode value | Game mode               |
+|:--------------:|:------------------------|
+| sta            | Static                  |
+| brk            | Breakthrough            |
+| ctf            | Capture the Flag        |
+| esc            | Escort                  |
+| ffa            | Free for all game modes |
+| all            | Any                     |
 
 ## SpawnCamera
 ```json
