@@ -8,7 +8,7 @@ next: false
 This page covers fields related to spawning.
 
 ## TeamSpawns
-`TeamSpawns` holds configs for how teams' regular spawns work. You must have configs for team 0 and team 1 even in FFA game modes.
+`TeamSpawns` holds configs for how **teams**' regular spawns work. You must have configs for team 0 and team 1 even in FFA game modes.
 
 ### Fields
 **GameMode** `<string>`
