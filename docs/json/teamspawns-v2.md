@@ -12,7 +12,6 @@ This page covers fields related to spawning.
 
 ### Fields
 **GameMode** `<string>`
-
 Specifies game mode(s) this config affects.
   * sta: Static
   * brk: Breakthrough
@@ -22,8 +21,7 @@ Specifies game mode(s) this config affects.
   * all: All game modes
 
 
-**Type** \<string>
-
+**Type** `<string>`
 Specifies shape and/or function of spawn.
   * box: Uses Min, Max.
   * free: Uses Radius for enemy distance check. Does not display spawn area effect.
@@ -31,39 +29,34 @@ Specifies shape and/or function of spawn.
   * point: Uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]. Does not display spawn area effect.\n
 
 
-**Team** \<numeric boolean>
-
+**Team** `<numeric boolean>`
 Determines which team this config is affecting.
 
 
-**Min & Max** \<list>
-
+**Min & Max** `<list>`
 List of 3 integers. Minimum and maximum coordinates a player can spawn at. Max must be greater than min.
 
 
-**OOBDistance** \<integer>
-
+**OOBDistance** `<integer>`
 Out of bounds distance behind(?) spawn.
 
 
-**Radius** \<integer>
-
+**Radius** `<integer>`
 Integer >0. Functionality depends on Type.
   * Defaults to 0.\n
 
 
-**FFA game modes** \<integer>Minimum distance between players.
+**FFA game modes** `<integer>`
+Minimum distance between players.
   * Type="line": Thickness of line.
   * Type="point": Valid spawn radius around point.\n
 
 
-**SearchTopDown** \<boolean>
-
+**SearchTopDown** `<boolean>`
 If true, players will spawn on the highest valid block. Defaults to false.
 
 
-**Indoors** \<boolean>
-
+**Indoors** `<boolean>`
 If true, always spawn a player under a block. Defaults to false.
 
 ### Example
@@ -88,18 +81,15 @@ Configuration regarding the spawn camera. Separate attributes for team 0 and tea
 
 
 ### Fields
-**Type** \<string>
-
+**Type** `<string>`
 All values for this are unknown.
 
 
-**Yaw** \<float>
-
+**Yaw** `<float>`
 A value of 3.145 (1π) is approximately 180 degrees.
 
 
-**Position** \<list>
-
+**Position** `<list>`
 List of 3 integers. Default position of camera. Doesn't seem to work anymore.
 
 ### Example
