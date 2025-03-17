@@ -7,12 +7,14 @@ next: false
 # Player Spawns
 This page covers fields related to spawning.
 
+    Tab text test
+
 ## TeamSpawns
 `TeamSpawns` holds configs for how **teams**' regular spawns work. You must have configs for team 0 and team 1 even in FFA game modes.
 
 ### Fields
 **GameMode** `<string>`
-Specifies game mode(s) this config affects.
+    Specifies game mode(s) this config affects.
   * sta: Static
   * brk: Breakthrough
   * ctf: Capture the Flag
@@ -22,7 +24,7 @@ Specifies game mode(s) this config affects.
 
 
 **Type** `<string>`
-Specifies shape and/or function of spawn.
+    Specifies shape and/or function of spawn.
   * box: Uses Min, Max.
   * free: Uses Radius for enemy distance check. Does not display spawn area effect.
   * line: Uses Min and Max for end points, Radius for thickness.
@@ -30,34 +32,34 @@ Specifies shape and/or function of spawn.
 
 
 **Team** `<numeric boolean>`
-Determines which team this config is affecting.
+    Determines which team this config is affecting.
 
 
 **Min & Max** `<list>`
-List of 3 integers. Minimum and maximum coordinates a player can spawn at. Max must be greater than min.
+    List of 3 integers. Minimum and maximum coordinates a player can spawn at. Max must be greater than min.
 
 
 **OOBDistance** `<integer>`
-Out of bounds distance behind(?) spawn.
+    Out of bounds distance behind(?) spawn.
 
 
 **Radius** `<integer>`
-Integer >0. Functionality depends on Type.
+    Integer >0. Functionality depends on Type.
   * Defaults to 0.\n
 
 
 **FFA game modes** `<integer>`
-Minimum distance between players.
+    Minimum distance between players.
   * Type="line": Thickness of line.
   * Type="point": Valid spawn radius around point.\n
 
 
 **SearchTopDown** `<boolean>`
-If true, players will spawn on the highest valid block. Defaults to false.
+    If true, players will spawn on the highest valid block. Defaults to false.
 
 
 **Indoors** `<boolean>`
-If true, always spawn a player under a block. Defaults to false.
+    If true, always spawn a player under a block. Defaults to false.
 
 ### Example
 ```json
@@ -77,20 +79,20 @@ If true, always spawn a player under a block. Defaults to false.
 ```
 
 ## SpawnCamera
-Configuration regarding the spawn camera. Separate attributes for team 0 and team 1.
+    Configuration regarding the spawn camera. Separate attributes for team 0 and team 1.
 
 
 ### Fields
 **Type** `<string>`
-All values for this are unknown.
+    All values for this are unknown.
 
 
 **Yaw** `<float>`
-A value of 3.145 (1π) is approximately 180 degrees.
+    A value of 3.145 (1π) is approximately 180 degrees.
 
 
 **Position** `<list>`
-List of 3 integers. Default position of camera. Doesn't seem to work anymore.
+    List of 3 integers. Default position of camera. Doesn't seem to work anymore.
 
 ### Example
 ```json
