@@ -11,41 +11,41 @@ This page covers fields related to spawning.
 `TeamSpawns` holds configs for how teams' regular spawns work. You must have configs for team 0 and team 1 even in FFA game modes.
 
 ## Fields
-**GameMode** `\<string>`
+**GameMode** \<string> \n
 Specifies game mode(s) this config affects.
   * sta: Static
   * brk: Breakthrough
   * ctf: Capture the Flag
   * esc: Escort
   * ffa: Free for All, Gun Game, Head Hunter
-  * all: All game modes\n
-\n
-**Type** `\<string>`
+  * all: All game modes
+
+\**Type** \<string> \n
 Specifies shape and/or function of spawn.
   * box: Uses Min, Max.
   * free: Uses Radius for enemy distance check. Does not display spawn area effect.
   * line: Uses Min and Max for end points, Radius for thickness.
   * point: Uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]. Does not display spawn area effect.\n
 \n
-**Team** `\<numeric boolean>`
+**Team** \<numeric boolean> \n
 Determines which team this config is affecting.
-**Min & Max** `\<list>`
+**Min & Max** \<list> \n
 List of 3 integers. Minimum and maximum coordinates a player can spawn at. Max must be greater than min.
-**OOBDistance** `\<integer>`
+**OOBDistance** \<integer> \n
 Out of bounds distance behind(?) spawn.
-**Radius** `<integer>
+**Radius** \<integer> \n
 Integer >0. Functionality depends on Type.
   * Defaults to 0.\n
 \n
-**FFA game modes** `\<integer>`
+**FFA game modes** \<integer> \n
 Minimum distance between players.
   * Type="line": Thickness of line.
   * Type="point": Valid spawn radius around point.\n
 \n
-**SearchTopDown** `\<boolean>`
+**SearchTopDown** \<boolean> \n
 If true, players will spawn on the highest valid block. Defaults to false.
 
-**Indoors** `\<boolean>`
+**Indoors** \<boolean> \n
 If true, always spawn a player under a block. Defaults to false.
 
 ## Example
@@ -69,11 +69,11 @@ If true, always spawn a player under a block. Defaults to false.
 Configuration regarding the spawn camera. Separate attributes for team 0 and team 1.
 
 ## Fields
-**Type** `\<string>`
+**Type** \<string> \n
 All values for this are unknown.
-**Yaw** `\<float>`
+**Yaw** \<float> \n
 A value of 3.145 (1π) is approximately 180 degrees.
-**Position** `\<list>`
+**Position** \<list> \n
 List of 3 integers. Default position of camera. Doesn't seem to work anymore.
 
 ## Example
