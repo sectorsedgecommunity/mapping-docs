@@ -21,7 +21,6 @@ Specifies game mode(s) this config affects.
   * ffa: Free for All, Gun Game, Head Hunter
   * all: All game modes
 
-\n
 
 **Type** `<string>`
 
@@ -31,32 +30,27 @@ Specifies shape and/or function of spawn.
   * line: Uses Min and Max for end points, Radius for thickness.
   * point: Uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]. Does not display spawn area effect.
 
-\n
 
 **Team** `<numeric boolean>`
 
 Determines which team this config is affecting.
 
-\n
 
 **Min & Max** `<list>`
 
 List of 3 integers. Minimum and maximum coordinates a player can spawn at. Max must be greater than min.
 
-\n
 
 **OOBDistance** `<integer>`
 
 Out of bounds distance behind(?) spawn.
 
-\n
 
 **Radius** `<integer>`
 
 Integer >0. Functionality depends on Type.
   * Defaults to 0.
 
-\n
 
 **FFA game modes** `<integer>`
 
@@ -64,13 +58,11 @@ Minimum distance between players.
   * Type="line": Thickness of line.
   * Type="point": Valid spawn radius around point.
 
-\n
 
 **SearchTopDown** `<boolean>`
 
 If true, players will spawn on the highest valid block. Defaults to false.
 
-\n
 
 **Indoors** `<boolean>`
 
@@ -102,13 +94,11 @@ Configuration regarding the spawn camera. Separate attributes for team 0 and tea
     
 All values for this are unknown.
 
-\n
 
 **Yaw** `<float>`
     
 A value of 3.145 (1π) is approximately 180 degrees.
 
-\n
 
 **Position** `<list>`
     
