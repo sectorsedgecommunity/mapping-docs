@@ -14,7 +14,8 @@ $Tab text test$
 `TeamSpawns` holds configs for how teams' regular spawns work. You must have configs for team 0 and team 1 even in FFA game modes.
 
 ### Fields
-**GameMode** "<string>"
+**GameMode** `<string>`
+
 Specifies game mode(s) this config affects.
   * sta: Static
   * brk: Breakthrough
