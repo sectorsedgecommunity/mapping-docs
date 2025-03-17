@@ -25,6 +25,7 @@ Specifies game mode(s) this config affects.
   * all: All game modes
 
 
+
 **Type** `<string>`
 
 Specifies shape and/or function of spawn.
@@ -34,35 +35,49 @@ Specifies shape and/or function of spawn.
   * point: Uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]. Does not display spawn area effect.
 
 
+
 **Team** `<numeric boolean>`
-    Determines which team this config is affecting.
+
+Determines which team this config is affecting.
+
 
 
 **Min & Max** `<list>`
-    List of 3 integers. Minimum and maximum coordinates a player can spawn at. Max must be greater than min.
+
+List of 3 integers. Minimum and maximum coordinates a player can spawn at. Max must be greater than min.
+
 
 
 **OOBDistance** `<integer>`
-    Out of bounds distance behind(?) spawn.
+
+Out of bounds distance behind(?) spawn.
+
 
 
 **Radius** `<integer>`
-    Integer >0. Functionality depends on Type.
+
+Integer >0. Functionality depends on Type.
   * Defaults to 0.\n
 
 
+
 **FFA game modes** `<integer>`
-    Minimum distance between players.
+
+Minimum distance between players.
   * Type="line": Thickness of line.
   * Type="point": Valid spawn radius around point.
 
 
+
 **SearchTopDown** `<boolean>`
-    If true, players will spawn on the highest valid block. Defaults to false.
+
+If true, players will spawn on the highest valid block. Defaults to false.
+
 
 
 **Indoors** `<boolean>`
-    If true, always spawn a player under a block. Defaults to false.
+
+If true, always spawn a player under a block. Defaults to false.
 
 ### Example
 ```json
@@ -82,20 +97,25 @@ Specifies shape and/or function of spawn.
 ```
 
 ## SpawnCamera
-    Configuration regarding the spawn camera. Separate attributes for team 0 and team 1.
 
+Configuration regarding the spawn camera. Separate attributes for team 0 and team 1.
 
 ### Fields
 **Type** `<string>`
-    All values for this are unknown.
+    
+All values for this are unknown.
+
 
 
 **Yaw** `<float>`
-    A value of 3.145 (1π) is approximately 180 degrees.
+    
+A value of 3.145 (1π) is approximately 180 degrees.
+
 
 
 **Position** `<list>`
-    List of 3 integers. Default position of camera. Doesn't seem to work anymore.
+    
+List of 3 integers. Default position of camera. Doesn't seem to work anymore.
 
 ### Example
 ```json
