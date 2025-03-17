@@ -7,17 +7,14 @@ next: false
 # Player Spawns
 This page covers fields related to spawning.
 
-$$
-Tab text test
-$$
+
+$Tab text test$
 
 ## TeamSpawns
 `TeamSpawns` holds configs for how teams' regular spawns work. You must have configs for team 0 and team 1 even in FFA game modes.
 
 ### Fields
-**GameMode** `<string>`
-
-
+**GameMode** "<string>"
 Specifies game mode(s) this config affects.
   * sta: Static
   * brk: Breakthrough
@@ -27,8 +24,9 @@ Specifies game mode(s) this config affects.
   * all: All game modes
 
 
-**Type** `<string>`\n
-    Specifies shape and/or function of spawn.
+**Type** `<string>`
+
+Specifies shape and/or function of spawn.
   * box: Uses Min, Max.
   * free: Uses Radius for enemy distance check. Does not display spawn area effect.
   * line: Uses Min and Max for end points, Radius for thickness.
