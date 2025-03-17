@@ -7,14 +7,18 @@ next: false
 # Player Spawns
 This page covers fields related to spawning.
 
-    Tab text test
+$$
+Tab text test
+$$
 
 ## TeamSpawns
-`TeamSpawns` holds configs for how **teams**' regular spawns work. You must have configs for team 0 and team 1 even in FFA game modes.
+`TeamSpawns` holds configs for how teams' regular spawns work. You must have configs for team 0 and team 1 even in FFA game modes.
 
 ### Fields
 **GameMode** `<string>`
-    Specifies game mode(s) this config affects.
+
+
+Specifies game mode(s) this config affects.
   * sta: Static
   * brk: Breakthrough
   * ctf: Capture the Flag
@@ -23,12 +27,12 @@ This page covers fields related to spawning.
   * all: All game modes
 
 
-**Type** `<string>`
+**Type** `<string>`\n
     Specifies shape and/or function of spawn.
   * box: Uses Min, Max.
   * free: Uses Radius for enemy distance check. Does not display spawn area effect.
   * line: Uses Min and Max for end points, Radius for thickness.
-  * point: Uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]. Does not display spawn area effect.\n
+  * point: Uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]. Does not display spawn area effect.
 
 
 **Team** `<numeric boolean>`
@@ -51,7 +55,7 @@ This page covers fields related to spawning.
 **FFA game modes** `<integer>`
     Minimum distance between players.
   * Type="line": Thickness of line.
-  * Type="point": Valid spawn radius around point.\n
+  * Type="point": Valid spawn radius around point.
 
 
 **SearchTopDown** `<boolean>`
