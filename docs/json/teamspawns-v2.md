@@ -11,7 +11,7 @@ This page covers fields related to spawning.
 `TeamSpawns` holds configs for how teams' regular spawns work. You must have configs for team 0 and team 1 even in FFA game modes.
 
 ## Fields
-**GameMode** \<string>
+**GameMode** \<string>\n
 Specifies game mode(s) this config affects.
   * sta: Static
   * brk: Breakthrough
@@ -19,29 +19,33 @@ Specifies game mode(s) this config affects.
   * esc: Escort
   * ffa: Free for All, Gun Game, Head Hunter
   * all: All game modes
-**Type** \<string>
+\n
+**Type** \<string>\n
 Specifies shape and/or function of spawn.
-  * box: Uses Min, Max
-  * free: Uses Radius for enemy distance check. Does not display spawn area effect
+  * box: Uses Min, Max.
+  * free: Uses Radius for enemy distance check. Does not display spawn area effect.
   * line: Uses Min and Max for end points, Radius for thickness.
-  * point: Uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]. Does not display spawn area effect
-**Team** \<numeric boolean>
+  * point: Uses Radius and is centered around Min. If Min is missing, defaults [ 0, 0, 0 ]. Does not display spawn area effect.
+\n
+**Team** \<numeric boolean>\n
 Determines which team this config is affecting.
-**Min & Max** \<list>
+**Min & Max** \<list>\n
 List of 3 integers. Minimum and maximum coordinates a player can spawn at. Max must be greater than min.
-**OOBDistance** \<integer>
+**OOBDistance** \<integer>\n
 Out of bounds distance behind(?) spawn.
 **Radius** \<integer>
 Integer >0. Functionality depends on Type.
   * Defaults to 0.
-**FFA game modes** \<integer>
+\n
+**FFA game modes** \<integer>\n
 Minimum distance between players.
-  * Type="line": Thickness of line
-  * Type="point": Valid spawn radius around point
-**SearchTopDown** \<boolean>
+  * Type="line": Thickness of line.
+  * Type="point": Valid spawn radius around point.
+\n
+**SearchTopDown** \<boolean>\n
 If true, players will spawn on the highest valid block. Defaults to false.
 
-**Indoors** \<boolean>
+**Indoors** \<boolean>\n
 If true, always spawn a player under a block. Defaults to false.
 
 ## Example
