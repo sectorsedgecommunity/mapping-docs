@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-## Snow
+# Snow
 Snow immediately begins falling from match start and can be stacked with rain.
 ::: info
 Snowfall is not affected by wind settings.

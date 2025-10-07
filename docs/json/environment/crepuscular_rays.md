@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-## Crepuscular rays
+# Crepuscular rays
 Usually known as god rays or light shafts. Helps the sun feel more substantial.
 
 ### Fields

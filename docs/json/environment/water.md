@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-## Water
+# Water
 Water can serve a visual and gameplay purpose.
 ::: danger
 Do not set WaterStartX or WaterStartZ to a negative number. This will hang rendering if the -x or -z side of the map is in view and can crash clients.
