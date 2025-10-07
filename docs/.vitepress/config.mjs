@@ -24,7 +24,19 @@ export default defineConfig({
           { text: 'JSON file', link: '/json.md', collapsed: true, items: [
             { text: 'Basic map info', link: '/json/basic_map_info.md' },
             { text: 'BlockTexturesV2', link: '/json/blocktexturesv2.md' },
-            { text: 'Environment', link: '/json/environment.md' },
+            { text: 'Environment', collapsed: true, items: [
+			  { text: 'Brightness', link: '/json/environment/brightness.md' },
+			  { text: 'Crepuscular rays', link: '/json/environment/crepuscular_rays.md' },
+			  { text: 'Rain', link: '/json/environment/rain.md' },
+			  { text: 'Render distance', link: '/json/environment/render_distance.md' },
+			  { text: 'Skybox', link: '/json/environment/skybox.md' },
+			  { text: 'Snow', link: '/json/environment/snow.md' },
+			  { text: 'Sounds', link: '/json/environment/sounds.md' },
+			  { text: 'Sun', link: '/json/environment/sun.md' },
+			  { text: 'Water', link: '/json/environment/water.md' },
+			  { text: 'Wind', link: '/json/environment/wind.md' }
+			]
+			},
             { text: 'Game modes', link: '/json/gamemodes.md', collapsed: true, items: [
               { text: 'ArenaForcefieldAltitude', link: '/json/gamemodes/arenaforcefieldaltitude.md' },
               { text: 'Control Shift settings', link: '/json/gamemodes/control_shift_settings.md' },
