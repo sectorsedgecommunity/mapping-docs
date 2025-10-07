@@ -12,12 +12,13 @@ If a map has low brightness and makes heavy use of block lights, players without
 
 ### Fields
 **Brightness** `<float>`
+
 Overall brightness. Defaults to 1.
 
 
-**BlockBrightness** `<float>`\n
+**BlockBrightness** `<float>`<br />
 Brightness of blocks. Defaults to 1.3.
 
 
 **RainBrightness** `<float>`
-\nValue for `Brightness` when rainfall is active. Defaults to 1.
+<br />Value for `Brightness` when rainfall is active. Defaults to 1.
