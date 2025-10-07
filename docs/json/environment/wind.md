@@ -11,11 +11,9 @@ Wind does not affect snowfall or blizzards.
 :::
 
 ### Fields
-**WindSpeed** `<float>`
-
+**WindSpeed** `<float>`<br />
 Wind speed in blocks per second(?).
 
 
-**WindDirection** `<float>`
-
+**WindDirection** `<float>`<br />
 Yaw direction of wind in radians.

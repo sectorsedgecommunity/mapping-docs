@@ -8,18 +8,15 @@ next: false
 Usually known as god rays or light shafts. Helps the sun feel more substantial.
 
 ### Fields
-**CrepuscularThresholdOverride** `<float>`
-
+**CrepuscularThresholdOverride** `<float>`<br />
 Threshold for rendering rays. Works best with cubemap skyboxes.
 
 
-**CrepuscularPitch** `<float>`
-
+**CrepuscularPitch** `<float>`<br />
 Pitch should match sun pitch for best results.
 
 
-**CrepuscularYaw** `<float>`
-
+**CrepuscularYaw** `<float>`<br />
 Yaw should match sun yaw for best results.
 
 

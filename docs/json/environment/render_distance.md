@@ -11,16 +11,13 @@ When the Render Distance game setting is less than or equal to 12, fog is an opa
 :::
 
 ### Fields
-**RenderDistance** `<integer>`
-
+**RenderDistance** `<integer>`<br />
 Render distance in chunks (32x32).
 
 
-**RenderDistanceSpawn** `<integer>`
-
+**RenderDistanceSpawn** `<integer>`<br />
 Render distance in chunks when in the respawn screen. Only takes effect if RenderDistance is below ~1024.
 
 
-**FogColour** `<rgb>`
-
+**FogColour** `<rgb>`<br />
 Color for fog when render distance game setting is <12.

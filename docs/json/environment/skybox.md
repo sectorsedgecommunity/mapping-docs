@@ -11,8 +11,7 @@ The [skybox](https://en.wikipedia.org/wiki/Skybox_(video_games)) is a key part i
 `SkyboxType` uses cubemaps from the base game. These contain the most amount of detail, but may only fit certain environments.
 
 ### Fields
-**SkyboxType** `<string choices>`
-
+**SkyboxType** `<string choices>`<br />
 Specifies cubemap to use for skybox. See choices in the table.
 | Skybox code   | Official usage                                          | Description                                                                                  |
 |:-------------:|:--------------------------------------------------------|:---------------------------------------------------------------------------------------------|
@@ -26,13 +25,11 @@ Specifies cubemap to use for skybox. See choices in the table.
 | CUSTOM        | N/A                                                     | Custom cubemap from 6 textures placed in `AppData\Roaming\vercidium\`. Doesn't work anymore. |
 
 
-**SkyboxRotation** `<list>`
-
+**SkyboxRotation** `<list>`<br />
 List of two floats. Rotates the skybox cube in radians.
 
 
-**SkyboxVerticalOffset** `<float>`
-
+**SkyboxVerticalOffset** `<float>`<br />
 Vertical offset of skybox cube. ±0.93 maximum before the void is exposed.
 
 
@@ -40,18 +37,15 @@ Vertical offset of skybox cube. ±0.93 maximum before the void is exposed.
 If cubemap skyboxes don't fit your map's atmosphere, you can use a dual color skybox. Instead of using a cubemap, the game fades between a horizon color and a top color.
 
 ### Fields
-**CustomSkyboxColour** `<boolean>`
-
+**CustomSkyboxColour** `<boolean>`<br />
 Determines if the skybox is a flat two color sky.
 
 
-**HorizonColour** `<rgb>`
-
+**HorizonColour** `<rgb>`<br />
 RGB color of horizon. Formatted `[R, G, B]`.
 
 
-**TopColour** `<rgb>`
-
+**TopColour** `<rgb>`<br />
 RGB color of top half of sky.
 
 

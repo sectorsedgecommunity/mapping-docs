@@ -11,21 +11,17 @@ Setting SunRotation values within 0.25 of a cardinal direction causes flickering
 :::
 
 ### Fields
-**SunColour** `<rgb>`
-
+**SunColour** `<rgb>`<br />
 RGB color of the sunlight. Dark colors aren't ideal.
 
 
-**SunRotation** `<list>`
-
+**SunRotation** `<list>`<br />
 List of two floats. Positions the sun in the sky in radians.
 
 
-**SunDiffuseStrength** `<float>`
-
+**SunDiffuseStrength** `<float>`<br />
 The strength of the sunlight. Must be greater than zero. Defaults to 0.001.
 
 
-**SunDistance** `<float>`
-
+**SunDistance** `<float>`<br />
 Affects crepuscular rays.
