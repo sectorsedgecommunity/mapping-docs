@@ -15,16 +15,20 @@ Snowfall is not affected by wind settings.
 
 ### Fields
 **HasFallingSnow** `<boolean>`
+
 Controls whether the map has falling snow. Falling snow is calm.
 
 
 **HasBlizzardSnow** `<boolean>`
+
 Blizzard snow is more intense usually doesn't land in the main portion of the map. Overrides HasFallingSnow.
 
 
 **FallingSnowColour** `<rgba>`
+
 Color of snowfall. A controls bloom.
 
 
 **SnowIndex** `<integer>`
+
 Block index of blocks placed by snowfall. This was probably removed.

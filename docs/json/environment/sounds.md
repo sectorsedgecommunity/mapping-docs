@@ -9,6 +9,7 @@ Sounds are a small but important part of a map. If no sounds are playing, the ma
 
 ### Fields
 **AmbienceSound** `<list>`
+
 Multiple ambient sounds can play at different altitudes. See below for available sounds.
 
 ```json
@@ -36,4 +37,5 @@ Multiple ambient sounds can play at different altitudes. See below for available
 
 
 **UnderwaterSound** `<sound>`
+
 Some snowy official maps use `underwatercold`. Defaults to `underwater`. See table above for available sounds.

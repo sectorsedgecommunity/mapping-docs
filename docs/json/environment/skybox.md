@@ -46,10 +46,12 @@ Determines if the skybox is a flat two color sky.
 
 
 **HorizonColour** `<rgb>`
+
 RGB color of horizon. Formatted `[R, G, B]`.
 
 
 **TopColour** `<rgb>`
+
 RGB color of top half of sky.
 
 
