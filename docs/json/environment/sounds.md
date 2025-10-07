@@ -7,7 +7,7 @@ next: false
 # Sounds
 Sounds are a small but important part of a map. If no sounds are playing, the map can feel empty and unsettling. Ambient sounds are automatically muffled if a player is deemed to be indoors.
 
-### Fields
+## AmbienceSound
 **AmbienceSound** `<list>`
 
 Multiple ambient sounds can play at different altitudes. See below for available sounds.
@@ -35,7 +35,7 @@ Multiple ambient sounds can play at different altitudes. See below for available
 | underwater     |
 | underwatercold |
 
-
+## UnderwaterSound
 **UnderwaterSound** `<sound>`
 
 Some snowy official maps use `underwatercold`. Defaults to `underwater`. See table above for available sounds.
