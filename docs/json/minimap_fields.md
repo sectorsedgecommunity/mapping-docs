@@ -20,5 +20,5 @@ The darkest altitude in the minimap.
 **MinimapAltitudeCutOff** `<integer>`<br />
 Blocks above this altitude will not show in the minimap.
 
-**MinimapBackgroundColour** [`<rgb>`](../types/rgb.md)<br />
+**MinimapBackgroundColour** [`<rgb>`](types/rgb.md)<br />
 Void color on the minimap, within MapSize.

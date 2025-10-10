@@ -5,10 +5,10 @@ next: false
 ---
 
 # Control Shift settings
-**ControlShiftSpawnOverrideMin** [`<position>`](types/position.md)<br />
+**ControlShiftSpawnOverrideMin** [`<position>`](../types/position.md)<br />
 If a coordinate is not -1, then both team's spawn positions will always start at the given X/Y/Z value.
 
-**ControlShiftSpawnOverrideMax** [`<position>`](types/position.md)<br />
+**ControlShiftSpawnOverrideMax** [`<position>`](../types/position.md)<br />
 If a coordinate is not -1, then both team's spawn positions will always end at the given X/Y/Z value.
 
 **ControlShiftSpawnOffset** `<float>`<br />
