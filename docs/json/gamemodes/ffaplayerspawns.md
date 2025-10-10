@@ -5,7 +5,7 @@ next: false
 ---
 
 # FFAPlayerSpawns
-Individual [`<positions>`](types/position.md) on a map where players can spawn in Gun Game and Head Hunter. A minimum of 12 positions is required.
+Individual [`<positions>`](../types/position.md) on a map where players can spawn in Gun Game and Head Hunter. A minimum of 12 positions is required.
 
 ## Example
 ```json
