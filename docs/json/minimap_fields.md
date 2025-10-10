@@ -6,16 +6,19 @@ next: false
 
 # Minimap fields
 This page contains all current fields related to the minimap.
-```json
-// MinimapBrightness: Multiplier for minimap brightness.
-// Uses the in-game Y coordinate as the input value:
-// HeightmapTop: The top of the heightmap for the minimap.
-// HeightmapBottom: Bottom of the heightmap for the minimap.
-// MinimapAltitudeCutOff: Altitude cutoff for the minimap.
-// MinimapBackgroundColour: Void color on the minimap, within MapSize.
-"MinimapBrightness": 1,
-"HeightmapTop": 73,
-"HeightmapBottom": 11,
-"MinimapAltitudeCutOff": 96,
-"MinimapBackgroundColour": [ 30, 24, 26 ],
-```
+
+## Fields
+**MinimapBrightness** `<float>`<br />
+Minimap brightness multiplier.
+
+**HeightmapTop** `<integer>`<br />
+The brightest altitude in the minimap.
+
+**HeightmapBottom** `<integer>`<br />
+The darkest altitude in the minimap.
+
+**MinimapAltitudeCutOff** `<integer>`<br />
+Blocks above this altitude will not show in the minimap.
+
+**MinimapBackgroundColour** [`<rgb>`](../types/rgb.md)<br />
+Void color on the minimap, within MapSize.

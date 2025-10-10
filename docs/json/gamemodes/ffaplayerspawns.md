@@ -5,13 +5,13 @@ next: false
 ---
 
 # FFAPlayerSpawns
-Individual coordinates on a map where players can spawn in Gun Game and Head Hunter. A minimum of 12 positions is required.
+Individual [`<positions>`](types/position.md) on a map where players can spawn in Gun Game and Head Hunter. A minimum of 12 positions is required.
 
+## Example
 ```json
 // FFAPlayerSpawns on Shrine
-// List of coordinate lists
 "FFAPlayerSpawns": [
-	[292, 19, 339], // X Y Z coordinates
+	[292, 19, 339],
 	[272, 19, 349],
 	[239, 19, 349],
 	[219, 19, 339],

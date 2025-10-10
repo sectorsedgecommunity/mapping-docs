@@ -15,17 +15,18 @@ The [skybox](https://en.wikipedia.org/wiki/Skybox_(video_games)) is a key part i
 Specifies cubemap to use for skybox. See choices in the table.
 | Skybox code   | Official usage                                          | Description                                                                                  |
 |:-------------:|:--------------------------------------------------------|:---------------------------------------------------------------------------------------------|
-| AD            | Aegis Desert, Devoid Wasteland.                         | Open desert with a clear sky, mountains. A pink planet (moon?) and blue planet with rings.   |
+| AD            | Aegis Desert, Devoid Wasteland.                         | Open desert with a clear sky & mountains. A pink planet (moon?) and blue planet with rings.  |
 | CF            | Crashed Freighter, Soltec Plaza.                        | Red mountains at sunset in the open waters with plenty of stars. No planets visible.         |
 | RW            | Railway, Reactor.                                       | Dark beige foggy city with partial clouds, and futuristic skyscrapers. No planets visible.   |
 | IS            | Ice Station, Corahk Canyon, Cold Harbour.               | Coastline with extreme snow mountains nearby, and partial clouds. No planets visible.        |
 | LB            | Laboratory.                                             | Cloud planet with futuristic skyscrapers at sunset. A blue gas planet is visible.            |
 | MC            | Magma Chamber, Base Omicron.                            | Blue-gray harsh mountains and some "pwetty stars". Unlit-side of a planet is visible.        |
 | ST            | Soltrium Temple, Shrine, Aegis Oasis, Devoid Cathedral. | Pleasant blue-gray mountains with medium clouds. Red planet and a gray moon(?) visible.      |
+| SPACE         | Ship, Arenas, Station Alpha.                            | Outer space. Large blue planet visible.                                                      |
 | CUSTOM        | N/A                                                     | Custom cubemap from 6 textures placed in `AppData\Roaming\vercidium\`. Doesn't work anymore. |
 
 
-**SkyboxRotation** `<list>`<br />
+**SkyboxRotation** [`<rotation>`](../types/rotation.md)<br />
 List of two floats. Rotates the skybox cube in radians.
 
 
@@ -41,11 +42,11 @@ If cubemap skyboxes don't fit your map's atmosphere, you can use a dual color sk
 Determines if the skybox is a flat two color sky.
 
 
-**HorizonColour** `<rgb>`<br />
-RGB color of horizon. Formatted `[R, G, B]`.
+**HorizonColour** [`<rgb>`](../types/rgb.md)<br />
+RGB color of horizon.
 
 
-**TopColour** `<rgb>`<br />
+**TopColour** [`<rgb>`](../types/rgb.md)<br />
 RGB color of top half of sky.
 
 

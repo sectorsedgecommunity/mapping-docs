@@ -16,7 +16,7 @@ Minimum time in seconds into a match when rain will begin falling.
 Maximum time in seconds into a match when rain will begin falling.
 
 
-**RainColour** `<rgba>`<br />
+**RainColour** [`<rgba>`](../types/rgba.md)<br />
 Color of rain particles. A controls bloom.
 
 
@@ -28,7 +28,7 @@ Amount of rain particles spawned. 0.75 for 25% less rain particles.
 Controls render distance when raining. 0.5 for 50% lower render distance.
 
 
-**SunColourRaining** `<rgb>`<br />
+**SunColourRaining** [`<rgb>`](../types/rgb.md)<br />
 Color of sunlight when raining.
 
 

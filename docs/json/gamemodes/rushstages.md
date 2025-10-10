@@ -9,16 +9,16 @@ A minimum of one stage and two areas are needed to enable Rush.
 ```json
 "RushStages": [ // Each object in the RushStages list is a Rush stage.
 	{	// First Rush stage
-		"Areas":	// Areas: Another list that should contain all areas in a stage.
+		"Areas":	// Areas: Another list that should contain all target locations in a stage. Each item in this list will add one active objective in this stage.
 		[
-			{
+			{ // Location #1
 				"Name": "Stage 1, area 1", // Name: Names this position to help humans read where this is, when reading the JSON file.
-				"Positions": [ // Positions: List of actual coordinates of where Rush Objectives spawn. This should be used to group nearby coordinates together.
+				"Positions": [ // Positions: List of actual coordinates of where objectives spawn. This should be used to group nearby coordinates together.
 					[ 1, 1, 1 ], // X Y Z coordinates
 					[ 2, 2, 2 ]
 				]
 			},
-			{
+			{ // Location #2
 				"Name": "Stage 1, area 2",
 				"Positions": [
 					[ 2, 2, 2 ]

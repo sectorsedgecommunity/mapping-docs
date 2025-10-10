@@ -5,7 +5,7 @@ next: false
 ---
 
 # Render Distance
-Setting a reduced render distance can help establish a sense of scale or help counteract sniping on open maps.
+Setting a reduced render distance can help establish the perceived size of the map and/or help counteract sniping on open maps.
 ::: info
 When the Render Distance game setting is less than or equal to 12, fog is an opaque color. When set above 12, fog fades out to the skybox color.
 :::
@@ -19,5 +19,5 @@ Render distance in chunks (32x32).
 Render distance in chunks when in the respawn screen. Only takes effect if RenderDistance is below ~1024.
 
 
-**FogColour** `<rgb>`<br />
-Color for fog when render distance game setting is <12.
+**FogColour** [`<rgb>`](../types/rgb.md)<br />
+Color for opaque fog.

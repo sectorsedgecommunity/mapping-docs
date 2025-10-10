@@ -6,17 +6,20 @@ next: false
 
 # Sun
 There is no way to disable sunlight on its own.
-::: warning
-Setting SunRotation values within 0.25 of a cardinal direction causes flickering or inaccurate shading on block faces.
+::: info
+Bare Minimum rendering renders everything in shadow. Design everything to work in shade and without block lights.
 :::
 
 ### Fields
-**SunColour** `<rgb>`<br />
+**SunColour** [`<rgb>`](../types/rgb.md)<br />
 RGB color of the sunlight. Dark colors aren't ideal.
 
 
-**SunRotation** `<list>`<br />
+**SunRotation** [`<rotation>`](../types/rotation.md)<br />
 List of two floats. Positions the sun in the sky in radians.
+::: warning
+Setting SunRotation values within 0.25 of a cardinal direction causes flickering or inaccurate shading on block faces.
+:::
 
 
 **SunDiffuseStrength** `<float>`<br />

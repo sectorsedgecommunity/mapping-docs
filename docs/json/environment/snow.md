@@ -22,7 +22,7 @@ Controls whether the map has falling snow. Falling snow is calm.
 Blizzard snow is more intense usually doesn't land in the main portion of the map. Overrides HasFallingSnow.
 
 
-**FallingSnowColour** `<rgba>`<br />
+**FallingSnowColour** [`<rgba>`](../types/rgba.md)<br />
 Color of snowfall. A controls bloom.
 
 

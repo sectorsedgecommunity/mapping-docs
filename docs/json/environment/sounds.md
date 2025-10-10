@@ -9,7 +9,7 @@ Sounds are a small but important part of a map. If no sounds are playing, the ma
 
 ## AmbienceSound
 **AmbienceSound** `<list>`<br />
-Multiple ambient sounds can play at different altitudes. See below for available sounds.
+Multiple ambient sounds can play at different altitudes.
 
 ```json
 "AmbienceSound": [
@@ -25,15 +25,6 @@ Multiple ambient sounds can play at different altitudes. See below for available
 ]
 ```
 
-| Name           |
-|:--------------:|
-| wind           |
-| rumble         |
-| jungle         |
-| ice            |
-| underwater     |
-| underwatercold |
-
 ## UnderwaterSound
-**UnderwaterSound** `<sound>`<br />
+**UnderwaterSound** [`<sound>`](../types/sound.md)<br />
 Some snowy official maps use `underwatercold`. Defaults to `underwater`. See table above for available sounds.

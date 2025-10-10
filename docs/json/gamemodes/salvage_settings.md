@@ -22,7 +22,7 @@ Salvage game mode still has fields in the `json` file but isn't playable in-game
 ```
 
 ## `meteor` block attribute
-The `meteor` block attribute marks the index as the block the meteor is made out of. There can only be one meteor index. In the past there was the `meteordepleted` block attribute for meteors that were depleted. (confirm this)
+The `meteor` block attribute marks the index as the block the meteor is made out of. There can only be one meteor index. In the past, there was the `meteordepleted` block attribute for meteors that were depleted.
 
 ## CanisterSpawns
 This would determine where canister locations in Old Salvage are. This no longer does anything, but is still a valid field.

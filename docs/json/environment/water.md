@@ -15,7 +15,7 @@ Do not set WaterStartX or WaterStartZ to a negative number. This will hang rende
 Initial water level in blocks from Y=0. Can be set to change during rainfall. Random displacement can reach up to about 0.2 above the specified coordinate. Defaults to 0.
 
 
-**WaterColour** `<rgb>`<br />
+**WaterColour** [`<rgb>`](../types/rgb.md)<br />
 Color of water. Defaults to [0, 0, 0].
 
 
