@@ -12,6 +12,8 @@ Particles can be used to add detail to maps, such as flowing sewer pipes, or smo
 ```json
 "Particles": [
     {
+		// Inherit: Copy fields from another named particle. Setting fields here overrides the inherited values.
+		"Inherit": "Other example particle",
         // Optional, to identify a particle if you want to duplicate it around
         "Name": "Example particle",
         // Physical - Ricochet, strong friction, gravity

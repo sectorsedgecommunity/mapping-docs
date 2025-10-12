@@ -24,6 +24,8 @@ If a block light is given the Ion effect, it will no longer produce light.
         // HSL/RGB/RGBA: Optional if Name is set, used to color a texture. Soltrium HSL: [ 0.5444, 1, 0.48 ]. Recommended to
             // use RGB for flat textures and RGBA for glass.
 
+		// Size: Controls the width, height and depth of the texture. Integer.
+
         // Attributes: explosive, light-fade-brightness, light-on-brightness, floating, invincible, transparent, ice
         //
         // explosive: Block explodes if damaged; uses ExplosionRadius as the radius. Can be detonated by blocks with the conductor attribute.
@@ -33,23 +35,25 @@ If a block light is given the Ion effect, it will no longer produce light.
         // invincible: makes index impossible to break.
         // transparent: makes index transparent. use RGBA to control how translucent it is.
         // ice: adds a distortion effect when looking through index.
-        // meteor: unused, was previously used in Salvage for the meteor.
+        // meteor: unused, was previously used in Salvage for the falling meteors.
+		// meteordepleted: removed, was previously used in Salvage for the falling meteors.
 
         // ExplosionRadius: The radius of the explosion, in blocks. This is only used when the `explosive` attribute is set.
         // Bloom: 0.0-1.0.
         // Health: Block health; integer 0-255.
-        // Armour: Probably damage*armour.
-        // Damage: Amount of damage given to any player standing on the index. If set, 1 is always used in official maps.
+        // Armour: Subtracts received damage by this amount.
+        // Damage: Amount of damage given to any player standing on the index. 1 is always used in official maps.
             // Non-negative integer.
         // TopDirection: Rotation of the texture on the top/bottom faces of the index. Used for the Railway trains. Defaults to "up".
         // SideDirection: Same thing as TopDirection, but for the sides of the block. Defaults to "up".
         "Note": "Example texture",
         "Name": "concrete",
+		"Index": 1,
         "Offset": [ 0, 0, 0 ],
-        "Index": 1,
         "HSL": [ 0.0, 0.0, 0.0 ],
-        "Attributes": "",
-        "ExplosionRadius": 0,
+		"Size": 4,
+		"Attributes": "",
+		"ExplosionRadius": 0,
         "Bloom": 1.0,
         "Health": 8,
         "Armour": 0.3,
@@ -138,7 +142,7 @@ Uses the `cratesoltec` texture. You may need to adjust the `Offset`.
 ## Multiplayer fields
 The server sends multiple fields which were previously undocumented.
 ```json
-    // Default: No clue what this does. Might be if the index is in some form of master index pallete that Rocket uses?
+    // Default: No clue what this does.
     // ReceivedFromServer: Probably for loading maps if you have them saved to disk.
     // LayerID: No idea.
     // Custom: No clue what it does as well. Defaults to false.

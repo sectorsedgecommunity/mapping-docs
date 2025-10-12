@@ -93,14 +93,12 @@ List of 3 integers. Default position of camera. Doesn't seem to work anymore.
 "SpawnCamera0": {
 		"Type": "pan",
 		"Yaw": 0,
-		"Position": [ 93, 128, 48 ], // BROKEN
-		"PanSpeed": 1.5 // NOT TESTED
+		"Position": [ 93, 128, 48 ] // BROKEN
 },
 "SpawnCamera1": {
 	    "Type": "pan",
 	    "Yaw": 0,
-	    "Position": [ 208, 128, 60 ], // BROKEN
-		"PanSpeed": 1.5 // NOT TESTED
+	    "Position": [ 208, 128, 60 ] // BROKEN
 },
 ```
 
